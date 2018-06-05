@@ -1,1 +1,1 @@
-= agate-pris@github.io
+= agate-pris.github.io
