@@ -21,3 +21,18 @@ PowerShellを管理者権限で立ち上げ, 以下の手順でインストー�
 ```ps1
 Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 ```
+
+## setup
+
+- [ChocolateyConfiguration](https://chocolatey.org/docs/chocolatey-configuration)
+- [CommandsFeature](https://chocolatey.org/docs/commands-feature)
+- [How-To-Parse-PackageParameters-Argument](https://chocolatey.org/docs/how-to-parse-package-parameters-argument#step-2---add-package-parameters-to-the-description)
+- [ChocolateyConfiguration · chocolatey/choco Wiki](https://github.com/chocolatey/choco/wiki/ChocolateyConfiguration)
+- [CommandsFeature · chocolatey/choco Wiki](https://github.com/chocolatey/choco/wiki/CommandsFeature)
+- [How To Parse PackageParameters Argument · chocolatey/choco Wiki](https://github.com/chocolatey/choco/wiki/How-To-Parse-PackageParameters-Argument)
+
+以下のコマンドで`useRememberedArgumentsForUpgrades`を有効化する.
+
+```ps1
+choco feature enable -n useRememberedArgumentsForUpgrades
+```
