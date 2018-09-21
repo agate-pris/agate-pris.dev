@@ -36,3 +36,56 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://chocolatey.org/ins
 ```ps1
 choco feature enable -n useRememberedArgumentsForUpgrades
 ```
+
+## usage
+
+- [CommandsReference](https://chocolatey.org/docs/commands-reference)
+- [CommandsReference · chocolatey/choco Wiki](https://github.com/chocolatey/choco/wiki/CommandsReference)
+
+以下のコマンドでローカルにインストールされたパッケージを一覧表示する.
+
+```ps1
+clist -l
+```
+
+以下のコマンドでパッケージを検索する.
+
+```ps1
+clist <filter>
+```
+
+以下のコマンドでパッケージの情報を表示する.
+
+```ps1
+choco info <pkgname>
+```
+
+以下のコマンドでパッケージをインストールする.
+
+```ps1
+cinst <pkg|packages.config>
+```
+
+以下のコマンドでパッケージをピン留めする.
+
+```ps1
+choco pin add <pkgname>
+```
+
+以下のコマンドでピン留めされたパッケージを一覧表示する
+
+```ps1
+choco pin
+```
+
+以下のコマンドでパッケージのピン留めを解除する.
+
+```ps1
+choco pin remove <pkgname>
+```
+
+以下のコマンドで個別またはすべてのパッケージを更新する.
+
+```ps1
+cup <pkg|all>
+```
