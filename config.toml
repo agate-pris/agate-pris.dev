@@ -2,3 +2,6 @@ baseURL = "http://agate-pris.dev/"
 languageCode = "ja-jp"
 title = "agate-pris.dev"
 theme = "hugo-theme-sam"
+
+[params]
+    dateform = "2006-01-02"
