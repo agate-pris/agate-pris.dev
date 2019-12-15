@@ -5,3 +5,7 @@ theme = "hugo-theme-sam"
 
 [params]
     dateform = "2006-01-02"
+
+[[params.mainMenu]]
+    link = "https://twitter.com/agate_pris"
+    text = "Twitter"
