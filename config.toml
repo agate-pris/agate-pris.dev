@@ -9,3 +9,7 @@ theme = "hugo-theme-sam"
 [[params.mainMenu]]
     link = "https://twitter.com/agate_pris"
     text = "Twitter"
+
+[[params.mainMenu]]
+    link = "https://github.com/agate-pris"
+    text = "GitHub"
