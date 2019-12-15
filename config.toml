@@ -13,3 +13,7 @@ theme = "hugo-theme-sam"
 [[params.mainMenu]]
     link = "https://github.com/agate-pris"
     text = "GitHub"
+
+[[params.mainMenu]]
+    link = "/profile"
+    text = "Profile"
