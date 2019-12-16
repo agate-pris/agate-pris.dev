@@ -3,6 +3,9 @@ languageCode = "ja-jp"
 title = "agate-pris.dev"
 theme = "hugo-theme-sam"
 
+[markup.goldmark.renderer]
+    unsafe= true
+
 [params]
     dateform = "2006-01-02"
 
