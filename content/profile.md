@@ -10,5 +10,4 @@ I was born in Japan in 1990-11-06.
 - [Qiita - @agate-pris](https://qiita.com/agate-pris)
 - [altebute.hatenablog.com](https://altebute.hatenablog.com/)
 - [altebute.blogspot.com](http://altebute.blogspot.com/)
-- [agate-pris.bitbucket.io](https://agate-pris.bitbucket.io/)
 - [Amazon Wish List](https://www.amazon.co.jp/registry/wishlist/MNV541VIJ66S)
