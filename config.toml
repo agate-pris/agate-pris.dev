@@ -3,6 +3,9 @@ languageCode = "ja-jp"
 title = "agate-pris.dev"
 theme = "hugo-theme-sam"
 
+[markup.goldmark.renderer]
+    unsafe= true
+
 [params]
     dateform = "2006-01-02"
 
@@ -17,3 +20,7 @@ theme = "hugo-theme-sam"
 [[params.mainMenu]]
     link = "/profile"
     text = "Profile"
+
+[[params.mainMenu]]
+    link = "/works"
+    text = "Works"
