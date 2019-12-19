@@ -14,10 +14,6 @@ theme = "hugo-theme-sam"
     text = "Twitter"
 
 [[params.mainMenu]]
-    link = "https://github.com/agate-pris"
-    text = "GitHub"
-
-[[params.mainMenu]]
     link = "/profile"
     text = "Profile"
 
