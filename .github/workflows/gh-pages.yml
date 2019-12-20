@@ -21,7 +21,7 @@ jobs:
 
     - name: Build
       run: |
-        hugo --minify &&
+        hugo --cleanDestinationDir --minify &&
         cp ./CNAME ./public/
 
     - name: Deploy
