@@ -11,12 +11,12 @@ theme = "hugo-theme-sam"
 
 [[params.mainMenu]]
     link = "https://twitter.com/agate_pris"
-    text = "Twitter"
+    text = "twitter"
 
 [[params.mainMenu]]
     link = "/profile"
-    text = "Profile"
+    text = "profile"
 
 [[params.mainMenu]]
     link = "/posts"
-    text = "Posts"
+    text = "posts"
