@@ -16,3 +16,7 @@ theme = "hugo-theme-sam"
 [[params.mainMenu]]
     link = "/profile"
     text = "Profile"
+
+[[params.mainMenu]]
+    link = "/posts"
+    text = "Posts"
