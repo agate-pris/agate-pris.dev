@@ -41,8 +41,6 @@ tags: ["blog","story","hugo"]
 
 - [agate-pris.dev/gh-pages.yml at master · agate-pris/agate-pris.dev](https://github.com/agate-pris/agate-pris.dev/blob/master/.github/workflows/gh-pages.yml)
 
-`hugo`コマンドを呼ぶときに`--gc`オプションと`--cleanDestinationDir`オプションを付けるべきかも知れないが、まだやっていない。
-
 # 参考文献
 
 - [GitHub Actions による GitHub Pages への自動デプロイ - Qiita](https://qiita.com/peaceiris/items/d401f2e5724fdcb0759d)
