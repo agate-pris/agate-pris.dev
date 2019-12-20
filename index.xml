@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>agate-pris.dev</title><link>http://agate-pris.dev/</link><description>Recent content on agate-pris.dev</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="http://agate-pris.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Profile</title><link>http://agate-pris.dev/profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://agate-pris.dev/profile/</guid><description>Summary I was born in Japan in 1990-11-06.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>agate-pris.dev</title><link>http://agate-pris.dev/</link><description>Recent content on agate-pris.dev</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 21 Dec 2019 03:16:58 +0900</lastBuildDate><atom:link href="http://agate-pris.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Google Domainsでドメインを取得してHugoで静的ウェブサイトを構築した話</title><link>http://agate-pris.dev/posts/get-domain-with-google-and-build-website-with-hugo/</link><pubDate>Sat, 21 Dec 2019 03:16:58 +0900</pubDate><guid>http://agate-pris.dev/posts/get-domain-with-google-and-build-website-with-hugo/</guid><description>本当はZolaを使いたかったがうまく動かせず諦めた。やはり自分が知らない分野では長いものに巻かれた方が良い。
+要求要件は以下の通り。
+軽量マークアップ言語で書けること。 プロフィールページを設置できること。 ビルドが遅くなるほどたくさんの記事を書く予定もなかったが、遅いよりは速い方が良いだろうし、幸い流行っているものが同時に速いものでもあったのでHugoを採用した。
+Google Domainsでのドメインの取得は簡単だった。自分がとりたいドメインを入力して、クレジットで決済するだけ。年額1400円。
+設定は以下の様にした。
+名前 タイプ TTL データ @ A 1h 185.199.110.153 185.199.108.153 185.199.111.153 185.199.109.153 www CNAME 1h agate-pris.github.io より短いApexドメインを使わず、wwwサブドメインを使っているのはNetlifyがそれを推奨していたため。
+To WWW or not WWW | Netlify デプロイはGitHub Actionsを使用した。外部サービスを利用せずとも完結するのは楽で良い。
+どのActionを使うか迷ったが、Star数が多いものを使った。
+peaceiris/actions-hugo: GitHub Actions for Hugo ⚡️ Setup Hugo quickly and build your site fast.</description></item><item><title>Twitterアカウントのブロックに対する予防策</title><link>http://agate-pris.dev/posts/precautions-against-blocking-twitter-account/</link><pubDate>Sat, 21 Dec 2019 02:25:37 +0900</pubDate><guid>http://agate-pris.dev/posts/precautions-against-blocking-twitter-account/</guid><description>Twitterで身に覚えのないブロックを受けて精神的ダメージを受けたので、どのように予防策を取るべきか考えた結果、発信用のアカウントと購読用のアカウントを分けることにした。
+発信用のアカウントがブロックされるのはもう、仕方がない。人間、繊細になってしまうこともある。なんてことのない一言が不意に刺さってしまうこともあるだろう。
+購読専用のプライベートアカウントを用意すれば、相手からはフォロワーの増減しか分からない。誰にフォローされたのかを感知することは極めて困難だ。
+購読専用のプライベートアカウントならばアンフォローも気兼ねなくできる。Twitterのリストはリツイートを非表示にすることが出来ない欠陥仕様だが、その問題も別アカウントのホームタイムラインであれば何の問題もない。</description></item><item><title>Profile</title><link>http://agate-pris.dev/profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://agate-pris.dev/profile/</guid><description>Summary I was born in Japan in 1990-11-06.
 Twitter - @agate_pris GitHub - agate-pris GitLab - @agate-pris Qiita - @agate-pris altebute.hatenablog.com altebute.blogspot.com Amazon Wish List Works Project Repliser
 Project Repliser C82 PV
 コミックマーケット82頒布作品。代表作だが、プログラマではなくデザイナー、レベルデザイナー、プランナーを担当。
