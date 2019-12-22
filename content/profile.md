@@ -41,6 +41,7 @@ I was born in Japan in 1990-11-06.
 - SUPER R-TYPE
 - R-TYPE LEO
 - R-TYPE III
+- [エコー・ザ・ドルフィン２](http://vc.sega.jp/vc_ecco2/)
 - [METAL GEAR SOLID2 -SONS OF LIBERTY-](https://www.konami.com/mg/archive/mgs2/)
 - [式神の城２](http://www.alfasystem.net/game/shiki2/)
 - [STEINS;GATE](http://steinsgate.jp/)
