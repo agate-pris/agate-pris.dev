@@ -35,3 +35,14 @@ I was born in Japan in 1990-11-06.
 <p><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm25220052/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm25220052">【C87】AQUA FACTORY DGZ2 wip</a></noscript></p>
 
 コミックマーケット87頒布作品。自分で作った固定小数点数やら座標システムやらのテストとして作った。
+
+# Favorite Games
+
+- SUPER R-TYPE
+- R-TYPE LEO
+- R-TYPE III
+- [METAL GEAR SOLID2 -SONS OF LIBERTY-](https://www.konami.com/mg/archive/mgs2/)
+- [式神の城２](http://www.alfasystem.net/game/shiki2/)
+- [STEINS;GATE](http://steinsgate.jp/)
+- [DARK SOULS Ⅲ](https://www.darksouls.jp/detail_ds3_tffe.html)
+- [SEKIRO: SHADOWS DIE TWICE | 隻狼](https://www.sekiro.jp/)
