@@ -25,6 +25,8 @@
 
         {{ block "section_content" . }}<div class="section" id="content">{{ .Content }}</div>{{ end }}
 
+        <div class="pr"><a href="https://corp.caddi.jp/recruit/eng">PR: CADDiではバックエンドエンジニア、フロントエンジニア、アルゴリズムエンジニア、SRE等などを募集しています。</a></div>
+
         {{ block "bottom-menu" . }}
         {{ if .Site.Params.mainMenu }}<div class="section bottom-menu">{{ partial "bottom_menu.html" (dict "Page" . "show_back_menu_item" false) }}</div>{{ end }}
         {{ end }}
