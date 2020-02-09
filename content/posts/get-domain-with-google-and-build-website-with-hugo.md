@@ -44,3 +44,5 @@ tags: ["blog","story","hugo"]
 # 参考文献
 
 - [GitHub Actions による GitHub Pages への自動デプロイ - Qiita](https://qiita.com/peaceiris/items/d401f2e5724fdcb0759d)
+
+> [PR: CADDiではバックエンドエンジニア、フロントエンジニア、アルゴリズムエンジニア、SRE等などを募集しています。](https://corp.caddi.jp/recruit/eng)
