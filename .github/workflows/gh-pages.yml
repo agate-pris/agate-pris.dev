@@ -20,8 +20,22 @@ jobs:
           hugo-version: "0.59.1"
           extended: true
 
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "15"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
+
       - name: Build
-        run: hugo --cleanDestinationDir --gc --minify
+        run: |
+          npm ci
+          hugo --cleanDestinationDir --gc --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
