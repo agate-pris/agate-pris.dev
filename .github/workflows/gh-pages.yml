@@ -21,13 +21,12 @@ jobs:
           extended: true
 
       - name: Build
-        run: |
-          hugo --cleanDestinationDir --gc --minify &&
-          cp ./CNAME ./public/
+        run: hugo --cleanDestinationDir --gc --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          cname: www.agate-pris.dev
           publish_branch: gh-pages
           publish_dir: ./public
