@@ -28,5 +28,3 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           cname: www.agate-pris.dev
-          publish_branch: gh-pages
-          publish_dir: ./public
