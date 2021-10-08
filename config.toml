@@ -8,6 +8,43 @@ theme = "hugo-coder"
 
 [params]
     dateform = "2006-01-02"
+    author = "Agate Pris"
+    avatarURL = "images/8687_FTIN2Ms0.png"
+
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    url = "https://twitter.com/agate_pris"
+
+[[params.social]]
+    name = "Twitch"
+    icon = "fa fa-twitch"
+    url = "https://www.twitch.tv/agate_pris"
+
+[[params.social]]
+    name = "GitHub"
+    icon = "fa fa-github"
+    url = "https://github.com/agate-pris"
+
+[[params.social]]
+    name = "GitLab"
+    icon = "fa fa-gitlab"
+    url = "https://gitlab.com/agate-pris"
+
+[[params.social]]
+    name = "DeviantArt"
+    icon = "fa fa-deviantart"
+    url = "https://www.deviantart.com/agate-pris"
+
+[[params.social]]
+    name = "Amazon Wishlist"
+    icon = "fa fa-amazon"
+    url = "https://www.amazon.jp/hz/wishlist/ls/MNV541VIJ66S?ref_=wl_share"
+
+[[params.social]]
+    name = "Pinterest"
+    icon = "fa fa-pinterest"
+    url = "https://pinterest.jp/agatepris"
 
 [[menu.main]]
     name = "Posts"
@@ -18,8 +55,3 @@ theme = "hugo-coder"
     name = "Profile"
     weight = "1"
     url = "profile/"
-
-[[menu.main]]
-    name = "Twitter"
-    weight = "1"
-    url = "https://twitter.com/agate_pris"
