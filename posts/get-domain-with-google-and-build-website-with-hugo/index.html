@@ -1,16 +1,20 @@
-<!doctype html><html>
+<!doctype html><html lang=en>
 <head>
 <meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="chrome=1">
-<meta name=HandheldFriendly content="True">
-<meta name=MobileOptimized content="320">
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=referrer content="no-referrer">
-<title>
-Google Domainsでドメインを取得してHugoで静的ウェブサイトを構築した話 - agate-pris.dev
-</title>
-<link rel=stylesheet href=/css/main.min.5c6ff6b6476547d7578fd707a2c9a559ccb2e33d99b7749f88986616b6804e02.css integrity="sha256-XG/2tkdlR9dXj9cHosmlWcyy4z2Zt3SfiJhmFraATgI=" crossorigin=anonymous media=screen>
-<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+<meta http-equiv=content-language content="en">
+<meta name=color-scheme content="light dark">
+<meta name=author content="Agate Pris">
+<meta name=description content="本当はZolaを使いたかったがうまく動かせず諦めた。やはり自分が知らない分野では長いものに巻かれた方が良い。
+要求要件は以下の通り。
+ 軽量マークアップ言語で書けること。 プロフィールページを設置できること。  ビルドが遅くなるほどたくさんの記事を書く予定もなかったが、遅いよりは速い方が良いだろうし、幸い流行っているものが同時に速いものでもあったのでHugoを採用した。
+Google Domainsでのドメインの取得は簡単だった。自分がとりたいドメインを入力して、クレジットで決済するだけ。年額1400円。
+設定は以下の様にした。
+   名前 タイプ TTL データ     @ A 1h 185.199.110.153      185.199.108.153      185.199.111.153      185.199.109.153   www CNAME 1h agate-pris.github.io    より短いApexドメインを使わず、wwwサブドメインを使っているのはNetlifyがそれを推奨していたため。
+ To WWW or not WWW | Netlify  デプロイはGitHub Actionsを使用した。外部サービスを利用せずとも完結するのは楽で良い。
+どのActionを使うか迷ったが、Star数が多いものを使った。
+ peaceiris/actions-hugo: GitHub Actions for Hugo ⚡️ Setup Hugo quickly and build your site fast.">
+<meta name=keywords content>
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Google Domainsでドメインを取得してHugoで静的ウェブサイトを構築した話">
 <meta name=twitter:description content="本当はZolaを使いたかったがうまく動かせず諦めた。やはり自分が知らない分野では長いものに巻かれた方が良い。
@@ -36,37 +40,99 @@ Google Domainsでのドメインの取得は簡単だった。自分がとりた
 <meta property="og:url" content="http://agate-pris.dev/posts/get-domain-with-google-and-build-website-with-hugo/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2019-12-21T03:16:58+09:00">
 <meta property="article:modified_time" content="2019-12-21T03:16:58+09:00">
-<link rel=stylesheet href=/sass/style.min.79a97e59be3ab3d8d0aadadc47d5fbc4d09ccbb99f55d56983c4242e6dd5a5c3.css>
 <title>
-Google Domainsでドメインを取得してHugoで静的ウェブサイトを構築した話
+Google Domainsでドメインを取得してHugoで静的ウェブサイトを構築した話 · agate-pris.dev
 </title>
+<link rel=canonical href=http://agate-pris.dev/posts/get-domain-with-google-and-build-website-with-hugo/>
+<link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
+<link rel=stylesheet href=/css/coder.min.708686f8ab8176e91d44fcbe488a0fe0333b94f405cf18a52383d67ba22f0ccb.css integrity="sha256-cIaG+KuBdukdRPy+SIoP4DM7lPQFzxilI4PWe6IvDMs=" crossorigin=anonymous media=screen>
+<link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32>
+<link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16>
+<link rel=apple-touch-icon href=/images/apple-touch-icon.png>
+<link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.88.1">
 </head>
-<body>
-<div class=wrap>
-<div class=section id=title>Google Domainsでドメインを取得してHugoで静的ウェブサイトを構築した話</div>
-<div class=flex-container>
-<aside role=complementary>
-2019-12-21 &#183; 92 words
-<div class=tag-container>
-<span class=tag>
-<a href=/tags/blog/>
-blog
+<body class="preload-transitions colorscheme-light">
+<div class=float-container>
+<a id=dark-mode-toggle class=colorscheme-toggle>
+<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
 </a>
+</div>
+<main class=wrapper>
+<nav class=navigation>
+<section class=container>
+<a class=navigation-title href=/>
+agate-pris.dev
+</a>
+<input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle>
+<i class="fa fa-bars fa-fw" aria-hidden=true></i>
+</label>
+<ul class=navigation-list>
+<li class=navigation-item>
+<a class=navigation-link href=/profile/>Profile</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/posts/>Posts</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=https://note.com/agate_pris>note</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=https://qiita.com/agate-pris>Qiita</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=https://altebute.hatenablog.com/>Hatena Blog</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=http://altebute.blogspot.com/>Blogger</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/avatar/>About my Avatar</a>
+</li>
+</ul>
+</section>
+</nav>
+<div class=content>
+<section class="container post">
+<article>
+<header>
+<div class=post-title>
+<h1 class=title>
+<a class=title-link href=http://agate-pris.dev/posts/get-domain-with-google-and-build-website-with-hugo/>
+Google Domainsでドメインを取得してHugoで静的ウェブサイトを構築した話
+</a>
+</h1>
+</div>
+<div class=post-meta>
+<div class=date>
+<span class=posted-on>
+<i class="fa fa-calendar" aria-hidden=true></i>
+<time datetime=2019-12-21T03:16:58+09:00>
+December 21, 2019
+</time>
 </span>
-<span class=tag>
-<a href=/tags/story/>
-story
-</a>
-</span>
-<span class=tag>
-<a href=/tags/hugo/>
-hugo
-</a>
+<span class=reading-time>
+<i class="fa fa-clock-o" aria-hidden=true></i>
+One-minute read
 </span>
 </div>
-</aside>
-<hr>
-<article role=article>
+<div class=tags>
+<i class="fa fa-tag" aria-hidden=true></i>
+<span class=tag>
+<a href=/tags/blog/>blog</a>
+</span>
+<span class=separator>•</span>
+<span class=tag>
+<a href=/tags/story/>story</a>
+</span>
+<span class=separator>•</span>
+<span class=tag>
+<a href=/tags/hugo/>hugo</a>
+</span></div>
+</div>
+</header>
+<div>
 <p>本当は<a href=https://getzola.org/>Zola</a>を使いたかったがうまく動かせず諦めた。やはり自分が知らない分野では長いものに巻かれた方が良い。</p>
 <p>要求要件は以下の通り。</p>
 <ul>
@@ -132,32 +198,34 @@ hugo
 <ul>
 <li><a href=https://github.com/agate-pris/agate-pris.dev/blob/master/.github/workflows/gh-pages.yml>agate-pris.dev/gh-pages.yml at master · agate-pris/agate-pris.dev</a></li>
 </ul>
-<h1 id=参考文献 class=anchor-link><a href=#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae>参考文献<span class=pilcrow>&nbsp;¶</span></a></h1>
+<h1 id=参考文献>
+参考文献
+<a class=heading-link href=#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h1>
 <ul>
 <li><a href=https://qiita.com/peaceiris/items/d401f2e5724fdcb0759d>GitHub Actions による GitHub Pages への自動デプロイ - Qiita</a></li>
 </ul>
 <blockquote>
 <p><a href=https://corp.caddi.jp/recruit/eng>PR: CADDiではバックエンドエンジニア、フロントエンジニア、アルゴリズムエンジニア、SRE等などを募集しています。</a></p>
 </blockquote>
+</div>
+<footer>
+</footer>
 </article>
+</section>
 </div>
-<nav role=navigation class="flex-container bottom-menu">
-<hr>
-<p>
-<a href=/posts>back</a>
-&#183;
-<a href=https://twitter.com/agate_pris>twitter</a>
-&#183;
-<a href=/profile>profile</a>
-&#183;
-<a href=/posts>posts</a>
-&#183;
-<a href=/>
-</a>
-</p>
-</nav>
-<div class="section footer">
-</div>
-</div>
+<footer class=footer>
+<section class=container>
+©
+2021
+Agate Pris
+·
+Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.
+</section>
+</footer>
+</main>
+<script src=/js/coder.min.03b17769f4f91ae35667e1f2a1ca8c16f50562576cf90ff32b3179926914daa5.js integrity="sha256-A7F3afT5GuNWZ+HyocqMFvUFYlds+Q/zKzF5kmkU2qU="></script>
 </body>
 </html>
