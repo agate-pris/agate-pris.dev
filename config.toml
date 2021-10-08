@@ -1,7 +1,7 @@
 baseURL = "http://agate-pris.dev/"
 languageCode = "ja-jp"
 title = "agate-pris.dev"
-theme = "hugo-theme-sam"
+theme = "hugo-coder"
 
 [markup.goldmark.renderer]
     unsafe= true
@@ -9,14 +9,17 @@ theme = "hugo-theme-sam"
 [params]
     dateform = "2006-01-02"
 
-[[params.mainMenu]]
-    link = "https://twitter.com/agate_pris"
-    text = "twitter"
+[[menu.main]]
+    name = "Posts"
+    weight = 1
+    url = "posts/"
 
-[[params.mainMenu]]
-    link = "/profile"
-    text = "profile"
+[[menu.main]]
+    name = "Profile"
+    weight = "1"
+    url = "profile/"
 
-[[params.mainMenu]]
-    link = "/posts"
-    text = "posts"
+[[menu.main]]
+    name = "Twitter"
+    weight = "1"
+    url = "https://twitter.com/agate_pris"
