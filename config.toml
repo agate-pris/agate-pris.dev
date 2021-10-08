@@ -1,22 +1,82 @@
 baseURL = "http://agate-pris.dev/"
 languageCode = "ja-jp"
 title = "agate-pris.dev"
-theme = "hugo-theme-sam"
+theme = "hugo-coder"
 
 [markup.goldmark.renderer]
     unsafe= true
 
 [params]
     dateform = "2006-01-02"
+    author = "Agate Pris"
+    avatarURL = "images/8687_FTIN2Ms0.png"
 
-[[params.mainMenu]]
-    link = "https://twitter.com/agate_pris"
-    text = "twitter"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    url = "https://twitter.com/agate_pris"
 
-[[params.mainMenu]]
-    link = "/profile"
-    text = "profile"
+[[params.social]]
+    name = "Twitch"
+    icon = "fa fa-twitch"
+    url = "https://www.twitch.tv/agate_pris"
 
-[[params.mainMenu]]
-    link = "/posts"
-    text = "posts"
+[[params.social]]
+    name = "GitHub"
+    icon = "fa fa-github"
+    url = "https://github.com/agate-pris"
+
+[[params.social]]
+    name = "GitLab"
+    icon = "fa fa-gitlab"
+    url = "https://gitlab.com/agate-pris"
+
+[[params.social]]
+    name = "DeviantArt"
+    icon = "fa fa-deviantart"
+    url = "https://www.deviantart.com/agate-pris"
+
+[[params.social]]
+    name = "Amazon Wishlist"
+    icon = "fa fa-amazon"
+    url = "https://www.amazon.jp/hz/wishlist/ls/MNV541VIJ66S?ref_=wl_share"
+
+[[params.social]]
+    name = "Pinterest"
+    icon = "fa fa-pinterest"
+    url = "https://pinterest.jp/agatepris"
+
+[[menu.main]]
+    name = "Profile"
+    weight = "1"
+    url = "profile/"
+
+[[menu.main]]
+    name = "Posts"
+    weight = 2
+    url = "posts/"
+
+[[menu.main]]
+    name = "note"
+    weight = 3
+    url = "https://note.com/agate_pris"
+
+[[menu.main]]
+    name = "Qiita"
+    weight = 4
+    url = "https://qiita.com/agate-pris"
+
+[[menu.main]]
+    name = "Hatena Blog"
+    weight = 5
+    url = "https://altebute.hatenablog.com/"
+
+[[menu.main]]
+    name = "Blogger"
+    weight = 6
+    url = "http://altebute.blogspot.com/"
+
+[[menu.main]]
+    name = "About my Avatar"
+    weight = "7"
+    url = "avatar/"
