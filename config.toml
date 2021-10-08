@@ -47,11 +47,17 @@ theme = "hugo-coder"
     url = "https://pinterest.jp/agatepris"
 
 [[menu.main]]
-    name = "Posts"
-    weight = 1
-    url = "posts/"
-
-[[menu.main]]
     name = "Profile"
     weight = "1"
     url = "profile/"
+
+[[menu.main]]
+    name = "Posts"
+    weight = 2
+    url = "posts/"
+
+[[menu.main]]
+[[menu.main]]
+    name = "About my Avatar"
+    weight = "7"
+    url = "avatar/"
