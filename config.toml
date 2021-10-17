@@ -48,35 +48,40 @@ theme = "hugo-coder"
 
 [[menu.main]]
     name = "Profile"
-    weight = "1"
+    weight = 1
     url = "profile/"
 
 [[menu.main]]
-    name = "Posts"
+    name = "Works"
     weight = 2
+    url = "works/"
+
+[[menu.main]]
+    name = "Posts"
+    weight = 3
     url = "posts/"
 
 [[menu.main]]
     name = "note"
-    weight = 3
+    weight = 4
     url = "https://note.com/agate_pris"
 
 [[menu.main]]
     name = "Qiita"
-    weight = 4
+    weight = 5
     url = "https://qiita.com/agate-pris"
 
 [[menu.main]]
     name = "Hatena Blog"
-    weight = 5
+    weight = 6
     url = "https://altebute.hatenablog.com/"
 
 [[menu.main]]
     name = "Blogger"
-    weight = 6
+    weight = 7
     url = "http://altebute.blogspot.com/"
 
 [[menu.main]]
     name = "About my Avatar"
-    weight = "7"
+    weight = 8
     url = "avatar/"
