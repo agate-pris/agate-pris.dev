@@ -10,6 +10,7 @@ theme = "hugo-coder"
     dateform = "2006-01-02"
     author = "Agate Pris"
     avatarURL = "images/8687_FTIN2Ms0.png"
+    colorScheme = "auto"
 
 [[params.social]]
     name = "Twitter"
