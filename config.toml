@@ -34,6 +34,26 @@ theme = "hugo-coder"
     url = "https://gitlab.com/agate-pris"
 
 [[params.social]]
+    name = "Qiita"
+    icon = "fa icon-qiita"
+    url = "https://qiita.com/agate-pris"
+
+[[params.social]]
+    name = "note"
+    icon = "fa icon-note-com"
+    url = "https://note.com/agate_pris"
+
+[[params.social]]
+    name = "Hatena Blog"
+    icon = "fa icon-hatenablog"
+    url = "https://altebute.hatenablog.com/"
+
+[[params.social]]
+    icon = "Blogger"
+    icon = "fa icon-blogger"
+    url = "http://altebute.blogspot.com/"
+
+[[params.social]]
     name = "DeviantArt"
     icon = "fa fa-deviantart"
     url = "https://www.deviantart.com/agate-pris"
@@ -64,26 +84,6 @@ theme = "hugo-coder"
     url = "posts/"
 
 [[menu.main]]
-    name = "note"
-    weight = 4
-    url = "https://note.com/agate_pris"
-
-[[menu.main]]
-    name = "Qiita"
-    weight = 5
-    url = "https://qiita.com/agate-pris"
-
-[[menu.main]]
-    name = "Hatena Blog"
-    weight = 6
-    url = "https://altebute.hatenablog.com/"
-
-[[menu.main]]
-    name = "Blogger"
-    weight = 7
-    url = "http://altebute.blogspot.com/"
-
-[[menu.main]]
     name = "About my Avatar"
-    weight = 8
+    weight = 4
     url = "avatar/"
