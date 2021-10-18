@@ -1,1 +1,15 @@
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.gitmodules text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.markdown text eol=lf
 *.md text eol=lf
+*.png -text
+*.sh text eol=lf
+*.svg text eol=lf
+*.toml text eol=lf
+*.ttf -text
+*.woff -text
+*.woff2 -text
+*.yml text eol=lf
