@@ -51,7 +51,7 @@ theme = "hugo-coder"
 [[params.social]]
     icon = "Blogger"
     icon = "fa icon-blogger"
-    url = "http://altebute.blogspot.com/"
+    url = "https://altebute.blogspot.com/"
 
 [[params.social]]
     name = "DeviantArt"
