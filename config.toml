@@ -12,6 +12,7 @@ theme = "hugo-coder"
     colorScheme = "auto"
     customCSS = ["css/fontcustom.css"]
     dateFormat = "2006-01-02"
+    since = 2019
 
 [[params.social]]
     name = "Twitter"
