@@ -10,7 +10,7 @@ unsafe = true
 author = "Agate Pris"
 avatarURL = "images/8687_FTIN2Ms0.png"
 colorScheme = "auto"
-customCSS = ["css/fontcustom.css"]
+customCSS = ["css/custom.css", "css/fontcustom.css"]
 dateFormat = "2006-01-02"
 since = 2019
 
