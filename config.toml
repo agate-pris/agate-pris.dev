@@ -4,87 +4,87 @@ title = "agate-pris.dev"
 theme = "hugo-coder"
 
 [markup.goldmark.renderer]
-    unsafe= true
+unsafe = true
 
 [params]
-    author = "Agate Pris"
-    avatarURL = "images/8687_FTIN2Ms0.png"
-    colorScheme = "auto"
-    customCSS = ["css/fontcustom.css"]
-    dateFormat = "2006-01-02"
-    since = 2019
+author = "Agate Pris"
+avatarURL = "images/8687_FTIN2Ms0.png"
+colorScheme = "auto"
+customCSS = ["css/fontcustom.css"]
+dateFormat = "2006-01-02"
+since = 2019
 
 [[params.social]]
-    name = "Twitter"
-    icon = "fa fa-twitter"
-    url = "https://twitter.com/agate_pris"
+name = "Twitter"
+icon = "fa fa-twitter"
+url = "https://twitter.com/agate_pris"
 
 [[params.social]]
-    name = "Twitch"
-    icon = "fa fa-twitch"
-    url = "https://www.twitch.tv/agate_pris"
+name = "Twitch"
+icon = "fa fa-twitch"
+url = "https://www.twitch.tv/agate_pris"
 
 [[params.social]]
-    name = "GitHub"
-    icon = "fa fa-github"
-    url = "https://github.com/agate-pris"
+name = "GitHub"
+icon = "fa fa-github"
+url = "https://github.com/agate-pris"
 
 [[params.social]]
-    name = "GitLab"
-    icon = "fa fa-gitlab"
-    url = "https://gitlab.com/agate-pris"
+name = "GitLab"
+icon = "fa fa-gitlab"
+url = "https://gitlab.com/agate-pris"
 
 [[params.social]]
-    name = "Qiita"
-    icon = "fa icon-qiita"
-    url = "https://qiita.com/agate-pris"
+name = "Qiita"
+icon = "fa icon-qiita"
+url = "https://qiita.com/agate-pris"
 
 [[params.social]]
-    name = "note"
-    icon = "fa icon-note-com"
-    url = "https://note.com/agate_pris"
+name = "note"
+icon = "fa icon-note-com"
+url = "https://note.com/agate_pris"
 
 [[params.social]]
-    name = "Hatena Blog"
-    icon = "fa icon-hatenablog"
-    url = "https://altebute.hatenablog.com/"
+name = "Hatena Blog"
+icon = "fa icon-hatenablog"
+url = "https://altebute.hatenablog.com/"
 
 [[params.social]]
-    icon = "Blogger"
-    icon = "fa icon-blogger"
-    url = "https://altebute.blogspot.com/"
+icon = "Blogger"
+icon = "fa icon-blogger"
+url = "https://altebute.blogspot.com/"
 
 [[params.social]]
-    name = "DeviantArt"
-    icon = "fa fa-deviantart"
-    url = "https://www.deviantart.com/agate-pris"
+name = "DeviantArt"
+icon = "fa fa-deviantart"
+url = "https://www.deviantart.com/agate-pris"
 
 [[params.social]]
-    name = "Amazon Wishlist"
-    icon = "fa fa-amazon"
-    url = "https://www.amazon.jp/hz/wishlist/ls/MNV541VIJ66S?ref_=wl_share"
+name = "Amazon Wishlist"
+icon = "fa fa-amazon"
+url = "https://www.amazon.jp/hz/wishlist/ls/MNV541VIJ66S?ref_=wl_share"
 
 [[params.social]]
-    name = "Pinterest"
-    icon = "fa fa-pinterest"
-    url = "https://pinterest.jp/agatepris"
+name = "Pinterest"
+icon = "fa fa-pinterest"
+url = "https://pinterest.jp/agatepris"
 
 [[menu.main]]
-    name = "Profile"
-    weight = 1
-    url = "profile/"
+name = "Profile"
+weight = 1
+url = "profile/"
 
 [[menu.main]]
-    name = "Works"
-    weight = 2
-    url = "works/"
+name = "Works"
+weight = 2
+url = "works/"
 
 [[menu.main]]
-    name = "Posts"
-    weight = 3
-    url = "posts/"
+name = "Posts"
+weight = 3
+url = "posts/"
 
 [[menu.main]]
-    name = "About my Avatar"
-    weight = 4
-    url = "avatar/"
+name = "About my Avatar"
+weight = 4
+url = "avatar/"
