@@ -1,4 +1,4 @@
-baseURL = "http://agate-pris.dev/"
+baseURL = "https://www.agate-pris.dev/"
 languageCode = "ja-jp"
 title = "agate-pris.dev"
 theme = "hugo-coder"
