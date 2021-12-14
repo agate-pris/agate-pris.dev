@@ -67,7 +67,7 @@ url = "https://www.amazon.jp/hz/wishlist/ls/MNV541VIJ66S?ref_=wl_share"
 [[params.social]]
 name = "Pinterest"
 icon = "fa fa-pinterest"
-url = "https://pinterest.jp/agatepris/"
+url = "https://pinterest.jp/agatepris"
 
 [[menu.main]]
 name = "Profile"
