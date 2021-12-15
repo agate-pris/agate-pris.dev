@@ -14,6 +14,11 @@ customCSS = ["css/custom.css", "css/fontcustom.css"]
 dateFormat = "2006-01-02"
 since = 2019
 
+[params.utterances]
+repo = "https://github.com/agate-pris/comments.agate-pris.dev"
+issueTerm = "pathname"
+theme = "preferred-color-scheme"
+
 [[params.social]]
 name = "Twitter"
 icon = "fa fa-twitter"
