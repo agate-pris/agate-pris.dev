@@ -22,57 +22,57 @@ theme = "preferred-color-scheme"
 
 [[params.social]]
 name = "Twitter"
-icon = "fa fa-twitter"
+icon = "fa fa-2x fa-twitter"
 url = "https://twitter.com/agate_pris"
 
 [[params.social]]
 name = "Twitch"
-icon = "fa fa-twitch"
+icon = "fa fa-2x fa-twitch"
 url = "https://www.twitch.tv/agate_pris"
 
 [[params.social]]
 name = "GitHub"
-icon = "fa fa-github"
+icon = "fa fa-2x fa-github"
 url = "https://github.com/agate-pris"
 
 [[params.social]]
 name = "GitLab"
-icon = "fa fa-gitlab"
+icon = "fa fa-2x fa-gitlab"
 url = "https://gitlab.com/agate-pris"
 
 [[params.social]]
 name = "Qiita"
-icon = "fa icon-qiita"
+icon = "fa fa-2x icon-qiita"
 url = "https://qiita.com/agate-pris"
 
 [[params.social]]
 name = "note"
-icon = "fa icon-note-com"
+icon = "fa fa-2x icon-note-com"
 url = "https://note.com/agate_pris"
 
 [[params.social]]
 name = "Hatena Blog"
-icon = "fa icon-hatenablog"
+icon = "fa fa-2x icon-hatenablog"
 url = "https://altebute.hatenablog.com/"
 
 [[params.social]]
 icon = "Blogger"
-icon = "fa icon-blogger"
+icon = "fa fa-2x icon-blogger"
 url = "https://altebute.blogspot.com/"
 
 [[params.social]]
 name = "DeviantArt"
-icon = "fa fa-deviantart"
+icon = "fa fa-2x fa-deviantart"
 url = "https://www.deviantart.com/agate-pris"
 
 [[params.social]]
 name = "Amazon Wishlist"
-icon = "fa fa-amazon"
+icon = "fa fa-2x fa-amazon"
 url = "https://www.amazon.jp/hz/wishlist/ls/MNV541VIJ66S?ref_=wl_share"
 
 [[params.social]]
 name = "Pinterest"
-icon = "fa fa-pinterest"
+icon = "fa fa-2x fa-pinterest"
 url = "https://pinterest.jp/agatepris"
 
 [[menu.main]]
