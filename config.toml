@@ -26,6 +26,11 @@ icon = "fa fa-2x fa-twitter"
 url = "https://twitter.com/agate_pris"
 
 [[params.social]]
+name = "Moments / Twitter"
+icon = "fa fa-2x icon-twitter-moments"
+url = "https://twitter.com/agate_pris/moments"
+
+[[params.social]]
 name = "Twitch"
 icon = "fa fa-2x fa-twitch"
 url = "https://www.twitch.tv/agate_pris"
