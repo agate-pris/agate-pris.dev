@@ -21,11 +21,15 @@ Boothから無料でダウンロードできます。
 - [Project Repliser - 水の草原の中の売店 - BOOTH](https://booth.pm/ja/items/3542398)
 - [ぷろりぷ配布開始しました｜Aquid / 工場長｜pixivFANBOX](https://hexqua.fanbox.cc/posts/3194244)
 
-# [DGZ](http://www.vector.co.jp/soft/winnt/game/se504569.html)
+# DGZ
 
 <p><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm21555776/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm21555776">(C84) [AQUAFACTORY] DGZ</a></noscript></p>
 
 コミックマーケット84頒布作品。申し込んだはいいが頒布物が無かったので一週間くらいで作った気がする。
+
+Vectorから無料でダウンロードできます。
+
+- [DGZの詳細情報 : Vector ソフトを探す！](http://www.vector.co.jp/soft/winnt/game/se504569.html)
 
 # DGZ 2
 
