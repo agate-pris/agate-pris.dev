@@ -2,11 +2,13 @@
 title: "Works"
 ---
 
-# [Project Repliser](http://www.aquafactory.x0.com/repliser/)
+# Project Repliser
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/qj2tbuR8pXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <p><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm18556664/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm18556664">Project Repliser C82 PV</a></noscript></p>
+
+- [Project Repliser](http://www.aquafactory.x0.com/repliser/)
 
 コミックマーケット82頒布作品。代表作だが、プログラマではなくデザイナー、レベルデザイナー、プランナーを担当。
 
