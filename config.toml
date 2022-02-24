@@ -61,7 +61,7 @@ icon = "fa fa-2x icon-hatenablog"
 url = "https://altebute.hatenablog.com/"
 
 [[params.social]]
-icon = "Blogger"
+name = "Blogger"
 icon = "fa fa-2x icon-blogger"
 url = "https://altebute.blogspot.com/"
 
