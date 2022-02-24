@@ -36,6 +36,11 @@ icon = "fa fa-2x fa-twitch"
 url = "https://www.twitch.tv/agate_pris"
 
 [[params.social]]
+name = "Notion"
+icon = "fa fa-2x icon-notion"
+url = "https://agate-pris.notion.site/agate-pris-notion-site-9d40cc048e374479b7db2ca447813d0a"
+
+[[params.social]]
 name = "GitHub"
 icon = "fa fa-2x fa-github"
 url = "https://github.com/agate-pris"
