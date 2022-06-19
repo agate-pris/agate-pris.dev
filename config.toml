@@ -8,7 +8,7 @@ unsafe = true
 
 [params]
 author = "Agate Pris"
-avatarURL = "images/8687_FTIN2Ms0.png"
+avatarURL = "images/agate_pris.png"
 colorScheme = "auto"
 hideColorSchemeToggle = true
 customCSS = ["css/custom.css", "css/fontcustom.css"]
