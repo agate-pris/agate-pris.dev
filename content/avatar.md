@@ -4,11 +4,7 @@ title: "About my Avatar"
 
 # アイコン
 
-Created by [@yorugaki026](https://twitter.com/yorugaki026) from--
-
-- [ぱっつんが無限に出てくる｜Picrew](https://picrew.me/share?cd=6qJM6KOxyq)
-- [ぱっつんが無限に出てくる｜Picrew](https://picrew.me/share?cd=8yTK6fgljj)
-- [あの子がこっちを見ている｜Picrew](https://picrew.me/share?cd=zOtJq14Sej)
+アバターのアイコンはヒムペロ（ [@himupero](https://twitter.com/himupero) ）さんに描いていただきました。
 
 # VRoidモデル
 
