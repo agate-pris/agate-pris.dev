@@ -30,7 +30,7 @@
 | ![Holmgang](holmgang.png) | ホルムギャング<br>Holmgang | ![Marauder](Marauder.png) | 240s | Invul.
 | ![Living Dead](living_dead.png) | リビングデッド<br>Living Dead | ![Dark Knight](DarkKnight.png) | 300s | Invul.
 | ![Superbolide](superbolide.png) | ボーライド<br>Superbolide | ![Gunbreaker](Gunbreaker.png) | 360s | Invul.
-| ![holy_sheltron.png](holy_sheltron.png) | ホーリーシェルトロン<br>Holy Sheltron | ![Paladin](Paladin.png) | 5s | Short Buff.
+| ![Holy Sheltron](holy_sheltron.png) | ホーリーシェルトロン<br>Holy Sheltron | ![Paladin](Paladin.png) | 5s | Short Buff.
 | ![Intervention](intervention.png) | インターベンション<br>Intervention | ![Paladin](Paladin.png) | 10s | Short Buff.
 | ![Bloodwhetting](bloodwhetting.png) | 原初の血気<br>Bloodwhetting | ![Warrior](Warrior.png) | 25s | Short Buff.<br>It is **dispeled by Shake It Off**.
 | ![Nascent Flash](nascent_flash.png) | 原初の猛り<br>Nascent Flash | ![Warrior](Warrior.png) | 25s | Short Buff.
