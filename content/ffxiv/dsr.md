@@ -63,13 +63,13 @@
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | 魔法 | ![Reprisal](reprisal.png)
 | 11:16 | ヘヴンリーヒール<br>Heavenly Heel | 物理 | | ![Intervention](intervention.png)![Oblation](oblation.png)![Reprisal](reprisal.png)![Shadow Wall](shadow_wall.png)
 | 11:19 | アスカロンマイト<br>Ascalon's Might | 物理 | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Bulwark](bulwark.png) | ![Reprisal](reprisal.png)
-| 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | 魔法 | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Divine Veil](divine_veil.png)![Sentinel](sentinel.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)
+| 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | 魔法 | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)
 | 12:23 | アク・アファー<br>Akh Afah | 魔法 | ![Reprisal](reprisal.png)
 | 12:36 | ホーリーフェザー<br>Hallowed Plume | 魔法 | ![Holy Sheltron](holy_sheltron.png)![Rampart](rampart.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Dark Mind](dark_mind.png)
-| 13:02 | アク・モーン<br>Akh Morn | 魔法 | | ![Dark Missionary](dark_missionary.png)
+| 13:02 | アク・モーン<br>Akh Morn | 魔法 | ![Divine Veil](divine_veil.png) | ![Dark Missionary](dark_missionary.png)
 | 13:32 | アク・アファー<br>Akh Afah | 魔法 | ![Reprisal](reprisal.png)
 | 13:45 | ホーリーフェザー<br>Hallowed Plume | 魔法 | ![Holy Sheltron](holy_sheltron.png)![Bulwark](bulwark.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Shadow Wall](shadow_wall.png)
-| 14:04 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | 魔法 | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Divine Veil](divine_veil.png)![Sentinel](sentinel.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)
+| 14:04 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | 魔法 | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)
 | 14:17 | カータライズ<br>Cauterize | 魔法 | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)
 | 15:07 | 苦悶の咆哮<br>Resentment | 魔法
 | 15:24 | 衝撃波<br>Shockwave | 魔法
