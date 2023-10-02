@@ -55,9 +55,9 @@
 | 09:21 | スパイラルピアス<br>Spiral Pierce | 魔法 | ![Divine Veil](divine_veil.png)
 | 09:21 | レベレーション・アスカロンメルシー<br>Ascalon's Mercy Revealed | 物理 | ![Divine Veil](divine_veil.png)
 | 09:21 | ヘブンリキッド<br>Liquid Heaven | 魔法
-| 09:35 | エンシェントクエイガ<br>Ancient Quaga | 魔法 | ![Reprisal](reprisal.png)
-| 09:46 | ヘヴンリーヒール<br>Heavenly Heel | 物理 | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png)![Bulwark](bulwark.png)![Sentinel](sentinel.png) | ![Reprisal](reprisal.png)
-| 09:50 | アスカロンマイト<br>Ascalon's Might | 物理 | | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Rampart](rampart.png)
+| 09:35 | エンシェントクエイガ<br>Ancient Quaga | 魔法 | | ![Reprisal](reprisal.png)
+| 09:46 | ヘヴンリーヒール<br>Heavenly Heel | 物理 | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png)![Bulwark](bulwark.png)![Sentinel](sentinel.png)
+| 09:50 | アスカロンマイト<br>Ascalon's Might | 物理 | | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
 | 10:33 | フェイスアンムーブ<br>Faith Unmoving | 物理
 | 10:36 | ヘヴンフレイム<br>Heavensflame | 魔法
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | 魔法 | ![Reprisal](reprisal.png)
