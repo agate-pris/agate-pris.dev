@@ -6,6 +6,16 @@
     }
 </style>
 
+| PLD | WAR | DRK | GNB
+| :-: | :-: | :-: | :-:
+| ![Sentinel](sentinel.png) | ![Vengeance](vengeance.png) | ![Shadow Wall](shadow_wall.png) | ![Nebula](nebula.png)
+| ![Bulwark](bulwark.png) | ![Thrill of Battle](thrill_of_battle.png) | ![Dark Mind](dark_mind.png) | ![Camouflage](camouflage.png)
+| ![Hallowed Ground](hallowed_ground.png) | ![Holmgang](holmgang.png) | ![Living Dead](living_dead.png) | ![Superbolide](superbolide.png)
+| ![Holy Sheltron](holy_sheltron.png) | ![Bloodwhetting](bloodwhetting.png) | ![The Blackest Night](the_blackest_night.png) | ![Heart of Corundum](heart_of_corundum.png)
+| ![Intervention](intervention.png) | ![Nascent Flash](nascent_flash.png) | ![Oblation](oblation.png)
+| ![Divine Veil](divine_veil.png) | ![Shake It Off](shake_it_off.png) | ![Dark Missionary](dark_missionary.png) | ![Heart of Light](heart_of_light.png)
+| ![Passage of Arms](passage_of_arms.png)
+
 | Icon | Short | 名前<br>Name
 | :--: | :---: | :-----------
 | ![Paladin](Paladin.png) | PLD | ナイト<br>Paladin
