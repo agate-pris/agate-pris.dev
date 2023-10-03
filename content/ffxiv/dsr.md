@@ -45,8 +45,8 @@
 | 04:08 | アイ・オブ・タイラント<br>Eye of the Tyrant | 魔法 | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
 | 04:40 | ソウルテザー<br>Soul Tether | 魔法 | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)
 | 05:46 | 苦悶の咆哮<br>Resentment | 魔法 |
-| 06:03 | フレアディザスター<br>Flare Nova | 魔法 | ![Divine Veil](divine_veil.png) | ![Dark Missionary](dark_missionary.png)
-| 06:10 | フレアスター<br>Flare Star | 魔法 | ![Divine Veil](divine_veil.png) | ![Dark Missionary](dark_missionary.png)
+| 06:03 | フレアディザスター<br>Flare Nova | 魔法 | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
+| 06:10 | フレアスター<br>Flare Star | 魔法 | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
 | 06:22 | ミラージュダイブ<br>Mirage Dive | 物理
 | 06:47 | 憤怒の波動<br>Steep in Rage | 魔法 | ![Reprisal](reprisal.png)
 | 07:35 | 衝撃波<br>Shockwave | 魔法
