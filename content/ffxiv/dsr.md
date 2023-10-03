@@ -40,9 +40,9 @@
 | 01:51 | セイクリッドカット<br>Sacred Sever | 物理 | ![Troubadour](troubadour.png)
 | 02:09 | ハイマルストーム<br>Hiemal Storm | 魔法
 | 02:44 | アルティメットエンド<br>Ultimate End | 魔法 |  | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
-| 03:18 | 終焉の竜詩<br>Final Chorus | 魔法 | ![Divine Veil](divine_veil.png)![Passage of Arms](passage_of_arms.png)
+| 03:18 | 終焉の竜詩<br>Final Chorus<sup><a href="#rng_final_chorus">*2</a></sup> | 魔法 | ![Divine Veil](divine_veil.png)![Passage of Arms](passage_of_arms.png)![Troubadour](troubadour.png)
 | 03:47 | アイ・オブ・タイラント<br>Eye of the Tyrant | 魔法 | ![Reprisal](reprisal.png)![Feint](feint.png) | ![Dark Missionary](dark_missionary.png)
-| 04:08 | アイ・オブ・タイラント<br>Eye of the Tyrant | 魔法 | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
+| 04:08 | アイ・オブ・タイラント<br>Eye of the Tyrant<sup><a href="#rng_final_chorus">*2</a></sup> | 魔法 | | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
 | 04:40 | ソウルテザー<br>Soul Tether | 魔法 | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)
 | 05:46 | 苦悶の咆哮<br>Resentment | 魔法 |
 | 06:03 | フレアディザスター<br>Flare Nova | 魔法 | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
@@ -85,5 +85,6 @@
 | 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | 魔法 | ![Reprisal](reprisal.png)![Troubadour](troubadour.png) | ![Feint](feint.png)
 
 1. <span id="war_holmgang">戦士がいる場合ホルムギャングで置き換え可能。WAR can replace the mitigations with Holmgang.</span>
+2. <span id="rng_final_chorus">ナイトがいる場合（パッセージ・オブ・アームズが有るので）レンジは終焉の竜詩の代わりにアイ・オブ・タイラント 2 回目を軽減。With PLD, (because there is Passage of Arms) ranged DPS mitigates the 2nd Eye of the Tyrant instead of Final Chorus.</span>
 
 (C) SQUARE ENIX CO., LTD. All Rights Reserved.
