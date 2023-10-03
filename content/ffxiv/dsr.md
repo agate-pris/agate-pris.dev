@@ -29,7 +29,7 @@
 
 | Time | Action | 属性 | MT (PLD)<br>D1<br>D3 (BRD) | ST (DRK)<br>D2<br>D4
 | :--- | :----- | :--- | :------- | :-------
-| 00:15 | アスカロンマイト<br>Ascalon's Might | 物理 | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Reprisal](reprisal.png)![Bulwark](bulwark.png)
+| 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">*1</a></sup> | 物理 | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Reprisal](reprisal.png)![Bulwark](bulwark.png)![Troubadour](troubadour.png)
 | 00:57 | 邪竜の魔炎<br>the Dragon's Rage | 魔法 | ![Divine Veil](divine_veil.png)
 | 00:58 | スカイワードリープ<br>Skyward Leap | 魔法 | ![Divine Veil](divine_veil.png)
 | 00:58 | ホーリーシールドバッシュ<br>Holy Shield Bash | 物理 | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
@@ -60,8 +60,8 @@
 | 09:21 | レベレーション・アスカロンメルシー<br>Ascalon's Mercy Revealed | 物理 | ![Divine Veil](divine_veil.png)
 | 09:21 | ヘブンリキッド<br>Liquid Heaven | 魔法
 | 09:35 | エンシェントクエイガ<br>Ancient Quaga | 魔法 | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)
-| 09:46 | ヘヴンリーヒール<br>Heavenly Heel | 物理 | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png)![Bulwark](bulwark.png)![Sentinel](sentinel.png)![Feint](feint.png)![Troubadour](troubadour.png)
-| 09:50 | アスカロンマイト<br>Ascalon's Might | 物理 | ![Feint](feint.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
+| 09:46 | ヘヴンリーヒール<br>Heavenly Heel<sup><a href="#war_holmgang">*1</a></sup> | 物理 | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png)![Bulwark](bulwark.png)![Sentinel](sentinel.png)![Feint](feint.png)![Troubadour](troubadour.png)
+| 09:50 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">*1</a></sup> | 物理 | ![Feint](feint.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
 | 10:33 | フェイスアンムーブ<br>Faith Unmoving | 物理
 | 10:36 | ヘヴンフレイム<br>Heavensflame | 魔法
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | 魔法 | ![Reprisal](reprisal.png) | ![Addle](addle.png)
@@ -83,5 +83,7 @@
 | 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | 魔法 | ![Reprisal](reprisal.png)![Divine Veil](divine_veil.png) | ![Dark Missionary](dark_missionary.png)
 | 18:08 | 騎竜剣ギガフレア<br>Gigaflare's Edge | 魔法 | ![Feint](feint.png) | ![Reprisal](reprisal.png)![Addle](addle.png)
 | 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | 魔法 | ![Reprisal](reprisal.png)![Troubadour](troubadour.png) | ![Feint](feint.png)
+
+1. <span id="war_holmgang">戦士がいる場合ホルムギャングで置き換え可能。WAR can replace the mitigations with Holmgang.</span>
 
 (C) SQUARE ENIX CO., LTD. All Rights Reserved.
