@@ -1,10 +1,26 @@
 # Dragonsong's Reprise
 
 <style>
-    tr img {
+    .actions img {
         width: 40px;
     }
-    td img {
+
+    .mitigation-chart td:nth-child(3) {
+        width: 60px;
+    }
+    .mitigation-chart td:nth-child(4) {
+        width: 236px;
+    }
+    .mitigation-chart td:nth-child(5) {
+        width: 236px;
+    }
+    .mitigation-chart td:nth-child(3) img {
+        width: 24px;
+    }
+    .mitigation-chart td:nth-child(4) img {
+        width: 40px;
+    }
+    .mitigation-chart td:nth-child(5) img {
         width: 40px;
     }
 </style>
@@ -12,6 +28,8 @@
 ## Mitigation
 
 基本的に類似アビリティで置き換え可能。
+
+<span class="actions">
 
 | PLD | WAR | DRK | GNB
 | :-: | :-: | :-: | :-:
@@ -27,8 +45,12 @@
 | :-: | :-: | :-:
 | ![Troubadour](troubadour.png) | ![Tactician](tactician.png) | ![Shield Samba](shield_samba.png)
 
+</span>
+
+<span class="mitigation-chart">
+
 | Time | Action | 属性 | MT (PLD)<br>D1<br>D3 (BRD) | ST (DRK)<br>D2<br>D4
-| :--- | :----- | :--- | :------- | :-------
+| :--- | :----- | :--: | :------- | :-------
 | 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">*1</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Reprisal](reprisal.png)![Bulwark](bulwark.png)![Troubadour](troubadour.png)
 | 00:57 | 邪竜の魔炎<br>the Dragon's Rage | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)
 | 00:58 | スカイワードリープ<br>Skyward Leap | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)
@@ -83,6 +105,8 @@
 | 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Divine Veil](divine_veil.png) | ![Dark Missionary](dark_missionary.png)
 | 18:08 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Feint](feint.png) | ![Reprisal](reprisal.png)![Addle](addle.png)
 | 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Troubadour](troubadour.png) | ![Feint](feint.png)
+
+</span>
 
 1. <span id="war_holmgang">戦士がいる場合ホルムギャングで置き換え可能。WAR can replace the mitigations with Holmgang.</span>
 2. <span id="rng_final_chorus">ナイトがいる場合（パッセージ・オブ・アームズが有るので）レンジは終焉の竜詩の代わりにアイ・オブ・タイラント 2 回目を軽減。With PLD, (because there is Passage of Arms) ranged DPS mitigates the 2nd Eye of the Tyrant instead of Final Chorus.</span>
