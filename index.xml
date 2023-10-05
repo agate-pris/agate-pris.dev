@@ -72,7 +72,7 @@ peaceiris/actions-hugo: GitHub Actions for Hugo ⚡️ Setup Hugo quickly and bu
 発信用のアカウントがブロックされるのはもう、仕方がない。人間、繊細になってしまうこともある。なんてことのない一言が不意に刺さってしまうこともあるだろう。
 購読専用のプライベートアカウントを用意すれば、相手からはフォロワーの増減しか分からない。誰にフォローされたのかを感知することは極めて困難だ。
 購読専用のプライベートアカウントならばアンフォローも気兼ねなくできる。Twitterのリストはリツイートを非表示にすることが出来ない欠陥仕様だが、その問題も別アカウントのホームタイムラインであれば何の問題もない。</description></item><item><title/><link>https://www.agate-pris.dev/ffxiv/dsr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.agate-pris.dev/ffxiv/dsr/</guid><description>Dragonsong&amp;rsquo;s Reprise Mitigation 基本的に類似アビリティで置き換え可能。
-PLD WAR DRK GNB WHM AST BRD MCH DNC Time Action 属性 MT (PLD)
+PLD WAR DRK GNB WHM AST SCH SGE BRD MCH DNC Time Action 属性 MT (PLD)
 H1 (WHM)
 D1
 D3 (BRD) ST (DRK)
@@ -86,8 +86,7 @@ Holy Bladedance 01:09 エンシェントクエイガ
 Ancient Quaga 01:19 ヘヴンリーヒール
 Heavenly Heel 01:23 アスカロンマイト
 Ascalon&amp;rsquo;s Might 01:51 セイクリッドカット
-Sacred Sever 02:09 ハイマルストーム
-Hiemal Storm 02:44 アルティメットエンド</description></item><item><title/><link>https://www.agate-pris.dev/ffxiv/tank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.agate-pris.dev/ffxiv/tank/</guid><description>Tank PLD WAR DRK GNB Icon Short 名前
+Sacred Sever 02:09 ハイマルストーム</description></item><item><title/><link>https://www.agate-pris.dev/ffxiv/tank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.agate-pris.dev/ffxiv/tank/</guid><description>Tank PLD WAR DRK GNB Icon Short 名前
 Name PLD ナイト
 Paladin GLA 剣術士
 Gladiator WAR 戦士
