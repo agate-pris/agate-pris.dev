@@ -51,14 +51,14 @@
 
 | Time | Action | 属性 | MT (PLD)<br>D1<br>D3 (BRD) | ST (DRK)<br>D2<br>D4
 | :--- | :----- | :--: | :------- | :-------
-| 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">*1</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Reprisal](reprisal.png)![Bulwark](bulwark.png)![Troubadour](troubadour.png)
+| 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">*1</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Bulwark](bulwark.png)![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)
 | 00:57 | 邪竜の魔炎<br>the Dragon's Rage | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)
 | 00:58 | スカイワードリープ<br>Skyward Leap | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)
 | 00:58 | ホーリーシールドバッシュ<br>Holy Shield Bash | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
 | 01:01 | ホーリーブレードダンス<br>Holy Bladedance | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
-| 01:09 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | | ![Reprisal](reprisal.png)![Dark Missionary](dark_missionary.png)![Feint](feint.png)![Addle](addle.png)
-| 01:19 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Reprisal](reprisal.png)![Sentinel](sentinel.png)![Feint](feint.png)
-| 01:23 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Reprisal](reprisal.png)![Feint](feint.png) | ![The Blackest Night](the_blackest_night.png)![Shadow Wall](shadow_wall.png)
+| 01:09 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Dark Missionary](dark_missionary.png)![Feint](feint.png)![Addle](addle.png)
+| 01:19 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Sentinel](sentinel.png)![Feint](feint.png) | ![Reprisal](reprisal.png)
+| 01:23 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Feint](feint.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Shadow Wall](shadow_wall.png)
 | 01:51 | セイクリッドカット<br>Sacred Sever | ![Physical](physical.png) | ![Troubadour](troubadour.png)
 | 02:09 | ハイマルストーム<br>Hiemal Storm | ![Magic](magic.png)
 | 02:44 | アルティメットエンド<br>Ultimate End | ![Magic](magic.png) |  | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
