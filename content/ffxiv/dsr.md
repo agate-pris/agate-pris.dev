@@ -49,6 +49,12 @@
 | :-: | :-:
 | ![Divine Benison](divine_benison.png) | ![Celestial Intersection](celestial_intersection.png)
 
+| SCH | SGE
+| :-: | :-:
+| ![Fey Illumination](fey_illumination.png)
+| ![Summon Seraph](summon_seraph.png) | ![Panhaima](panhaima.png)
+| ![Expedient](expedient.png) | ![Holos](holos.png)
+
 | BRD | MCH | DNC
 | :-: | :-: | :-:
 | ![Troubadour](troubadour.png) | ![Tactician](tactician.png) | ![Shield Samba](shield_samba.png)
