@@ -9,6 +9,10 @@
         width: 40px;
     }
 
+    .make_no_sense img {
+        opacity: calc(2/3);
+    }
+
     .mitigation-chart td:nth-child(3) {
         width: 60px;
     }
@@ -72,7 +76,7 @@
 | 01:01 | ホーリーブレードダンス<br>Holy Bladedance | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
 | 01:09 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Dark Missionary](dark_missionary.png)![Feint](feint.png)![Addle](addle.png)
 | 01:19 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Sentinel](sentinel.png)![Divine Benison](divine_benison.png)![Feint](feint.png) | ![Reprisal](reprisal.png)
-| 01:23 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Feint](feint.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Shadow Wall](shadow_wall.png)![Divine Benison](divine_benison.png)
+| 01:23 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Feint](feint.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)<span class="make_no_sense">![Dark Mind](dark_mind.png)</span><sup><a href="#st_drk_physical_90s">\[3\]</sup>![Shadow Wall](shadow_wall.png)</a>![Divine Benison](divine_benison.png)
 | 01:51 | セイクリッドカット<br>Sacred Sever | ![Physical](physical.png) | ![Troubadour](troubadour.png)
 | 02:09 | ハイマルストーム<br>Hiemal Storm | ![Magic](magic.png)
 | 02:44 | アルティメットエンド<br>Ultimate End | ![Magic](magic.png) |  | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
@@ -84,7 +88,7 @@
 | 06:03 | フレアディザスター<br>Flare Nova | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
 | 06:10 | フレアスター<br>Flare Star | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
 | 06:22 | ミラージュダイブ<br>Mirage Dive | ![Physical](physical.png)
-| 06:47 | 憤怒の波動<br>Steep in Rage<sup><a href="#steep_in_rage">\[3\]</a></sup> | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Reprisal](reprisal.png)
+| 06:47 | 憤怒の波動<br>Steep in Rage<sup><a href="#steep_in_rage">\[4\]</a></sup> | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Reprisal](reprisal.png)
 | 07:35 | 衝撃波<br>Shockwave | ![Magic](magic.png) | ![Limit Break](limit_break.png)
 | 07:40 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Limit Break](limit_break.png)
 | 07:45 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Feint](feint.png)
@@ -101,7 +105,7 @@
 | 10:33 | フェイスアンムーブ<br>Faith Unmoving | ![Physical](physical.png)
 | 10:36 | ヘヴンフレイム<br>Heavensflame | ![Magic](magic.png)
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | | ![Reprisal](reprisal.png)![Addle](addle.png)
-| 11:16 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Reprisal](reprisal.png) | ![Intervention](intervention.png)![Oblation](oblation.png)![Shadow Wall](shadow_wall.png)![Divine Benison](divine_benison.png)![Feint](feint.png)
+| 11:16 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Reprisal](reprisal.png) | ![Intervention](intervention.png)![Oblation](oblation.png)<span class="make_no_sense">![Dark Mind](dark_mind.png)</span><sup><a href="#st_drk_physical_90s">\[3\]</a></sup>![Shadow Wall](shadow_wall.png)![Divine Benison](divine_benison.png)![Feint](feint.png)
 | 11:19 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Reprisal](reprisal.png)![Rampart](rampart.png)![Divine Benison](divine_benison.png) | ![Feint](feint.png)
 | 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)
 | 12:23 | アク・アファー<br>Akh Afah | ![Magic](magic.png) | ![Reprisal](reprisal.png)
@@ -124,6 +128,7 @@
 
 1. <span id="war_holmgang">戦士がいる場合ホルムギャングで置き換え可能。WAR can replace the mitigations with Holmgang.</span>
 2. <span id="mt_drk_physical_90s">暗黒 MT の場合、ここでブルワークの代わりにダークマインドを使用しても意味がない。If MT is DRK, it makes no sense to use Dark Mind instead of Bulwark here.</span>
-3. <span id="steep_in_rage">両眼を残す場合のみ両方にリプライザルを入れる。Only use Reprisal in both if you keep both eyes.</span>
+3. <span id="st_drk_physical_90s">暗黒 ST の場合、ここでダークマインドを使用しても実際には意味がない。暗黒以外が ST の場合、ここで 90 秒アビを使用する。If DRK is ST, using Dark Mind here does not make actual sense. If the ST is other than DRK, use the 90s ability here.</span>
+4. <span id="steep_in_rage">両眼を残す場合のみ両方にリプライザルを入れる。Only use Reprisal in both if you keep both eyes.</span>
 
 (C) SQUARE ENIX CO., LTD. All Rights Reserved.
