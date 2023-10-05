@@ -70,7 +70,7 @@
 | 06:03 | フレアディザスター<br>Flare Nova | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
 | 06:10 | フレアスター<br>Flare Star | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
 | 06:22 | ミラージュダイブ<br>Mirage Dive | ![Physical](physical.png)
-| 06:47 | 憤怒の波動<br>Steep in Rage | ![Magic](magic.png) | ![Reprisal](reprisal.png)
+| 06:47 | 憤怒の波動<br>Steep in Rage<sup><a href="#steep_in_rage">*2</a></sup> | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Reprisal](reprisal.png)
 | 07:35 | 衝撃波<br>Shockwave | ![Magic](magic.png) | ![Limit Break](limit_break.png)
 | 07:40 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Limit Break](limit_break.png)
 | 07:45 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Feint](feint.png) | ![Reprisal](reprisal.png)
@@ -109,5 +109,6 @@
 </span>
 
 1. <span id="war_holmgang">戦士がいる場合ホルムギャングで置き換え可能。WAR can replace the mitigations with Holmgang.</span>
+2. <span id="steep_in_rage">両眼を残す場合のみ両方にリプライザルを入れる。Only use Reprisal in both if you keep both eyes.</span>
 
 (C) SQUARE ENIX CO., LTD. All Rights Reserved.
