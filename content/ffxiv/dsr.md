@@ -1,6 +1,10 @@
 # Dragonsong's Reprise
 
 <style>
+    table {
+        margin: 2rem 0 2rem 0;
+    }
+
     .actions img {
         width: 40px;
     }
