@@ -65,7 +65,7 @@
 
 | Time | Action | 属性 | MT (PLD)<br>H1 (WHM)<br>D1<br>D3 (BRD) | ST (DRK)<br>D2<br>D4
 | :--- | :----- | :--: | :------- | :-------
-| 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">*1</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Bulwark](bulwark.png)![Divine Benison](divine_benison.png)![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)
+| 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Bulwark](bulwark.png)![Divine Benison](divine_benison.png)![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)
 | 00:57 | 邪竜の魔炎<br>the Dragon's Rage | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)
 | 00:58 | スカイワードリープ<br>Skyward Leap | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)
 | 00:58 | ホーリーシールドバッシュ<br>Holy Shield Bash | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
@@ -84,7 +84,7 @@
 | 06:03 | フレアディザスター<br>Flare Nova | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
 | 06:10 | フレアスター<br>Flare Star | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
 | 06:22 | ミラージュダイブ<br>Mirage Dive | ![Physical](physical.png)
-| 06:47 | 憤怒の波動<br>Steep in Rage<sup><a href="#steep_in_rage">*2</a></sup> | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Reprisal](reprisal.png)
+| 06:47 | 憤怒の波動<br>Steep in Rage<sup><a href="#steep_in_rage">\[2\]</a></sup> | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Reprisal](reprisal.png)
 | 07:35 | 衝撃波<br>Shockwave | ![Magic](magic.png) | ![Limit Break](limit_break.png)
 | 07:40 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Limit Break](limit_break.png)
 | 07:45 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Feint](feint.png)
@@ -96,8 +96,8 @@
 | 09:21 | レベレーション・アスカロンメルシー<br>Ascalon's Mercy Revealed | ![Physical](physical.png) | ![Divine Veil](divine_veil.png)
 | 09:21 | ヘブンリキッド<br>Liquid Heaven | ![Magic](magic.png)
 | 09:35 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Troubadour](troubadour.png)
-| 09:46 | ヘヴンリーヒール<br>Heavenly Heel<sup><a href="#war_holmgang">*1</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png)![Bulwark](bulwark.png)![Sentinel](sentinel.png)![Divine Benison](divine_benison.png)![Feint](feint.png)![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)
-| 09:50 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">*1</a></sup> | ![Physical](physical.png) | ![Feint](feint.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Rampart](rampart.png)![Divine Benison](divine_benison.png)
+| 09:46 | ヘヴンリーヒール<br>Heavenly Heel<sup><a href="#war_holmgang">\[1\]</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png)![Bulwark](bulwark.png)![Sentinel](sentinel.png)![Divine Benison](divine_benison.png)![Feint](feint.png)![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)
+| 09:50 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | ![Physical](physical.png) | ![Feint](feint.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Rampart](rampart.png)![Divine Benison](divine_benison.png)
 | 10:33 | フェイスアンムーブ<br>Faith Unmoving | ![Physical](physical.png)
 | 10:36 | ヘヴンフレイム<br>Heavensflame | ![Magic](magic.png)
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | | ![Reprisal](reprisal.png)![Addle](addle.png)
