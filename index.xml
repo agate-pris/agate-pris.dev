@@ -71,22 +71,7 @@ To WWW or not WWW | Netlify デプロイはGitHub Actionsを使用した。外�
 peaceiris/actions-hugo: GitHub Actions for Hugo ⚡️ Setup Hugo quickly and build your site fast. Hugo extended, Hugo Modules, Linux (Ubuntu), macOS, and Windows are supported. peaceiris/actions-gh-pages: GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily.</description></item><item><title>Twitterアカウントのブロックに対する予防策</title><link>https://www.agate-pris.dev/posts/precautions-against-blocking-twitter-account/</link><pubDate>Sat, 21 Dec 2019 02:25:37 +0900</pubDate><guid>https://www.agate-pris.dev/posts/precautions-against-blocking-twitter-account/</guid><description>Twitterで身に覚えのないブロックを受けて精神的ダメージを受けたので、どのように予防策を取るべきか考えた結果、発信用のアカウントと購読用のアカウントを分けることにした。
 発信用のアカウントがブロックされるのはもう、仕方がない。人間、繊細になってしまうこともある。なんてことのない一言が不意に刺さってしまうこともあるだろう。
 購読専用のプライベートアカウントを用意すれば、相手からはフォロワーの増減しか分からない。誰にフォローされたのかを感知することは極めて困難だ。
-購読専用のプライベートアカウントならばアンフォローも気兼ねなくできる。Twitterのリストはリツイートを非表示にすることが出来ない欠陥仕様だが、その問題も別アカウントのホームタイムラインであれば何の問題もない。</description></item><item><title/><link>https://www.agate-pris.dev/ffxiv/dsr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.agate-pris.dev/ffxiv/dsr/</guid><description>Dragonsong&amp;rsquo;s Reprise Mitigation 基本的に類似アビリティで置き換え可能。
-PLD WAR DRK GNB WHM AST SCH SGE BRD MCH DNC Time Action 属性 MT (PLD)
-H1 (WHM)
-D1
-D3 (BRD) ST (DRK)
-D2
-D4 00:15 アスカロンマイト
-Ascalon&amp;rsquo;s Might[1] [2] 00:57 邪竜の魔炎
-the Dragon&amp;rsquo;s Rage 00:58 スカイワードリープ
-Skyward Leap 00:58 ホーリーシールドバッシュ
-Holy Shield Bash 01:01 ホーリーブレードダンス
-Holy Bladedance 01:09 エンシェントクエイガ
-Ancient Quaga 01:19 ヘヴンリーヒール
-Heavenly Heel 01:23 アスカロンマイト
-Ascalon&amp;rsquo;s Might [3] 01:51 セイクリッドカット
-Sacred Sever 02:09 ハイマルストーム</description></item><item><title/><link>https://www.agate-pris.dev/ffxiv/tank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.agate-pris.dev/ffxiv/tank/</guid><description>Tank PLD WAR DRK GNB Icon Short 名前
+購読専用のプライベートアカウントならばアンフォローも気兼ねなくできる。Twitterのリストはリツイートを非表示にすることが出来ない欠陥仕様だが、その問題も別アカウントのホームタイムラインであれば何の問題もない。</description></item><item><title/><link>https://www.agate-pris.dev/ffxiv/tank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.agate-pris.dev/ffxiv/tank/</guid><description>Tank PLD WAR DRK GNB Icon Short 名前
 Name PLD ナイト
 Paladin GLA 剣術士
 Gladiator WAR 戦士
@@ -113,4 +98,18 @@ https://t.co/pZ1QuJuPkN なんか唐突にぷろりぷ配布しました。
 コミックマーケット84頒布作品。申し込んだはいいが頒布物が無かったので一週間くらいで作った気がする。
 Vectorから無料でダウンロードできます。
 DGZの詳細情報 : Vector ソフトを探す！ DGZ 2 【C87】AQUA FACTORY DGZ2 wip
-コミックマーケット87頒布作品。自分で作った固定小数点数やら座標システムやらのテストとして作った。</description></item></channel></rss>
+コミックマーケット87頒布作品。自分で作った固定小数点数やら座標システムやらのテストとして作った。</description></item><item><title>絶竜詩戦争 Dragonsong's Reprise</title><link>https://www.agate-pris.dev/ffxiv/dsr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.agate-pris.dev/ffxiv/dsr/</guid><description>軽減 Mitigation 基本的に類似アビリティで置き換え可能。
+早見表 Cheat Sheet PLD WAR DRK GNB WHM AST SCH SGE BRD MCH DNC チャート Chart Time Action 属性 MT (PLD)
+H1 (WHM)
+D1
+D3 (BRD) ST (DRK)
+D2
+D4 00:15 アスカロンマイト
+Ascalon&amp;rsquo;s Might[1] [2] 00:57 邪竜の魔炎
+the Dragon&amp;rsquo;s Rage 00:58 スカイワードリープ
+Skyward Leap 00:58 ホーリーシールドバッシュ
+Holy Shield Bash 01:01 ホーリーブレードダンス
+Holy Bladedance 01:09 エンシェントクエイガ
+Ancient Quaga 01:19 ヘヴンリーヒール
+Heavenly Heel 01:23 アスカロンマイト
+Ascalon&amp;rsquo;s Might [3] 01:51 セイクリッドカット</description></item></channel></rss>
