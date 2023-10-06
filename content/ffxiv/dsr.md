@@ -4,7 +4,8 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 <style>
     table {
-        margin: 2rem 0 2rem 0;
+        margin: 2rem 2rem 2rem 0;
+        display: inline flow-root;
     }
 
     .mitigation-cheat-sheet img {
