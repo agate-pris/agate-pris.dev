@@ -55,7 +55,7 @@
 
 | SCH | SGE
 | :-: | :-:
-| ![Fey Illumination](fey_illumination.png)
+| ![Fey Illumination](fey_illumination.png) | ![Haima](haima.png)
 | ![Summon Seraph](summon_seraph.png) | ![Panhaima](panhaima.png)
 | ![Expedient](expedient.png) | ![Holos](holos.png)
 
