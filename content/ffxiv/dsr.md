@@ -33,6 +33,37 @@
     }
 </style>
 
+<script>
+    window.addEventListener('DOMContentLoaded', function() {
+        const elements = document.getElementsByClassName("liturgy-of-the-bell");
+        for (let index = 0; index < elements.length; index++) {
+            const i = document.createElement("img");
+            i.src = "liturgy_of_the_bell.png";
+            i.alt = "Liturgy of the Bell";
+            i.title
+                = "リタージー・オブ・ベル リキャストタイム：180秒\n"
+                + "指定した地面に「リタージー・オブ・ベル」を設置し、自身に5スタックの「リタージー・オブ・ベル」を付与する。\n"
+                + "効果時間：20秒\n"
+                + "リタージー・オブ・ベルの効果時間中に自身がダメージを受けると、スタックを1つ消費してリタージー・オブ・ベルの周囲20m以内にいる自身およびパーティメンバーを回復する。\n"
+                + "回復力：400\n"
+                + "この効果は、発動後1秒間は再発動しない。\n"
+                + "リタージー・オブ・ベルの効果時間が経過するか効果時間中に再使用すると、残りスタック数に応じた回復効果が発動して消滅する。\n"
+                + "回復力：200×残りスタック数\n"
+                + "\n"
+                + "Liturgy of the Bell Recast: 180s\n"
+                + "Places a healing blossom at the designated location and grants 5 stacks of Liturgy of the Bell to self.\n"
+                + "Duration: 20s\n"
+                + "Taking damage will expend 1 stack of Liturgy of the Bell to heal self and all party members within a radius of 20 yalms.\n"
+                + "Cure Potency: 400\n"
+                + "The effect of this action can only be triggered once per second.\n"
+                + "Any remaining stacks of Liturgy of the Bell will trigger an additional healing effect when time expires or upon executing this action a second time.\n"
+                + "Cure Potency: 200 for every remaining stack of Liturgy of the Bell\n"
+                + "This action does not share a recast timer with any other actions.";
+            elements[index].appendChild(i);
+        }
+    });
+</script>
+
 ## Mitigation
 
 基本的に類似アビリティで置き換え可能。
@@ -55,7 +86,7 @@
 | ![Temperance](temperance.png) | ![Neutral Sect](neutral_sect.png)
 | | ![Collective Unconscious](collective_unconscious.png)
 | ![Aquaveil](aquaveil.png) | ![Exaltation](exaltation.png)
-| ![Liturgy of the Bell](liturgy_of_the_bell.png) | ![Macrocosmos](macrocosmos_01.png)
+| <span class="liturgy-of-the-bell"></span> | ![Macrocosmos](macrocosmos_01.png)
 
 | SCH | SGE
 | :-: | :-:
@@ -125,7 +156,7 @@
 | 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Passage of Arms](passage_of_arms.png) | ![Dark Missionary](dark_missionary.png)![Sacred Soil](sacred_soil.png)![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)
 | 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Temperance](temperance.png)![Feint](feint.png) | ![Sacred Soil](sacred_soil.png)![Addle](addle.png)
 | 16:48 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)![Sacred Soil](sacred_soil.png)![Feint](feint.png)
-| 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Divine Veil](divine_veil.png)![Liturgy of the Bell](liturgy_of_the_bell.png) | ![Dark Missionary](dark_missionary.png)![Sacred Soil](sacred_soil.png)
+| 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Divine Veil](divine_veil.png)<span class="liturgy-of-the-bell"></span> | ![Dark Missionary](dark_missionary.png)![Sacred Soil](sacred_soil.png)
 | 18:08 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Feint](feint.png) | ![Reprisal](reprisal.png)![Sacred Soil](sacred_soil.png)![Addle](addle.png)
 | 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Temperance](temperance.png)![Troubadour](troubadour.png) | ![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)![Feint](feint.png)
 
