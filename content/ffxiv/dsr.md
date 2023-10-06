@@ -1,11 +1,13 @@
-# Dragonsong's Reprise
+---
+title: "絶竜詩戦争 Dragonsong's Reprise"
+---
 
 <style>
     table {
         margin: 2rem 0 2rem 0;
     }
 
-    .actions img {
+    .mitigation-cheat-sheet img {
         width: 40px;
     }
 
@@ -64,11 +66,13 @@
     });
 </script>
 
-## Mitigation
+# 軽減 Mitigation
 
 基本的に類似アビリティで置き換え可能。
 
-<span class="actions">
+## 早見表 Cheat Sheet
+
+<span class="mitigation-cheat-sheet">
 
 | PLD | WAR | DRK | GNB
 | :-: | :-: | :-: | :-:
@@ -102,6 +106,8 @@
 </span>
 
 <span class="mitigation-chart">
+
+## チャート Chart
 
 | Time | Action | 属性 | MT (PLD)<br>H1 (WHM)<br>D1<br>D3 (BRD) | ST (DRK)<br>D2<br>D4
 | :--- | :----- | :--: | :------- | :-------
