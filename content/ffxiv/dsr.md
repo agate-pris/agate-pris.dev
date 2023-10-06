@@ -52,6 +52,10 @@
 | WHM | AST
 | :-: | :-:
 | ![Divine Benison](divine_benison.png) | ![Celestial Intersection](celestial_intersection.png)
+| ![Temperance](temperance.png) | ![Neutral Sect](neutral_sect.png)
+| | ![Collective Unconscious](collective_unconscious.png)
+| ![Aquaveil](aquaveil.png) | ![Exaltation](exaltation.png)
+| ![Liturgy of the Bell](liturgy_of_the_bell.png) | ![Macrocosmos](macrocosmos_01.png)
 
 | SCH | SGE
 | :-: | :-:
