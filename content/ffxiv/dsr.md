@@ -59,6 +59,7 @@
 
 | SCH | SGE
 | :-: | :-:
+| ![Sacred Soil](sacred_soil.png) | ![Kerachole](kerachole.png)
 | ![Fey Illumination](fey_illumination.png) | ![Haima](haima.png)
 | ![Summon Seraph](summon_seraph.png) | ![Panhaima](panhaima.png)
 | ![Expedient](expedient.png) | ![Holos](holos.png)
