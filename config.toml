@@ -11,7 +11,7 @@ author = "Agate Pris"
 avatarURL = "images/agate_pris.png"
 colorScheme = "auto"
 hideColorSchemeToggle = true
-customCSS = ["css/custom.css", "css/fontcustom.css"]
+customCSS = ["css/custom.css", "css/fontcustom.css", "css/microtip.min.css"]
 dateFormat = "2006-01-02"
 since = 2019
 

@@ -38,32 +38,27 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 <script>
     window.addEventListener('DOMContentLoaded', function() {
-        const elements = document.getElementsByClassName("liturgy-of-the-bell");
-        for (let index = 0; index < elements.length; index++) {
-            const i = document.createElement("img");
-            i.src = "liturgy_of_the_bell.png";
-            i.alt = "Liturgy of the Bell";
-            i.title
-                = "リタージー・オブ・ベル リキャストタイム：180秒\n"
-                + "指定した地面に「リタージー・オブ・ベル」を設置し、自身に5スタックの「リタージー・オブ・ベル」を付与する。\n"
-                + "効果時間：20秒\n"
-                + "リタージー・オブ・ベルの効果時間中に自身がダメージを受けると、スタックを1つ消費してリタージー・オブ・ベルの周囲20m以内にいる自身およびパーティメンバーを回復する。\n"
-                + "回復力：400\n"
-                + "この効果は、発動後1秒間は再発動しない。\n"
-                + "リタージー・オブ・ベルの効果時間が経過するか効果時間中に再使用すると、残りスタック数に応じた回復効果が発動して消滅する。\n"
-                + "回復力：200×残りスタック数\n"
-                + "\n"
-                + "Liturgy of the Bell Recast: 180s\n"
-                + "Places a healing blossom at the designated location and grants 5 stacks of Liturgy of the Bell to self.\n"
-                + "Duration: 20s\n"
-                + "Taking damage will expend 1 stack of Liturgy of the Bell to heal self and all party members within a radius of 20 yalms.\n"
-                + "Cure Potency: 400\n"
-                + "The effect of this action can only be triggered once per second.\n"
-                + "Any remaining stacks of Liturgy of the Bell will trigger an additional healing effect when time expires or upon executing this action a second time.\n"
-                + "Cure Potency: 200 for every remaining stack of Liturgy of the Bell\n"
-                + "This action does not share a recast timer with any other actions.";
-            elements[index].appendChild(i);
-        }
+        const data = [
+            {
+                name: "liturgy-of-the-bell",
+                src: "liturgy_of_the_bell.png",
+                alt: "Liturgy of the Bell リタージー・オブ・ベル",
+                title: "Liturgy of the Bell リタージー・オブ・ベル",
+                ariaLabel: "PH 180s all party Counter Heal",
+            },
+        ];
+        data.forEach(d => {
+            const elements = document.getElementsByClassName(d.name);
+            for (let index = 0; index < elements.length; index++) {
+                const i = document.createElement("img");
+                i.src = d.src;
+                i.alg = d.alt;
+                i.title = d.title;
+                elements[index].setAttribute("role", "tooltip");
+                elements[index].setAttribute("aria-label", d.ariaLabel);
+                elements[index].appendChild(i);
+            }
+        });
     });
 </script>
 
