@@ -84,6 +84,28 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "Barrier",
             },
             {
+                name: "aquaveil",
+                src: "aquaveil.png",
+                alt: "アクアヴェール Aquaveil",
+                title: "アクアヴェール Aquaveil",
+                ariaLabel:
+                    "アクアヴェール; リキャストタイム：60秒\n" +
+                    "15% 軽減\n" +
+                    "Aquaveil; Reacast: 60s\n" +
+                    "15% Mitigation",
+            },
+            {
+                name: "exaltation",
+                src: "exaltation.png",
+                alt: "エクザルテーション Exaltation",
+                title: "エクザルテーション Exaltation",
+                ariaLabel:
+                    "エクザルテーション; リキャストタイム：60秒\n" +
+                    "10% 軽減\n" +
+                    "Exaltation; Reacast: 60s\n" +
+                    "10% Mitigation",
+            },
+            {
                 name: "liturgy-of-the-bell",
                 src: "liturgy_of_the_bell.png",
                 alt: "リタージー・オブ・ベル Liturgy of the Bell",
@@ -185,7 +207,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 30s | <span class="divine-benison"></span> | <span class="celestial-intersection"></span>
 | 120s | <span class="temperance"></span> | <span class="neutral-sect"></span>
 | 60s | | ![Collective Unconscious](collective_unconscious.png)
-| 60s | ![Aquaveil](aquaveil.png) | ![Exaltation](exaltation.png)
+| 60s | <span class="aquaveil"></span> | <span class="exaltation"></span>
 | 180s | <span class="liturgy-of-the-bell"></span> | <span class="macrocosmos"></span>
 
 |     | SCH | SGE
