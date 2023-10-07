@@ -40,6 +40,28 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
     window.addEventListener('DOMContentLoaded', function() {
         const data = [
             {
+                name: "divine-benison",
+                src: "divine_benison.png",
+                alt: "ディヴァインベニゾン Divine Benison",
+                title: "ディヴァインベニゾン Divine Benison",
+                ariaLabel:
+                    "ディヴァインベニゾン; リキャストタイム 30秒\n" +
+                    "バリア\n" +
+                    "Divine Benison; Reacast: 30s\n" +
+                    "Barrier",
+            },
+            {
+                name: "celestial-intersection",
+                src: "celestial_intersection.png",
+                alt: "星天交差 Celestial Intersection",
+                title: "星天交差 Celestial Intersection",
+                ariaLabel:
+                    "星天交差; リキャストタイム 30秒\n" +
+                    "バリア\n" +
+                    "Celestial Intersection; Reacast: 30s\n" +
+                    "Barrier",
+            },
+            {
                 name: "temperance",
                 src: "temperance.png",
                 alt: "テンパランス Temperance",
@@ -160,7 +182,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 |     | WHM | AST
 | :-: | :-: | :-:
-| 30s | ![Divine Benison](divine_benison.png) | ![Celestial Intersection](celestial_intersection.png)
+| 30s | <span class="divine-benison"></span> | <span class="celestial-intersection"></span>
 | 120s | <span class="temperance"></span> | <span class="neutral-sect"></span>
 | 60s | | ![Collective Unconscious](collective_unconscious.png)
 | 60s | ![Aquaveil](aquaveil.png) | ![Exaltation](exaltation.png)
@@ -187,14 +209,14 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 | Time | Action | 属性 | MT (PLD)<br>H1 (WHM)<br>D1<br>D3 (BRD) | ST (DRK)<br>D2<br>D4
 | :--- | :----- | :--: | :------- | :-------
-| 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Bulwark](bulwark.png)<sup><a href="#mt_drk_physical_90s">\[2\]</a></sup>![Divine Benison](divine_benison.png)![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)
+| 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Bulwark](bulwark.png)<sup><a href="#mt_drk_physical_90s">\[2\]</a></sup><span class="divine-benison"></span>![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)
 | 00:57 | 邪竜の魔炎<br>the Dragon's Rage | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)
 | 00:58 | スカイワードリープ<br>Skyward Leap | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)
 | 00:58 | ホーリーシールドバッシュ<br>Holy Shield Bash | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
 | 01:01 | ホーリーブレードダンス<br>Holy Bladedance | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
 | 01:09 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Dark Missionary](dark_missionary.png)![Feint](feint.png)![Addle](addle.png)
-| 01:19 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Sentinel](sentinel.png)![Divine Benison](divine_benison.png)![Feint](feint.png) | ![Reprisal](reprisal.png)
-| 01:23 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Feint](feint.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)<span class="make_no_sense">![Dark Mind](dark_mind.png)</span><sup><a href="#st_drk_physical_90s">\[3\]</sup>![Shadow Wall](shadow_wall.png)</a>![Divine Benison](divine_benison.png)
+| 01:19 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Sentinel](sentinel.png)<span class="divine-benison"></span>![Feint](feint.png) | ![Reprisal](reprisal.png)
+| 01:23 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Feint](feint.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)<span class="make_no_sense">![Dark Mind](dark_mind.png)</span><sup><a href="#st_drk_physical_90s">\[3\]</sup>![Shadow Wall](shadow_wall.png)</a><span class="divine-benison"></span>
 | 01:51 | セイクリッドカット<br>Sacred Sever | ![Physical](physical.png) | ![Troubadour](troubadour.png)
 | 02:09 | ハイマルストーム<br>Hiemal Storm | ![Magic](magic.png)
 | 02:44 | アルティメットエンド<br>Ultimate End | ![Magic](magic.png) |  | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
@@ -218,19 +240,19 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 09:21 | レベレーション・アスカロンメルシー<br>Ascalon's Mercy Revealed | ![Physical](physical.png) | ![Divine Veil](divine_veil.png)
 | 09:21 | ヘブンリキッド<br>Liquid Heaven | ![Magic](magic.png)
 | 09:35 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Troubadour](troubadour.png)
-| 09:46 | ヘヴンリーヒール<br>Heavenly Heel<sup><a href="#war_holmgang">\[1\]</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Rampart](rampart.png)![Bulwark](bulwark.png)<sup><a href="#mt_drk_physical_90s">\[2\]</a></sup>![Sentinel](sentinel.png)![Divine Benison](divine_benison.png)![Feint](feint.png)![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)
-| 09:50 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | ![Physical](physical.png) | ![Feint](feint.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Reprisal](reprisal.png)![Rampart](rampart.png)![Divine Benison](divine_benison.png)
+| 09:46 | ヘヴンリーヒール<br>Heavenly Heel<sup><a href="#war_holmgang">\[1\]</a></sup> | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Rampart](rampart.png)![Bulwark](bulwark.png)<sup><a href="#mt_drk_physical_90s">\[2\]</a></sup>![Sentinel](sentinel.png)<span class="divine-benison"></span>![Feint](feint.png)![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)
+| 09:50 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | ![Physical](physical.png) | ![Feint](feint.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Reprisal](reprisal.png)![Rampart](rampart.png)<span class="divine-benison"></span>
 | 10:33 | フェイスアンムーブ<br>Faith Unmoving | ![Physical](physical.png)
 | 10:36 | ヘヴンフレイム<br>Heavensflame | ![Magic](magic.png)
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | | ![Reprisal](reprisal.png)![Addle](addle.png)
-| 11:16 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Reprisal](reprisal.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)<span class="make_no_sense">![Dark Mind](dark_mind.png)</span><sup><a href="#st_drk_physical_90s">\[3\]</a></sup>![Shadow Wall](shadow_wall.png)![Divine Benison](divine_benison.png)![Feint](feint.png)
-| 11:19 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Reprisal](reprisal.png)![Rampart](rampart.png)![Divine Benison](divine_benison.png) | ![Feint](feint.png)
+| 11:16 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Reprisal](reprisal.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)<span class="make_no_sense">![Dark Mind](dark_mind.png)</span><sup><a href="#st_drk_physical_90s">\[3\]</a></sup>![Shadow Wall](shadow_wall.png)<span class="divine-benison"></span>![Feint](feint.png)
+| 11:19 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Reprisal](reprisal.png)![Rampart](rampart.png)<span class="divine-benison"></span> | ![Feint](feint.png)
 | 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png)<span class="temperance"></span> | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)
 | 12:23 | アク・アファー<br>Akh Afah | ![Magic](magic.png) | ![Reprisal](reprisal.png)
-| 12:36 | ホーリーフェザー<br>Hallowed Plume | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![Bulwark](bulwark.png)![Divine Benison](divine_benison.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Dark Mind](dark_mind.png)![Divine Benison](divine_benison.png)
+| 12:36 | ホーリーフェザー<br>Hallowed Plume | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![Bulwark](bulwark.png)<span class="divine-benison"></span> | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Dark Mind](dark_mind.png)<span class="divine-benison"></span>
 | 13:02 | アク・モーン<br>Akh Morn | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)<span class="liturgy-of-the-bell"></span>![Feint](feint.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)![Addle](addle.png)
 | 13:32 | アク・アファー<br>Akh Afah | ![Magic](magic.png) | ![Reprisal](reprisal.png)
-| 13:45 | ホーリーフェザー<br>Hallowed Plume | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![Rampart](rampart.png)![Divine Benison](divine_benison.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Shadow Wall](shadow_wall.png)![Divine Benison](divine_benison.png)![Feint](feint.png)
+| 13:45 | ホーリーフェザー<br>Hallowed Plume | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![Rampart](rampart.png)<span class="divine-benison"></span> | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Shadow Wall](shadow_wall.png)<span class="divine-benison"></span>![Feint](feint.png)
 | 14:04 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png)<span class="temperance"></span> | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)
 | 14:17 | カータライズ<br>Cauterize | ![Magic](magic.png) | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)
 | 15:07 | 苦悶の咆哮<br>Resentment | ![Magic](magic.png)
