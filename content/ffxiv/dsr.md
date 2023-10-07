@@ -63,6 +63,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 i.title = d.title;
                 elements[index].setAttribute("role", "tooltip");
                 elements[index].setAttribute("aria-label", d.ariaLabel);
+                elements[index].setAttribute("data-microtip-position", "top");
                 elements[index].appendChild(i);
             }
         });
