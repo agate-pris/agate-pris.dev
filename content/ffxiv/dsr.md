@@ -42,16 +42,20 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
             {
                 name: "liturgy-of-the-bell",
                 src: "liturgy_of_the_bell.png",
-                alt: "Liturgy of the Bell リタージー・オブ・ベル",
-                title: "Liturgy of the Bell リタージー・オブ・ベル",
-                ariaLabel: "PH 180s all party Counter Heal",
+                alt: "リタージー・オブ・ベル Liturgy of the Bell",
+                title: "リタージー・オブ・ベル Liturgy of the Bell",
+                ariaLabel:
+                    "リタージー・オブ・ベル; リキャストタイム：180秒, カウンターヒール, 効果時間：20秒.\n" +
+                    "Liturgy of the Bell; Reacast: 180s, Counter Heal, Duration:20s.",
             },
             {
                 name: "macrocosmos",
                 src: "macrocosmos_01.png",
-                alt: "Macrocosmos マクロコスモス",
-                title: "Macrocosmos マクロコスモス",
-                ariaLabel: "PH 180s all party Counter Heal",
+                alt: "マクロコスモス Macrocosmos",
+                title: "マクロコスモス Macrocosmos",
+                ariaLabel:
+                    "マクロコスモス; リキャストタイム：180秒, カウンターヒール, 効果時間：15秒.\n" +
+                    "Macrocosmos; Reacast: 180s, Counter Heal, Duration:15s.",
             },
         ];
         data.forEach(d => {
