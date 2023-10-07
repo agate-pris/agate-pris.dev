@@ -161,10 +161,10 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 |     | WHM | AST
 | :-: | :-: | :-:
 | 30s | ![Divine Benison](divine_benison.png) | ![Celestial Intersection](celestial_intersection.png)
-| 120s | <span class="temperance"></span> | <span class="temperance"></span>
+| 120s | <span class="temperance"></span> | <span class="neutral-sect"></span>
 | 60s | | ![Collective Unconscious](collective_unconscious.png)
 | 60s | ![Aquaveil](aquaveil.png) | ![Exaltation](exaltation.png)
-| 180s | <span class="liturgy-of-the-bell"></span> | <span class="neutral-sect"></span>
+| 180s | <span class="liturgy-of-the-bell"></span> | <span class="macrocosmos"></span>
 
 |     | SCH | SGE
 | :-: | :-: | :-:
