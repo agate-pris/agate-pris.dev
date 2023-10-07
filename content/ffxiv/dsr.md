@@ -124,6 +124,39 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "Macrocosmos; Reacast: 180s, Counter Heal, Duration:15s.",
             },
             {
+                name: "whispering-dawn",
+                src: "whispering_dawn.png",
+                alt: "光の囁き Whispering Dawn",
+                title: "光の囁き Whispering Dawn",
+                ariaLabel:
+                    "光の囁き; リキャストタイム 60秒\n" +
+                    "継続回復, 効果時間：21秒\n" +
+                    "Whispering Dawn; Reacast: 60s\n" +
+                    "Gradually Cure, Duration: 21s ",
+            },
+            {
+                name: "adloquium",
+                src: "adloquium.png",
+                alt: "鼓舞激励の策 Adloquium",
+                title: "鼓舞激励の策 Adloquium",
+                ariaLabel:
+                    "鼓舞激励の策; リキャストタイム 2.5秒\n" +
+                    "回復 + バリア\n" +
+                    "Adloquium; Reacast: 2.5s\n" +
+                    "Cure + Barrier",
+            },
+            {
+                name: "succor",
+                src: "succor.png",
+                alt: "士気高揚の策 Succor",
+                title: "士気高揚の策 Succor",
+                ariaLabel:
+                    "士気高揚の策; リキャストタイム 2.5秒\n" +
+                    "回復 + バリア\n" +
+                    "Succor; Reacast: 2.5s\n" +
+                    "Cure + Barrier",
+            },
+            {
                 name: "sacred-soil",
                 src: "sacred_soil.png",
                 alt: "野戦治療の陣 Sacred Soil",
@@ -133,6 +166,17 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "10% 軽減\n" +
                     "Sacred Soil; Reacast: 30s\n" +
                     "10% Mitigation",
+            },
+            {
+                name: "deployment-tactics",
+                src: "deployment_tactics.png",
+                alt: "展開戦術 Deployment Tactics",
+                title: "展開戦術 Deployment Tactics",
+                ariaLabel:
+                    "展開戦術; リキャストタイム 90秒\n" +
+                    "バリア拡散\n" +
+                    "Deployment Tactics; Reacast: 90s\n" +
+                    "Extends Barieer",
             },
             {
                 name: "kerachole",
@@ -155,6 +199,17 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "カウンターヒール, 効果時間：45秒\n" +
                     "Excogitation; Reacast: 45s\n" +
                     "Counter Heal, Duration:45s",
+            },
+            {
+                name: "recitation",
+                src: "recitation.png",
+                alt: "秘策 Recitation",
+                title: "秘策 Recitation",
+                ariaLabel:
+                    "秘策; リキャストタイム：90秒\n" +
+                    "回復・バリアクリティカル確定, 効果時間：15秒\n" +
+                    "Recitation; Reacast: 90s\n" +
+                    "Ensuring cure and barrier critical, Duration:15s",
             },
             {
                 name: "protraction",
@@ -314,14 +369,14 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | | ![Reprisal](reprisal.png)![Addle](addle.png)
 | 11:16 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Reprisal](reprisal.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)<span class="make_no_sense">![Dark Mind](dark_mind.png)</span><sup><a href="#st_drk_physical_90s">\[3\]</a></sup>![Shadow Wall](shadow_wall.png)<span class="divine-benison"></span>![Feint](feint.png)
 | 11:19 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Reprisal](reprisal.png)![Rampart](rampart.png)<span class="divine-benison"></span> | ![Feint](feint.png)
-| 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png)<span class="temperance"></span> | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)
-| 12:23 | アク・アファー<br>Akh Afah | ![Magic](magic.png) | ![Reprisal](reprisal.png) | <span class="sacred-soil"></span>
-| 12:36 | ホーリーフェザー<br>Hallowed Plume | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![Bulwark](bulwark.png)<span class="divine-benison"></span><span class="aquaveil"></span> | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Dark Mind](dark_mind.png)<span class="divine-benison"></span>
-| 13:02 | アク・モーン<br>Akh Morn | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)<span class="liturgy-of-the-bell"></span>![Feint](feint.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)<span class="sacred-soil"></span>![Addle](addle.png)
-| 13:32 | アク・アファー<br>Akh Afah | ![Magic](magic.png) | ![Reprisal](reprisal.png) | <span class="sacred-soil"></span>
-| 13:45 | ホーリーフェザー<br>Hallowed Plume | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![Rampart](rampart.png)<span class="divine-benison"></span><span class="aquaveil"></span> | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Shadow Wall](shadow_wall.png)<span class="divine-benison"></span>![Feint](feint.png)
-| 14:04 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png)<span class="temperance"></span> | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)
-| 14:17 | カータライズ<br>Cauterize | ![Magic](magic.png) | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)<span class="sacred-soil"></span>
+| 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png)<span class="temperance"></span> | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)<span class="recitation"></span><span class="adloquium"></span><span class="deployment-tactics">
+| 12:23 | アク・アファー<br>Akh Afah | ![Magic](magic.png) | ![Reprisal](reprisal.png) | <span class="sacred-soil"></span><span class="succor"></span>
+| 12:36 | ホーリーフェザー<br>Hallowed Plume | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![Bulwark](bulwark.png)<span class="divine-benison"></span><span class="aquaveil"></span><span class="adloquium"></span> | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Dark Mind](dark_mind.png)<span class="divine-benison"></span><span class="protraction"></span><span class="adloquium"></span>
+| 13:02 | アク・モーン<br>Akh Morn | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)<span class="liturgy-of-the-bell"></span>![Feint](feint.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)<span class="sacred-soil"></span><span class="succor"></span>![Addle](addle.png)
+| 13:32 | アク・アファー<br>Akh Afah | ![Magic](magic.png) | ![Reprisal](reprisal.png) | <span class="sacred-soil"></span><span class="succor"></span>
+| 13:45 | ホーリーフェザー<br>Hallowed Plume | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![Rampart](rampart.png)<span class="divine-benison"></span><span class="aquaveil"></span><span class="adloquium"></span> | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Shadow Wall](shadow_wall.png)<span class="divine-benison"></span><span class="protraction"></span><span class="adloquium"></span>![Feint](feint.png)
+| 14:04 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png)<span class="temperance"></span> | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)<span class="recitation"></span><span class="adloquium"></span><span class="deployment-tactics">
+| 14:17 | カータライズ<br>Cauterize | ![Magic](magic.png) | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)<span class="sacred-soil"></span><span class="succor"></span>
 | 15:07 | 苦悶の咆哮<br>Resentment | ![Magic](magic.png)
 | 15:24 | 衝撃波<br>Shockwave | ![Magic](magic.png)
 | 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Passage of Arms](passage_of_arms.png) | ![Dark Missionary](dark_missionary.png)<span class="sacred-soil"></span>![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)
