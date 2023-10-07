@@ -46,6 +46,13 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 title: "Liturgy of the Bell リタージー・オブ・ベル",
                 ariaLabel: "PH 180s all party Counter Heal",
             },
+            {
+                name: "macrocosmos",
+                src: "macrocosmos_01.png",
+                alt: "Macrocosmos マクロコスモス",
+                title: "Macrocosmos マクロコスモス",
+                ariaLabel: "PH 180s all party Counter Heal",
+            },
         ];
         data.forEach(d => {
             const elements = document.getElementsByClassName(d.name);
@@ -86,7 +93,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 120s | ![Temperance](temperance.png) | ![Neutral Sect](neutral_sect.png)
 | 60s | | ![Collective Unconscious](collective_unconscious.png)
 | 60s | ![Aquaveil](aquaveil.png) | ![Exaltation](exaltation.png)
-| 180s | <span class="liturgy-of-the-bell"></span> | ![Macrocosmos](macrocosmos_01.png)
+| 180s | <span class="liturgy-of-the-bell"></span> | <span class="macrocosmos"></span>
 
 |     | SCH | SGE
 | :-: | :-: | :-:
