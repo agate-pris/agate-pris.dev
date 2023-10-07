@@ -75,34 +75,34 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 <span class="mitigation-cheat-sheet">
 
-| PLD | WAR | DRK | GNB
-| :-: | :-: | :-: | :-:
-| ![Sentinel](sentinel.png) | ![Vengeance](vengeance.png) | ![Shadow Wall](shadow_wall.png) | ![Nebula](nebula.png)
-| ![Bulwark](bulwark.png) | ![Thrill of Battle](thrill_of_battle.png) | ![Dark Mind](dark_mind.png) | ![Camouflage](camouflage.png)
-| ![Hallowed Ground](hallowed_ground.png) | ![Holmgang](holmgang.png) | ![Living Dead](living_dead.png) | ![Superbolide](superbolide.png)
-| ![Holy Sheltron](holy_sheltron.png) | ![Bloodwhetting](bloodwhetting.png) | ![The Blackest Night](the_blackest_night.png) | ![Heart of Corundum](heart_of_corundum.png)
-| ![Intervention](intervention.png) | ![Nascent Flash](nascent_flash.png) | ![Oblation](oblation.png)
-| ![Divine Veil](divine_veil.png) | ![Shake It Off](shake_it_off.png) | ![Dark Missionary](dark_missionary.png) | ![Heart of Light](heart_of_light.png)
-| ![Passage of Arms](passage_of_arms.png)
+|     | PLD | WAR | DRK | GNB
+| :-: | :-: | :-: | :-: | :-:
+| 120s | ![Sentinel](sentinel.png) | ![Vengeance](vengeance.png) | ![Shadow Wall](shadow_wall.png) | ![Nebula](nebula.png)
+| 90s | ![Bulwark](bulwark.png) | ![Thrill of Battle](thrill_of_battle.png) | ![Dark Mind](dark_mind.png) | ![Camouflage](camouflage.png)
+| Invul | ![Hallowed Ground](hallowed_ground.png) | ![Holmgang](holmgang.png) | ![Living Dead](living_dead.png) | ![Superbolide](superbolide.png)
+| Short 1 | ![Holy Sheltron](holy_sheltron.png) | ![Bloodwhetting](bloodwhetting.png) | ![The Blackest Night](the_blackest_night.png) | ![Heart of Corundum](heart_of_corundum.png)
+| Short 2 | ![Intervention](intervention.png) | ![Nascent Flash](nascent_flash.png) | ![Oblation](oblation.png)
+| 90s | ![Divine Veil](divine_veil.png) | ![Shake It Off](shake_it_off.png) | ![Dark Missionary](dark_missionary.png) | ![Heart of Light](heart_of_light.png)
+| 120s | ![Passage of Arms](passage_of_arms.png)
 
-| WHM | AST
-| :-: | :-:
-| ![Divine Benison](divine_benison.png) | ![Celestial Intersection](celestial_intersection.png)
-| ![Temperance](temperance.png) | ![Neutral Sect](neutral_sect.png)
-| | ![Collective Unconscious](collective_unconscious.png)
-| ![Aquaveil](aquaveil.png) | ![Exaltation](exaltation.png)
-| <span class="liturgy-of-the-bell"></span> | ![Macrocosmos](macrocosmos_01.png)
-
-| SCH | SGE
-| :-: | :-:
-| ![Sacred Soil](sacred_soil.png) | ![Kerachole](kerachole.png)
-| ![Fey Illumination](fey_illumination.png) | ![Haima](haima.png)
-| ![Summon Seraph](summon_seraph.png) | ![Panhaima](panhaima.png)
-| ![Expedient](expedient.png) | ![Holos](holos.png)
-
-| BRD | MCH | DNC
+|     | WHM | AST
 | :-: | :-: | :-:
-| ![Troubadour](troubadour.png) | ![Tactician](tactician.png) | ![Shield Samba](shield_samba.png)
+| 30s | ![Divine Benison](divine_benison.png) | ![Celestial Intersection](celestial_intersection.png)
+| 120s | ![Temperance](temperance.png) | ![Neutral Sect](neutral_sect.png)
+| 60s | | ![Collective Unconscious](collective_unconscious.png)
+| 60s | ![Aquaveil](aquaveil.png) | ![Exaltation](exaltation.png)
+| 180s | <span class="liturgy-of-the-bell"></span> | ![Macrocosmos](macrocosmos_01.png)
+
+|     | SCH | SGE
+| :-: | :-: | :-:
+| 30s | ![Sacred Soil](sacred_soil.png) | ![Kerachole](kerachole.png)
+| 120s | ![Fey Illumination](fey_illumination.png) | ![Haima](haima.png)
+| 120s | ![Summon Seraph](summon_seraph.png) | ![Panhaima](panhaima.png)
+| 120s | ![Expedient](expedient.png) | ![Holos](holos.png)
+
+|     | BRD | MCH | DNC
+| :-: | :-: | :-: | :-:
+| 90s | ![Troubadour](troubadour.png) | ![Tactician](tactician.png) | ![Shield Samba](shield_samba.png)
 
 </span>
 
