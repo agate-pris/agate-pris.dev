@@ -124,6 +124,28 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "Macrocosmos; Reacast: 180s, Counter Heal, Duration:15s.",
             },
             {
+                name: "sacred-soil",
+                src: "sacred_soil.png",
+                alt: "野戦治療の陣 Sacred Soil",
+                title: "野戦治療の陣 Sacred Soil",
+                ariaLabel:
+                    "野戦治療の陣; リキャストタイム 30秒\n" +
+                    "10% 軽減\n" +
+                    "Sacred Soil; Reacast: 30s\n" +
+                    "10% Mitigation",
+            },
+            {
+                name: "kerachole",
+                src: "kerachole.png",
+                alt: "ケーラコレ Kerachole",
+                title: "ケーラコレ Kerachole",
+                ariaLabel:
+                    "ケーラコレ; リキャストタイム 30秒\n" +
+                    "10% 軽減\n" +
+                    "Kerachole; Reacast: 30s\n" +
+                    "10% Mitigation",
+            },
+            {
                 name: "excogitation",
                 src: "excogitation.png",
                 alt: "深謀遠慮の策 Excogitation",
@@ -212,7 +234,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 |     | SCH | SGE
 | :-: | :-: | :-:
-| 30s | ![Sacred Soil](sacred_soil.png) | ![Kerachole](kerachole.png)
+| 30s | <span class="sacred-soil"></span> | <span class="kerachole"></span>
 | 45s | <span class="excogitation"></span> | <span class="taurochole"></span>
 | 1s | <span class="lustrate"></span> | <span class="druochole"></span>
 | 120s | ![Fey Illumination](fey_illumination.png) | ![Haima](haima.png)
@@ -279,11 +301,11 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 14:17 | カータライズ<br>Cauterize | ![Magic](magic.png) | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)
 | 15:07 | 苦悶の咆哮<br>Resentment | ![Magic](magic.png)
 | 15:24 | 衝撃波<br>Shockwave | ![Magic](magic.png)
-| 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Passage of Arms](passage_of_arms.png) | ![Dark Missionary](dark_missionary.png)![Sacred Soil](sacred_soil.png)![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)
-| 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="temperance"></span>![Feint](feint.png) | ![Sacred Soil](sacred_soil.png)![Addle](addle.png)
-| 16:48 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)![Sacred Soil](sacred_soil.png)![Feint](feint.png)
-| 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Divine Veil](divine_veil.png)<span class="liturgy-of-the-bell"></span> | ![Dark Missionary](dark_missionary.png)![Sacred Soil](sacred_soil.png)
-| 18:08 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Feint](feint.png) | ![Reprisal](reprisal.png)![Sacred Soil](sacred_soil.png)![Addle](addle.png)
+| 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Passage of Arms](passage_of_arms.png) | ![Dark Missionary](dark_missionary.png)<span class="sacred-soil"></span>![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)
+| 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="temperance"></span>![Feint](feint.png) | <span class="sacred-soil"></span>![Addle](addle.png)
+| 16:48 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)<span class="sacred-soil"></span>![Feint](feint.png)
+| 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Divine Veil](divine_veil.png)<span class="liturgy-of-the-bell"></span> | ![Dark Missionary](dark_missionary.png)<span class="sacred-soil"></span>
+| 18:08 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Feint](feint.png) | ![Reprisal](reprisal.png)<span class="sacred-soil"></span>![Addle](addle.png)
 | 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="temperance"></span>![Troubadour](troubadour.png) | ![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)![Feint](feint.png)
 
 </span>
