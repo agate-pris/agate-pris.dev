@@ -57,6 +57,50 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "マクロコスモス; リキャストタイム：180秒, カウンターヒール, 効果時間：15秒.\n" +
                     "Macrocosmos; Reacast: 180s, Counter Heal, Duration:15s.",
             },
+            {
+                name: "excogitation",
+                src: "excogitation.png",
+                alt: "深謀遠慮の策 Excogitation",
+                title: "深謀遠慮の策 Excogitation",
+                ariaLabel:
+                    "深謀遠慮の策; リキャストタイム：45秒\n" +
+                    "カウンターヒール, 効果時間：45秒\n" +
+                    "Excogitation; Reacast: 45s\n" +
+                    "Counter Heal, Duration:45s",
+            },
+            {
+                name: "taurochole",
+                src: "taurochole.png",
+                alt: "タウロコレ Taurochole",
+                title: "タウロコレ Taurochole",
+                ariaLabel:
+                    "タウロコレ; リキャストタイム：45秒\n" +
+                    "回復 + 10% 軽減, 効果時間：15秒\n" +
+                    "Taurochole; Reacast: 45s\n" +
+                    "Cure + 10% Mitigation, Duration:15s",
+            },
+            {
+                name: "lustrate",
+                src: "lustrate.png",
+                alt: "生命活性法  Lustrate",
+                title: "生命活性法  Lustrate",
+                ariaLabel:
+                    "生命活性法 ; リキャストタイム：1秒\n" +
+                    "回復\n" +
+                    "Lustrate; Reacast: 1s\n" +
+                    "Cure",
+            },
+            {
+                name: "druochole",
+                src: "druochole.png",
+                alt: "ドルオコレ Druochole",
+                title: "ドルオコレ Druochole",
+                ariaLabel:
+                    "ドルオコレ; リキャストタイム：1秒\n" +
+                    "回復\n" +
+                    "ドルオコレ; Reacast: 1s\n" +
+                    "Cure",
+            },
         ];
         data.forEach(d => {
             const elements = document.getElementsByClassName(d.name);
@@ -103,6 +147,8 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 |     | SCH | SGE
 | :-: | :-: | :-:
 | 30s | ![Sacred Soil](sacred_soil.png) | ![Kerachole](kerachole.png)
+| 45s | <span class="excogitation"></span> | <span class="taurochole"></span>
+| 1s | <span class="lustrate"></span> | <span class="druochole"></span>
 | 120s | ![Fey Illumination](fey_illumination.png) | ![Haima](haima.png)
 | 120s | ![Summon Seraph](summon_seraph.png) | ![Panhaima](panhaima.png)
 | 120s | ![Expedient](expedient.png) | ![Holos](holos.png)
