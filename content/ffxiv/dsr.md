@@ -40,6 +40,28 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
     window.addEventListener('DOMContentLoaded', function() {
         const data = [
             {
+                name: "temperance",
+                src: "temperance.png",
+                alt: "テンパランス Temperance",
+                title: "テンパランス Temperance",
+                ariaLabel:
+                    "テンパランス; リキャストタイム：120秒\n" +
+                    "回復 + 10% 軽減\n" +
+                    "Temperance; Reacast: 120s\n" +
+                    "Cure + 10% Mitigation",
+            },
+            {
+                name: "neutral-sect",
+                src: "neutral_sect.png",
+                alt: "ニュートラルセクト Neutral Sect",
+                title: "ニュートラルセクト Neutral Sect",
+                ariaLabel:
+                    "ニュートラルセクト; リキャストタイム：120秒\n" +
+                    "バリア\n" +
+                    "Neutral Sect; Reacast: 120s\n" +
+                    "Barrier",
+            },
+            {
                 name: "liturgy-of-the-bell",
                 src: "liturgy_of_the_bell.png",
                 alt: "リタージー・オブ・ベル Liturgy of the Bell",
@@ -139,10 +161,10 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 |     | WHM | AST
 | :-: | :-: | :-:
 | 30s | ![Divine Benison](divine_benison.png) | ![Celestial Intersection](celestial_intersection.png)
-| 120s | ![Temperance](temperance.png) | ![Neutral Sect](neutral_sect.png)
+| 120s | <span class="temperance"></span> | <span class="temperance"></span>
 | 60s | | ![Collective Unconscious](collective_unconscious.png)
 | 60s | ![Aquaveil](aquaveil.png) | ![Exaltation](exaltation.png)
-| 180s | <span class="liturgy-of-the-bell"></span> | <span class="macrocosmos"></span>
+| 180s | <span class="liturgy-of-the-bell"></span> | <span class="neutral-sect"></span>
 
 |     | SCH | SGE
 | :-: | :-: | :-:
@@ -214,11 +236,11 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 15:07 | 苦悶の咆哮<br>Resentment | ![Magic](magic.png)
 | 15:24 | 衝撃波<br>Shockwave | ![Magic](magic.png)
 | 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Passage of Arms](passage_of_arms.png) | ![Dark Missionary](dark_missionary.png)![Sacred Soil](sacred_soil.png)![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)
-| 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Temperance](temperance.png)![Feint](feint.png) | ![Sacred Soil](sacred_soil.png)![Addle](addle.png)
+| 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="temperance"></span>![Feint](feint.png) | ![Sacred Soil](sacred_soil.png)![Addle](addle.png)
 | 16:48 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)![Sacred Soil](sacred_soil.png)![Feint](feint.png)
 | 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Divine Veil](divine_veil.png)<span class="liturgy-of-the-bell"></span> | ![Dark Missionary](dark_missionary.png)![Sacred Soil](sacred_soil.png)
 | 18:08 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Feint](feint.png) | ![Reprisal](reprisal.png)![Sacred Soil](sacred_soil.png)![Addle](addle.png)
-| 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Temperance](temperance.png)![Troubadour](troubadour.png) | ![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)![Feint](feint.png)
+| 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="temperance"></span>![Troubadour](troubadour.png) | ![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)![Feint](feint.png)
 
 </span>
 
