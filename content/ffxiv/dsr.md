@@ -157,6 +157,28 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "Counter Heal, Duration:45s",
             },
             {
+                name: "protraction",
+                src: "protraction.png",
+                alt: "生命回生法 Protraction",
+                title: "生命回生法 Protraction",
+                ariaLabel:
+                    "生命回生法; リキャストタイム：60秒\n" +
+                    "最大 HP 10% 上昇, 効果時間：10秒\n" +
+                    "Protraction; Reacast: 60s\n" +
+                    "Increases Max HP by 10%, Duration:10s",
+            },
+            {
+                name: "krasis",
+                src: "krasis.png",
+                alt: "クラーシス Krasis",
+                title: "クラーシス Krasis",
+                ariaLabel:
+                    "クラーシス; リキャストタイム：60秒\n" +
+                    "被回復効果 20% 上昇, 効果時間：10秒\n" +
+                    "Krasis; Reacast: 60s\n" +
+                    "Increases HP recovery via healing by 20%, Duration:10s",
+            },
+            {
                 name: "taurochole",
                 src: "taurochole.png",
                 alt: "タウロコレ Taurochole",
@@ -236,6 +258,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | :-: | :-: | :-:
 | 30s | <span class="sacred-soil"></span> | <span class="kerachole"></span>
 | 45s | <span class="excogitation"></span> | <span class="taurochole"></span>
+| 60s | <span class="protraction"></span> | <span class="krasis"></span>
 | 1s | <span class="lustrate"></span> | <span class="druochole"></span>
 | 120s | ![Fey Illumination](fey_illumination.png) | ![Haima](haima.png)
 | 120s | ![Summon Seraph](summon_seraph.png) | ![Panhaima](panhaima.png)
