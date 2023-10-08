@@ -338,7 +338,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 01:01 | ホーリーブレードダンス<br>Holy Bladedance | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
 | 01:09 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Dark Missionary](dark_missionary.png)![Feint](feint.png)![Addle](addle.png)
 | 01:19 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Sentinel](sentinel.png)<span class="divine-benison"></span>![Feint](feint.png) | ![Reprisal](reprisal.png)
-| 01:23 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Feint](feint.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)<span class="make_no_sense">![Dark Mind](dark_mind.png)</span><sup><a href="#st_drk_physical_90s">\[3\]</sup>![Shadow Wall](shadow_wall.png)</a><span class="divine-benison"></span>
+| 01:23 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Feint](feint.png) | ![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Reprisal](reprisal.png)<span class="make_no_sense">![Dark Mind](dark_mind.png)</span><sup><a href="#st_drk_physical_90s">\[3\]</sup>![Shadow Wall](shadow_wall.png)</a><span class="divine-benison"></span>
 | 01:51 | セイクリッドカット<br>Sacred Sever | ![Physical](physical.png) | ![Troubadour](troubadour.png)
 | 02:09 | ハイマルストーム<br>Hiemal Storm | ![Magic](magic.png)
 | 02:44 | アルティメットエンド<br>Ultimate End | ![Magic](magic.png) |  | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
