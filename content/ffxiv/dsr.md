@@ -391,6 +391,5 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 1. <span id="war_holmgang">戦士がいる場合ホルムギャングで置き換え可能。<br>WAR can replace the mitigations with Holmgang.</span>
 2. <span id="mt_drk_physical_90s">暗黒 MT の場合、ここでブルワークの代わりにダークマインドを使用しても意味がない。<br>If MT is DRK, it makes no sense to use Dark Mind instead of Bulwark here.</span>
 3. <span id="st_drk_physical_90s">暗黒 ST の場合、ここでダークマインドを使用しても実際には意味がない。暗黒以外が ST の場合、ここで 90 秒アビを使用する。<br>If DRK is ST, using Dark Mind here does not make actual sense. If the ST is other than DRK, use the 90s ability here.</span>
-4. <span id="steep_in_rage">両眼を残す場合のみ両方にリプライザルを入れる。<br>Only use Reprisal in both if you keep both eyes.</span>
 
 (C) SQUARE ENIX CO., LTD. All Rights Reserved.
