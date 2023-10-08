@@ -350,7 +350,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 06:03 | フレアディザスター<br>Flare Nova | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
 | 06:10 | フレアスター<br>Flare Star | ![Magic](magic.png) | ![Divine Veil](divine_veil.png)![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
 | 06:22 | ミラージュダイブ<br>Mirage Dive | ![Physical](physical.png)
-| 06:47 | 憤怒の波動<br>Steep in Rage<sup><a href="#steep_in_rage">\[4\]</a></sup> | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Reprisal](reprisal.png)
+| 06:47 | 憤怒の波動<br>Steep in Rage<sup><a href="#steep_in_rage">\[4\]</a></sup> | ![Magic](magic.png) | | ![Reprisal](reprisal.png)
 | 07:35 | 衝撃波<br>Shockwave | ![Magic](magic.png) | ![Limit Break](limit_break.png)
 | 07:40 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Limit Break](limit_break.png) | ![Addle](addle.png)
 | 07:45 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Divine Veil](divine_veil.png)![Feint](feint.png) | ![Addle](addle.png)
