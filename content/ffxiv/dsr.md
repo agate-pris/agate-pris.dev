@@ -448,11 +448,11 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 14:17 | カータライズ<br>Cauterize | ![Magic](magic.png) | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)<span class="sacred-soil"></span><span class="succor"></span>
 | 15:07 | 苦悶の咆哮<br>Resentment | ![Magic](magic.png)
 | 15:24 | 衝撃波<br>Shockwave | ![Magic](magic.png)
-| 15:35 | ペイン解除<br>Remove Bleeding | | | <span class="summon_seraph"></span>
+| 15:35 | ペイン解除<br>Remove Bleeding | | | <span class="summon_seraph"></span><span class="fey_illumination"></span>
 | 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | <span class="divine-veil"></span><span class="passage_of_arms"></span> | <span class="dark_missionary"></span><span class="sacred-soil"></span><span class="expedient"></span><span class="consolation"></span>
 | 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | <span class="reprisal"></span><span class="sentinel"></span><span class="temperance"></span><span class="feint"></span> | <span class="shadow_wall"></span><span class="sacred-soil"></span><span class="addle"></span>
 | 16:48 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Troubadour](troubadour.png) | <span class="reprisal"></span><span class="sacred-soil"></span><span class="feint"></span>
-| 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | <span class="reprisal"></span><span class="divine-veil"></span><span class="rampart"></span><span class="liturgy-of-the-bell"></span> | <span class="dark_missionary"></span><span class="rampart"></span><span class="sacred-soil"></span>
+| 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | <span class="reprisal"></span><span class="divine-veil"></span><span class="rampart"></span><span class="liturgy-of-the-bell"></span> | <span class="dark_missionary"></span><span class="rampart"></span><span class="sacred-soil"></span><span class="fey_illumination"></span> 
 | 18:08 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | <span class="feint"></span> | <span class="reprisal"></span><span class="sacred-soil"></span><span class="addle"></span>
 | 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | <span class="reprisal"></span><span class="sentinel"></span><span class="temperance"></span>![Troubadour](troubadour.png) | <span class="shadow_wall"></span><span class="expedient"></span><span class="summon_seraph"></span><span class="consolation"></span><span class="feint"></span>
 
