@@ -43,21 +43,18 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "divine-veil",
                 src: "divine_veil.png",
                 alt: "ディヴァインヴェール Divine Veil",
-                title: "ディヴァインヴェール Divine Veil",
                 ariaLabel: "Divine Veil; PLD 90s Barieer",
             },
             {
                 name: "passage_of_arms",
                 src: "passage_of_arms.png",
                 alt: "パッセージ・オブ・アームズ Passage of Arms",
-                title: "パッセージ・オブ・アームズ Passage of Arms",
                 ariaLabel: "Passage of Arms; PLD 120s Mitigation",
             },
             {
                 name: "divine-benison",
                 src: "divine_benison.png",
                 alt: "ディヴァインベニゾン Divine Benison",
-                title: "ディヴァインベニゾン Divine Benison",
                 ariaLabel:
                     "ディヴァインベニゾン; リキャストタイム 30秒\n" +
                     "バリア\n" +
@@ -68,7 +65,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "celestial-intersection",
                 src: "celestial_intersection.png",
                 alt: "星天交差 Celestial Intersection",
-                title: "星天交差 Celestial Intersection",
                 ariaLabel:
                     "星天交差; リキャストタイム 30秒\n" +
                     "バリア\n" +
@@ -79,7 +75,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "temperance",
                 src: "temperance.png",
                 alt: "テンパランス Temperance",
-                title: "テンパランス Temperance",
                 ariaLabel:
                     "テンパランス; リキャストタイム：120秒\n" +
                     "回復 + 10% 軽減\n" +
@@ -90,7 +85,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "neutral-sect",
                 src: "neutral_sect.png",
                 alt: "ニュートラルセクト Neutral Sect",
-                title: "ニュートラルセクト Neutral Sect",
                 ariaLabel:
                     "ニュートラルセクト; リキャストタイム：120秒\n" +
                     "バリア\n" +
@@ -101,7 +95,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "aquaveil",
                 src: "aquaveil.png",
                 alt: "アクアヴェール Aquaveil",
-                title: "アクアヴェール Aquaveil",
                 ariaLabel:
                     "アクアヴェール; リキャストタイム：60秒\n" +
                     "15% 軽減\n" +
@@ -112,7 +105,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "exaltation",
                 src: "exaltation.png",
                 alt: "エクザルテーション Exaltation",
-                title: "エクザルテーション Exaltation",
                 ariaLabel:
                     "エクザルテーション; リキャストタイム：60秒\n" +
                     "10% 軽減\n" +
@@ -123,7 +115,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "liturgy-of-the-bell",
                 src: "liturgy_of_the_bell.png",
                 alt: "リタージー・オブ・ベル Liturgy of the Bell",
-                title: "リタージー・オブ・ベル Liturgy of the Bell",
                 ariaLabel:
                     "リタージー・オブ・ベル; リキャストタイム：180秒, カウンターヒール, 効果時間：20秒.\n" +
                     "Liturgy of the Bell; Reacast: 180s, Counter Heal, Duration:20s.",
@@ -132,7 +123,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "macrocosmos",
                 src: "macrocosmos_01.png",
                 alt: "マクロコスモス Macrocosmos",
-                title: "マクロコスモス Macrocosmos",
                 ariaLabel:
                     "マクロコスモス; リキャストタイム：180秒, カウンターヒール, 効果時間：15秒.\n" +
                     "Macrocosmos; Reacast: 180s, Counter Heal, Duration:15s.",
@@ -141,7 +131,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "whispering-dawn",
                 src: "whispering_dawn.png",
                 alt: "光の囁き Whispering Dawn",
-                title: "光の囁き Whispering Dawn",
                 ariaLabel:
                     "光の囁き; リキャストタイム 60秒\n" +
                     "継続回復, 効果時間：21秒\n" +
@@ -152,7 +141,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "adloquium",
                 src: "adloquium.png",
                 alt: "鼓舞激励の策 Adloquium",
-                title: "鼓舞激励の策 Adloquium",
                 ariaLabel:
                     "鼓舞激励の策; リキャストタイム 2.5秒\n" +
                     "回復 + バリア\n" +
@@ -163,7 +151,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "succor",
                 src: "succor.png",
                 alt: "士気高揚の策 Succor",
-                title: "士気高揚の策 Succor",
                 ariaLabel:
                     "士気高揚の策; リキャストタイム 2.5秒\n" +
                     "回復 + バリア\n" +
@@ -174,7 +161,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "sacred-soil",
                 src: "sacred_soil.png",
                 alt: "野戦治療の陣 Sacred Soil",
-                title: "野戦治療の陣 Sacred Soil",
                 ariaLabel:
                     "野戦治療の陣; リキャストタイム 30秒\n" +
                     "10% 軽減\n" +
@@ -185,7 +171,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "deployment-tactics",
                 src: "deployment_tactics.png",
                 alt: "展開戦術 Deployment Tactics",
-                title: "展開戦術 Deployment Tactics",
                 ariaLabel:
                     "展開戦術; リキャストタイム 90秒\n" +
                     "バリア拡散\n" +
@@ -196,7 +181,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "kerachole",
                 src: "kerachole.png",
                 alt: "ケーラコレ Kerachole",
-                title: "ケーラコレ Kerachole",
                 ariaLabel:
                     "ケーラコレ; リキャストタイム 30秒\n" +
                     "10% 軽減\n" +
@@ -207,7 +191,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "excogitation",
                 src: "excogitation.png",
                 alt: "深謀遠慮の策 Excogitation",
-                title: "深謀遠慮の策 Excogitation",
                 ariaLabel:
                     "深謀遠慮の策; リキャストタイム：45秒\n" +
                     "カウンターヒール, 効果時間：45秒\n" +
@@ -218,7 +201,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "recitation",
                 src: "recitation.png",
                 alt: "秘策 Recitation",
-                title: "秘策 Recitation",
                 ariaLabel:
                     "秘策; リキャストタイム：90秒\n" +
                     "回復・バリアクリティカル確定, 効果時間：15秒\n" +
@@ -229,7 +211,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "protraction",
                 src: "protraction.png",
                 alt: "生命回生法 Protraction",
-                title: "生命回生法 Protraction",
                 ariaLabel:
                     "生命回生法; リキャストタイム：60秒\n" +
                     "最大 HP 10% 上昇, 効果時間：10秒\n" +
@@ -240,7 +221,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "krasis",
                 src: "krasis.png",
                 alt: "クラーシス Krasis",
-                title: "クラーシス Krasis",
                 ariaLabel:
                     "クラーシス; リキャストタイム：60秒\n" +
                     "被回復効果 20% 上昇, 効果時間：10秒\n" +
@@ -251,7 +231,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "taurochole",
                 src: "taurochole.png",
                 alt: "タウロコレ Taurochole",
-                title: "タウロコレ Taurochole",
                 ariaLabel:
                     "タウロコレ; リキャストタイム：45秒\n" +
                     "回復 + 10% 軽減, 効果時間：15秒\n" +
@@ -262,7 +241,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "lustrate",
                 src: "lustrate.png",
                 alt: "生命活性法  Lustrate",
-                title: "生命活性法  Lustrate",
                 ariaLabel:
                     "生命活性法 ; リキャストタイム：1秒\n" +
                     "回復\n" +
@@ -273,7 +251,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "druochole",
                 src: "druochole.png",
                 alt: "ドルオコレ Druochole",
-                title: "ドルオコレ Druochole",
                 ariaLabel:
                     "ドルオコレ; リキャストタイム：1秒\n" +
                     "回復\n" +
@@ -287,7 +264,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 const i = document.createElement("img");
                 i.src = d.src;
                 i.alg = d.alt;
-                i.title = d.title;
+                i.title = d.alt;
                 elements[index].setAttribute("role", "tooltip");
                 elements[index].setAttribute("aria-label", d.ariaLabel);
                 elements[index].setAttribute("data-microtip-position", "top");
