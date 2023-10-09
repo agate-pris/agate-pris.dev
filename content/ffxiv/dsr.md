@@ -52,6 +52,12 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 ariaLabel: "Passage of Arms; PLD 120s Mitigation",
             },
             {
+                name: "dark_missionary",
+                src: "dark_missionary.png",
+                alt: "ダークミッショナリー Dark Missionary",
+                ariaLabel: "Dark Missionary; DRK 90s Mitigation",
+            },
+            {
                 name: "divine-benison",
                 src: "divine_benison.png",
                 alt: "ディヴァインベニゾン Divine Benison",
@@ -289,7 +295,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | Invul | ![Hallowed Ground](hallowed_ground.png) | ![Holmgang](holmgang.png) | ![Living Dead](living_dead.png) | ![Superbolide](superbolide.png)
 | Short 1 | ![Holy Sheltron](holy_sheltron.png) | ![Bloodwhetting](bloodwhetting.png) | ![The Blackest Night](the_blackest_night.png) | ![Heart of Corundum](heart_of_corundum.png)
 | Short 2 | ![Intervention](intervention.png) | ![Nascent Flash](nascent_flash.png) | ![Oblation](oblation.png)
-| 90s | <span class="divine-veil"></span> | ![Shake It Off](shake_it_off.png) | ![Dark Missionary](dark_missionary.png) | ![Heart of Light](heart_of_light.png)
+| 90s | <span class="divine-veil"></span> | ![Shake It Off](shake_it_off.png) | <span class="dark_missionary"></span> | ![Heart of Light](heart_of_light.png)
 | 120s | <span class="passage_of_arms"></span>
 
 |     | WHM | AST
@@ -329,27 +335,27 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 00:58 | スカイワードリープ<br>Skyward Leap | ![Magic](magic.png) | <span class="divine-veil"></span>
 | 00:58 | ホーリーシールドバッシュ<br>Holy Shield Bash | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
 | 01:01 | ホーリーブレードダンス<br>Holy Bladedance | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Oblation](oblation.png)![Rampart](rampart.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Rampart](rampart.png)
-| 01:09 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | ![Reprisal](reprisal.png) | ![Dark Missionary](dark_missionary.png)![Feint](feint.png)![Addle](addle.png)
+| 01:09 | エンシェントクエイガ<br>Ancient Quaga | ![Magic](magic.png) | ![Reprisal](reprisal.png) | <span class="dark_missionary"></span>![Feint](feint.png)![Addle](addle.png)
 | 01:19 | ヘヴンリーヒール<br>Heavenly Heel | ![Physical](physical.png) | ![Holy Sheltron](holy_sheltron.png)![Sentinel](sentinel.png)<span class="divine-benison"></span>![Feint](feint.png) | ![Reprisal](reprisal.png)
 | 01:23 | アスカロンマイト<br>Ascalon's Might | ![Physical](physical.png) | ![Feint](feint.png) | ![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Reprisal](reprisal.png)<span class="make_no_sense">![Dark Mind](dark_mind.png)</span><sup><a href="#st_drk_physical_90s">\[3\]</sup>![Shadow Wall](shadow_wall.png)</a><span class="divine-benison"></span>
 | 01:51 | セイクリッドカット<br>Sacred Sever | ![Physical](physical.png) | ![Troubadour](troubadour.png)
 | 02:09 | ハイマルストーム<br>Hiemal Storm | ![Magic](magic.png)
 | 02:44 | アルティメットエンド<br>Ultimate End | ![Magic](magic.png) |  | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
-| 03:18 | 終焉の竜詩<br>Final Chorus | ![Magic](magic.png) | <span class="divine-veil"></span><span class="passage_of_arms"></span> | ![Dark Missionary](dark_missionary.png)
+| 03:18 | 終焉の竜詩<br>Final Chorus | ![Magic](magic.png) | <span class="divine-veil"></span><span class="passage_of_arms"></span> | <span class="dark_missionary"></span>
 | 03:47 | アイ・オブ・タイラント<br>Eye of the Tyrant | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Feint](feint.png)![Troubadour](troubadour.png)
 | 04:08 | アイ・オブ・タイラント<br>Eye of the Tyrant | ![Magic](magic.png) | | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
 | 04:40 | ソウルテザー<br>Soul Tether | ![Magic](magic.png) | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)
 | 05:46 | 苦悶の咆哮<br>Resentment | ![Magic](magic.png) |
-| 06:03 | フレアディザスター<br>Flare Nova | ![Magic](magic.png) | <span class="divine-veil"></span>![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
-| 06:10 | フレアスター<br>Flare Star | ![Magic](magic.png) | <span class="divine-veil"></span>![Troubadour](troubadour.png) | ![Dark Missionary](dark_missionary.png)
+| 06:03 | フレアディザスター<br>Flare Nova | ![Magic](magic.png) | <span class="divine-veil"></span>![Troubadour](troubadour.png) | <span class="dark_missionary"></span>
+| 06:10 | フレアスター<br>Flare Star | ![Magic](magic.png) | <span class="divine-veil"></span>![Troubadour](troubadour.png) | <span class="dark_missionary"></span>
 | 06:22 | ミラージュダイブ<br>Mirage Dive | ![Physical](physical.png)
 | 06:47 | 憤怒の波動<br>Steep in Rage<sup><a href="#steep_in_rage">\[4\]</a></sup> | ![Magic](magic.png) | | ![Reprisal](reprisal.png)
 | 07:35 | 衝撃波<br>Shockwave | ![Magic](magic.png) | ![Limit Break](limit_break.png)
 | 07:40 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Limit Break](limit_break.png) | ![Addle](addle.png)
 | 07:45 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="divine-veil"></span>![Feint](feint.png) | ![Addle](addle.png)
 | 07:50 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="divine-veil"></span>![Feint](feint.png)![Troubadour](troubadour.png)
-| 07:55 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)![Dark Missionary](dark_missionary.png)![Feint](feint.png)
-| 08:00 | ピュア・オブ・ハート<br>Pure of Heart | ![Magic](magic.png) | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)![Dark Missionary](dark_missionary.png)![Feint](feint.png)
+| 07:55 | 光翼閃<br>Brightwing | ![Magic](magic.png) | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)<span class="dark_missionary"></span>![Feint](feint.png)
+| 08:00 | ピュア・オブ・ハート<br>Pure of Heart | ![Magic](magic.png) | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)<span class="dark_missionary"></span>![Feint](feint.png)
 | 09:15 | スカイワードリープ<br>Skyward Leap | ![Magic](magic.png) | <span class="divine-veil"></span>
 | 09:21 | スパイラルピアス<br>Spiral Pierce | ![Magic](magic.png) | <span class="divine-veil"></span>
 | 09:21 | レベレーション・アスカロンメルシー<br>Ascalon's Mercy Revealed | ![Physical](physical.png) | <span class="divine-veil"></span>
@@ -365,17 +371,17 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png)<span class="temperance"></span>![Troubadour](troubadour.png) | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)<span class="adloquium"></span><span class="deployment-tactics">
 | 12:23 | アク・アファー<br>Akh Afah | ![Magic](magic.png) | ![Reprisal](reprisal.png) | <span class="sacred-soil"></span><span class="recitation"></span><span class="succor"></span>
 | 12:36 | ホーリーフェザー<br>Hallowed Plume | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![Bulwark](bulwark.png)<span class="divine-benison"></span><span class="aquaveil"></span><span class="adloquium"></span>![Feint](feint.png) | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Dark Mind](dark_mind.png)<span class="divine-benison"></span><span class="protraction"></span><span class="adloquium"></span>
-| 13:02 | アク・モーン<br>Akh Morn | ![Magic](magic.png) | <span class="divine-veil"></span><span class="liturgy-of-the-bell"></span> | ![Dark Missionary](dark_missionary.png)![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)<span class="sacred-soil"></span><span class="succor"></span>![Addle](addle.png)
+| 13:02 | アク・モーン<br>Akh Morn | ![Magic](magic.png) | <span class="divine-veil"></span><span class="liturgy-of-the-bell"></span> | <span class="dark_missionary"></span>![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)<span class="sacred-soil"></span><span class="succor"></span>![Addle](addle.png)
 | 13:32 | アク・アファー<br>Akh Afah | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Troubadour](troubadour.png) | <span class="sacred-soil"></span><span class="succor"></span>
 | 13:45 | ホーリーフェザー<br>Hallowed Plume | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![Rampart](rampart.png)<span class="divine-benison"></span><span class="aquaveil"></span><span class="adloquium"></span> | ![The Blackest Night](the_blackest_night.png)![Reprisal](reprisal.png)![Shadow Wall](shadow_wall.png)<span class="divine-benison"></span><span class="protraction"></span><span class="adloquium"></span>![Feint](feint.png)
 | 14:04 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | ![Magic](magic.png) | ![Holy Sheltron](holy_sheltron.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Sentinel](sentinel.png)<span class="temperance"></span> | ![Intervention](intervention.png)![The Blackest Night](the_blackest_night.png)![Oblation](oblation.png)![Rampart](rampart.png)<span class="recitation"></span><span class="adloquium"></span><span class="deployment-tactics">
 | 14:17 | カータライズ<br>Cauterize | ![Magic](magic.png) | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)<span class="sacred-soil"></span><span class="succor"></span>
 | 15:07 | 苦悶の咆哮<br>Resentment | ![Magic](magic.png)
 | 15:24 | 衝撃波<br>Shockwave | ![Magic](magic.png)
-| 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | <span class="divine-veil"></span><span class="passage_of_arms"></span> | ![Dark Missionary](dark_missionary.png)<span class="sacred-soil"></span>![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)
+| 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | <span class="divine-veil"></span><span class="passage_of_arms"></span> | <span class="dark_missionary"></span><span class="sacred-soil"></span>![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)
 | 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="temperance"></span>![Feint](feint.png) | <span class="sacred-soil"></span>![Addle](addle.png)
 | 16:48 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)<span class="sacred-soil"></span>![Feint](feint.png)
-| 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="divine-veil"></span><span class="liturgy-of-the-bell"></span> | ![Dark Missionary](dark_missionary.png)<span class="sacred-soil"></span>
+| 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="divine-veil"></span><span class="liturgy-of-the-bell"></span> | <span class="dark_missionary"></span><span class="sacred-soil"></span>
 | 18:08 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Feint](feint.png) | ![Reprisal](reprisal.png)<span class="sacred-soil"></span>![Addle](addle.png)
 | 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="temperance"></span>![Troubadour](troubadour.png) | ![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)![Feint](feint.png)
 
