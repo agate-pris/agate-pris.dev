@@ -166,6 +166,12 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "Cure + Barrier",
             },
             {
+                name: "fey_illumination",
+                src: "fey_illumination.png",
+                alt: "フェイイルミネーション Fey Illumination",
+                ariaLabel: "Fey Illumination; SCH 120s Mitigation",
+            },
+            {
                 name: "lustrate",
                 src: "lustrate.png",
                 alt: "生命活性法  Lustrate",
@@ -376,7 +382,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 45s | <span class="excogitation"></span> | <span class="taurochole"></span>
 | 60s | <span class="protraction"></span> | <span class="krasis"></span>
 | 1s | <span class="lustrate"></span> | <span class="druochole"></span>
-| 120s | ![Fey Illumination](fey_illumination.png) | ![Haima](haima.png)
+| 120s | <span class="fey_illumination"></span> | ![Haima](haima.png)
 | 120s | <span class="summon_seraph"></span> | ![Panhaima](panhaima.png)
 | 120s | <span class="expedient"></span> | ![Holos](holos.png)
 
