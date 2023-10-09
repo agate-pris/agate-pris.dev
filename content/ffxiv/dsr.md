@@ -499,25 +499,8 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | MT | Short Buff | PH
 | ST | Short Buff | BH
 | PH | Short Buff | D1
-| BH | Short Buff | D3
-| WHM | アクアヴェール | D2
-| WHM | ディヴァインベニゾン | D3
-| WHM | ディヴァインベニゾン | D4
-| AST | エクザルテーション | D2
-| AST | 星天交差 | D3
-| AST | 星天交差 | D4
-| AST | 運命の輪
-| SCH | 回生 | D1
-| SGE | クラーシス + エウクラシア + エウクラシアプログノシス + ケーラコレ
-| モンク | 金剛
-| 侍 | 心眼
-| リーパー | アルケインクレスト
-| 忍者 | 残影
-| 詩人 | ミンネ
-| 踊り子 | インプロビゼーション・フィニッシュ
-| 黒 | マバリア
-| 召喚 | 守りの光
-| 赤 | バマジク
+| PH | Barieer | D2, D3
+| BH | Short Buff | D4
 
 </span>
 
