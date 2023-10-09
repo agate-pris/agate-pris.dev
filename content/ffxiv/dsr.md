@@ -269,7 +269,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 alt: "疾風怒濤の計 Expedient",
                 ariaLabel:
                     "疾風怒濤の計 Expedient\n" +
-                    "SCH 10% Mitigation",
+                    "SCH 120s 10% Mitigation",
             },
         ];
         data.forEach(d => {
