@@ -90,16 +90,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "Barrier",
             },
             {
-                name: "celestial-intersection",
-                src: "celestial_intersection.png",
-                alt: "星天交差 Celestial Intersection",
-                ariaLabel:
-                    "星天交差; リキャストタイム 30秒\n" +
-                    "バリア\n" +
-                    "Celestial Intersection; Reacast: 30s\n" +
-                    "Barrier",
-            },
-            {
                 name: "temperance",
                 src: "temperance.png",
                 alt: "テンパランス Temperance",
@@ -108,16 +98,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "回復 + 10% 軽減\n" +
                     "Temperance; Reacast: 120s\n" +
                     "Cure + 10% Mitigation",
-            },
-            {
-                name: "neutral-sect",
-                src: "neutral_sect.png",
-                alt: "ニュートラルセクト Neutral Sect",
-                ariaLabel:
-                    "ニュートラルセクト; リキャストタイム：120秒\n" +
-                    "バリア\n" +
-                    "Neutral Sect; Reacast: 120s\n" +
-                    "Barrier",
             },
             {
                 name: "aquaveil",
@@ -130,30 +110,12 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "15% Mitigation",
             },
             {
-                name: "exaltation",
-                src: "exaltation.png",
-                alt: "エクザルテーション Exaltation",
-                ariaLabel:
-                    "エクザルテーション; リキャストタイム：60秒\n" +
-                    "10% 軽減\n" +
-                    "Exaltation; Reacast: 60s\n" +
-                    "10% Mitigation",
-            },
-            {
                 name: "liturgy-of-the-bell",
                 src: "liturgy_of_the_bell.png",
                 alt: "リタージー・オブ・ベル Liturgy of the Bell",
                 ariaLabel:
                     "リタージー・オブ・ベル; リキャストタイム：180秒, カウンターヒール, 効果時間：20秒.\n" +
                     "Liturgy of the Bell; Reacast: 180s, Counter Heal, Duration:20s.",
-            },
-            {
-                name: "macrocosmos",
-                src: "macrocosmos_01.png",
-                alt: "マクロコスモス Macrocosmos",
-                ariaLabel:
-                    "マクロコスモス; リキャストタイム：180秒, カウンターヒール, 効果時間：15秒.\n" +
-                    "Macrocosmos; Reacast: 180s, Counter Heal, Duration:15s.",
             },
             {
                 name: "whispering-dawn",
@@ -186,6 +148,16 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "Cure + Barrier",
             },
             {
+                name: "lustrate",
+                src: "lustrate.png",
+                alt: "生命活性法  Lustrate",
+                ariaLabel:
+                    "生命活性法 ; リキャストタイム：1秒\n" +
+                    "回復\n" +
+                    "Lustrate; Reacast: 1s\n" +
+                    "Cure",
+            },
+            {
                 name: "sacred-soil",
                 src: "sacred_soil.png",
                 alt: "野戦治療の陣 Sacred Soil",
@@ -204,16 +176,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "バリア拡散\n" +
                     "Deployment Tactics; Reacast: 90s\n" +
                     "Extends Barieer",
-            },
-            {
-                name: "kerachole",
-                src: "kerachole.png",
-                alt: "ケーラコレ Kerachole",
-                ariaLabel:
-                    "ケーラコレ; リキャストタイム 30秒\n" +
-                    "10% 軽減\n" +
-                    "Kerachole; Reacast: 30s\n" +
-                    "10% Mitigation",
             },
             {
                 name: "excogitation",
@@ -236,56 +198,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "Ensuring cure and barrier critical, Duration:15s",
             },
             {
-                name: "protraction",
-                src: "protraction.png",
-                alt: "生命回生法 Protraction",
-                ariaLabel:
-                    "生命回生法; リキャストタイム：60秒\n" +
-                    "最大 HP 10% 上昇, 効果時間：10秒\n" +
-                    "Protraction; Reacast: 60s\n" +
-                    "Increases Max HP by 10%, Duration:10s",
-            },
-            {
-                name: "krasis",
-                src: "krasis.png",
-                alt: "クラーシス Krasis",
-                ariaLabel:
-                    "クラーシス; リキャストタイム：60秒\n" +
-                    "被回復効果 20% 上昇, 効果時間：10秒\n" +
-                    "Krasis; Reacast: 60s\n" +
-                    "Increases HP recovery via healing by 20%, Duration:10s",
-            },
-            {
-                name: "taurochole",
-                src: "taurochole.png",
-                alt: "タウロコレ Taurochole",
-                ariaLabel:
-                    "タウロコレ; リキャストタイム：45秒\n" +
-                    "回復 + 10% 軽減, 効果時間：15秒\n" +
-                    "Taurochole; Reacast: 45s\n" +
-                    "Cure + 10% Mitigation, Duration:15s",
-            },
-            {
-                name: "lustrate",
-                src: "lustrate.png",
-                alt: "生命活性法  Lustrate",
-                ariaLabel:
-                    "生命活性法 ; リキャストタイム：1秒\n" +
-                    "回復\n" +
-                    "Lustrate; Reacast: 1s\n" +
-                    "Cure",
-            },
-            {
-                name: "druochole",
-                src: "druochole.png",
-                alt: "ドルオコレ Druochole",
-                ariaLabel:
-                    "ドルオコレ; リキャストタイム：1秒\n" +
-                    "回復\n" +
-                    "ドルオコレ; Reacast: 1s\n" +
-                    "Cure",
-            },
-            {
                 name: "summon_seraph",
                 src: "summon_seraph.png",
                 alt: "サモン・セラフィム Summon Seraph",
@@ -302,12 +214,100 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "SCH Cure + Barieer",
             },
             {
+                name: "protraction",
+                src: "protraction.png",
+                alt: "生命回生法 Protraction",
+                ariaLabel:
+                    "生命回生法; リキャストタイム：60秒\n" +
+                    "最大 HP 10% 上昇, 効果時間：10秒\n" +
+                    "Protraction; Reacast: 60s\n" +
+                    "Increases Max HP by 10%, Duration:10s",
+            },
+            {
                 name: "expedient",
                 src: "expedient.png",
                 alt: "疾風怒濤の計 Expedient",
                 ariaLabel:
                     "疾風怒濤の計 Expedient\n" +
                     "SCH 120s 10% Mitigation",
+            },
+            {
+                name: "celestial-intersection",
+                src: "celestial_intersection.png",
+                alt: "星天交差 Celestial Intersection",
+                ariaLabel:
+                    "星天交差; リキャストタイム 30秒\n" +
+                    "バリア\n" +
+                    "Celestial Intersection; Reacast: 30s\n" +
+                    "Barrier",
+            },
+            {
+                name: "neutral-sect",
+                src: "neutral_sect.png",
+                alt: "ニュートラルセクト Neutral Sect",
+                ariaLabel:
+                    "ニュートラルセクト; リキャストタイム：120秒\n" +
+                    "バリア\n" +
+                    "Neutral Sect; Reacast: 120s\n" +
+                    "Barrier",
+            },
+            {
+                name: "exaltation",
+                src: "exaltation.png",
+                alt: "エクザルテーション Exaltation",
+                ariaLabel:
+                    "エクザルテーション; リキャストタイム：60秒\n" +
+                    "10% 軽減\n" +
+                    "Exaltation; Reacast: 60s\n" +
+                    "10% Mitigation",
+            },
+            {
+                name: "macrocosmos",
+                src: "macrocosmos_01.png",
+                alt: "マクロコスモス Macrocosmos",
+                ariaLabel:
+                    "マクロコスモス; リキャストタイム：180秒, カウンターヒール, 効果時間：15秒.\n" +
+                    "Macrocosmos; Reacast: 180s, Counter Heal, Duration:15s.",
+            },
+            {
+                name: "druochole",
+                src: "druochole.png",
+                alt: "ドルオコレ Druochole",
+                ariaLabel:
+                    "ドルオコレ; リキャストタイム：1秒\n" +
+                    "回復\n" +
+                    "ドルオコレ; Reacast: 1s\n" +
+                    "Cure",
+            },
+            {
+                name: "kerachole",
+                src: "kerachole.png",
+                alt: "ケーラコレ Kerachole",
+                ariaLabel:
+                    "ケーラコレ; リキャストタイム 30秒\n" +
+                    "10% 軽減\n" +
+                    "Kerachole; Reacast: 30s\n" +
+                    "10% Mitigation",
+            },
+            {
+                name: "taurochole",
+                src: "taurochole.png",
+                alt: "タウロコレ Taurochole",
+                ariaLabel:
+                    "タウロコレ; リキャストタイム：45秒\n" +
+                    "回復 + 10% 軽減, 効果時間：15秒\n" +
+                    "Taurochole; Reacast: 45s\n" +
+                    "Cure + 10% Mitigation, Duration:15s",
+            },
+            {
+                name: "krasis",
+                src: "krasis.png",
+                alt: "クラーシス Krasis",
+                ariaLabel:
+                    "クラーシス; リキャストタイム：60秒\n" +
+                    "被回復効果 20% 上昇, 効果時間：10秒\n" +
+                    "Krasis; Reacast: 60s\n" +
+                    "Increases HP recovery via healing by 20%, Duration:10s",
             },
         ];
         data.forEach(d => {
