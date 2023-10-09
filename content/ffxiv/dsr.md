@@ -47,6 +47,13 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 ariaLabel: "Divine Veil; PLD 90s Barieer",
             },
             {
+                name: "passage_of_arms",
+                src: "passage_of_arms.png",
+                alt: "パッセージ・オブ・アームズ Passage of Arms",
+                title: "パッセージ・オブ・アームズ Passage of Arms",
+                ariaLabel: "Passage of Arms; PLD 120s Mitigation",
+            },
+            {
                 name: "divine-benison",
                 src: "divine_benison.png",
                 alt: "ディヴァインベニゾン Divine Benison",
@@ -306,7 +313,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | Short 1 | ![Holy Sheltron](holy_sheltron.png) | ![Bloodwhetting](bloodwhetting.png) | ![The Blackest Night](the_blackest_night.png) | ![Heart of Corundum](heart_of_corundum.png)
 | Short 2 | ![Intervention](intervention.png) | ![Nascent Flash](nascent_flash.png) | ![Oblation](oblation.png)
 | 90s | <span class="divine-veil"></span> | ![Shake It Off](shake_it_off.png) | ![Dark Missionary](dark_missionary.png) | ![Heart of Light](heart_of_light.png)
-| 120s | ![Passage of Arms](passage_of_arms.png)
+| 120s | <span class="passage_of_arms"></span>
 
 |     | WHM | AST
 | :-: | :-: | :-:
@@ -351,7 +358,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 01:51 | セイクリッドカット<br>Sacred Sever | ![Physical](physical.png) | ![Troubadour](troubadour.png)
 | 02:09 | ハイマルストーム<br>Hiemal Storm | ![Magic](magic.png)
 | 02:44 | アルティメットエンド<br>Ultimate End | ![Magic](magic.png) |  | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
-| 03:18 | 終焉の竜詩<br>Final Chorus | ![Magic](magic.png) | <span class="divine-veil"></span>![Passage of Arms](passage_of_arms.png) | ![Dark Missionary](dark_missionary.png)
+| 03:18 | 終焉の竜詩<br>Final Chorus | ![Magic](magic.png) | <span class="divine-veil"></span><span class="passage_of_arms"></span> | ![Dark Missionary](dark_missionary.png)
 | 03:47 | アイ・オブ・タイラント<br>Eye of the Tyrant | ![Magic](magic.png) | ![Reprisal](reprisal.png)![Feint](feint.png)![Troubadour](troubadour.png)
 | 04:08 | アイ・オブ・タイラント<br>Eye of the Tyrant | ![Magic](magic.png) | | ![Reprisal](reprisal.png)![Feint](feint.png)![Addle](addle.png)
 | 04:40 | ソウルテザー<br>Soul Tether | ![Magic](magic.png) | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)
@@ -388,12 +395,39 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 14:17 | カータライズ<br>Cauterize | ![Magic](magic.png) | ![Hallowed Ground](hallowed_ground.png) | ![Living Dead](living_dead.png)<span class="sacred-soil"></span><span class="succor"></span>
 | 15:07 | 苦悶の咆哮<br>Resentment | ![Magic](magic.png)
 | 15:24 | 衝撃波<br>Shockwave | ![Magic](magic.png)
-| 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | <span class="divine-veil"></span>![Passage of Arms](passage_of_arms.png) | ![Dark Missionary](dark_missionary.png)<span class="sacred-soil"></span>![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)
+| 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | <span class="divine-veil"></span><span class="passage_of_arms"></span> | ![Dark Missionary](dark_missionary.png)<span class="sacred-soil"></span>![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)
 | 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="temperance"></span>![Feint](feint.png) | <span class="sacred-soil"></span>![Addle](addle.png)
 | 16:48 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Troubadour](troubadour.png) | ![Reprisal](reprisal.png)<span class="sacred-soil"></span>![Feint](feint.png)
 | 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="divine-veil"></span><span class="liturgy-of-the-bell"></span> | ![Dark Missionary](dark_missionary.png)<span class="sacred-soil"></span>
 | 18:08 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | ![Feint](feint.png) | ![Reprisal](reprisal.png)<span class="sacred-soil"></span>![Addle](addle.png)
 | 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | ![Reprisal](reprisal.png)<span class="temperance"></span>![Troubadour](troubadour.png) | ![Expedient](expedient.png)![Summon Seraph](summon_seraph.png)![Consolation](consolation.png)![Feint](feint.png)
+
+## アルティメットエンド・オルタナ Alternative End
+
+| Job | Mitigation | Target
+| :-- | :--------- | :-----
+| MT | Short Buff | PH
+| ST | Short Buff | BH
+| PH | Short Buff | D1
+| BH | Short Buff | D3
+| WHM | アクアヴェール | D2
+| WHM | ディヴァインベニゾン | D3
+| WHM | ディヴァインベニゾン | D4
+| AST | エクザルテーション | D2
+| AST | 星天交差 | D3
+| AST | 星天交差 | D4
+| AST | 運命の輪
+| SCH | 回生 | D1
+| SGE | クラーシス + エウクラシア + エウクラシアプログノシス + ケーラコレ
+| モンク | 金剛
+| 侍 | 心眼
+| リーパー | アルケインクレスト
+| 忍者 | 残影
+| 詩人 | ミンネ
+| 踊り子 | インプロビゼーション・フィニッシュ
+| 黒 | マバリア
+| 召喚 | 守りの光
+| 赤 | バマジク
 
 </span>
 
