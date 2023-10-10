@@ -82,12 +82,36 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         background-image: url("tactician.png");
         background-size: contain;
     }
+    .dismantle {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("dismantle.png");
+        background-size: contain;
+    }
     .shield_samba {
         display: inline flow-root;
         width: 40px;
         height: 40px;
         padding-left:40px;
         background-image: url("shield_samba.png");
+        background-size: contain;
+    }
+    .improvisation {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left:40px;
+        background-image: url("Improvisation.png");
+        background-size: contain;
+    }
+    .improvised_finish {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left:40px;
+        background-image: url("improvised_finish.png");
         background-size: contain;
     }
 </style>
@@ -497,6 +521,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 |     | BRD | MCH | DNC
 | :-: | :-: | :-: | :-:
 | 90s | <span class="troubadour" role="tooltip" aria-label="トルバドール&#13;&#10;Troubadour"></span> | <span class="tactician" role="tooltip" aria-label="タクティシャン&#13;&#10;Tactician"></span> | <span class="shield_samba" role="tooltip" aria-label="守りのサンバ&#13;&#10;Shield Samba"></span>
+| 120s | <span class="natures_minne" role="tooltip" aria-label="地神のミンネ&#13;&#10;Nature's Minne"></span> | <span class="dismantle" role="tooltip" aria-label="ウェポンブレイク&#13;&#10;Dismantle"></span> | <span class="improvisation" role="tooltip" aria-label="インプロビゼーション&#13;&#10;Improvisation"></span>
 
 </span>
 
