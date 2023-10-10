@@ -506,48 +506,48 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 <form method="on_mt_changed" style="display:none">
 <p class="job">MT</p>
-<p class="job"><input type="radio" name="mt" value="pld" onchange="on_mt_changed() checked><img src="Paladin.png"></p>
-<p class="job"><input type="radio" name="mt" value="war" onchange="on_mt_changed()><img src="Warrior.png"></p>
-<p class="job"><input type="radio" name="mt" value="drk" onchange="on_mt_changed()><img src="DarkKnight.png"></p>
-<p class="job"><input type="radio" name="mt" value="gnb" onchange="on_mt_changed()><img src="Gunbreaker.png"></p>
+<p class="job"><input type="radio" name="mt" value="pld" onchange="on_mt_changed()" checked><img src="Paladin.png"></p>
+<p class="job"><input type="radio" name="mt" value="war" onchange="on_mt_changed()"><img src="Warrior.png"></p>
+<p class="job"><input type="radio" name="mt" value="drk" onchange="on_mt_changed()"><img src="DarkKnight.png"></p>
+<p class="job"><input type="radio" name="mt" value="gnb" onchange="on_mt_changed()"><img src="Gunbreaker.png"></p>
 </form>
 
 <form method="on_st_changed" style="display:none">
 <p class="job">ST</p>
-<p class="job"><input type="radio" name="st" value="pld" onchange="on_st_changed()><img src="Paladin.png"></p>
-<p class="job"><input type="radio" name="st" value="war" onchange="on_st_changed()><img src="Warrior.png"></p>
-<p class="job"><input type="radio" name="st" value="drk" onchange="on_st_changed() checked><img src="DarkKnight.png"></p>
-<p class="job"><input type="radio" name="st" value="gnb" onchange="on_st_changed()><img src="Gunbreaker.png"></p>
+<p class="job"><input type="radio" name="st" value="pld" onchange="on_st_changed()"><img src="Paladin.png"></p>
+<p class="job"><input type="radio" name="st" value="war" onchange="on_st_changed()"><img src="Warrior.png"></p>
+<p class="job"><input type="radio" name="st" value="drk" onchange="on_st_changed()" checked><img src="DarkKnight.png"></p>
+<p class="job"><input type="radio" name="st" value="gnb" onchange="on_st_changed()"><img src="Gunbreaker.png"></p>
 </form>
 
 <form method="on_ph_changed" style="display:none">
 <p class="job">PH</p>
-<p class="job"><input type="radio" name="ph" value="whm" onchange="on_ph_changed() checked><img src="WhiteMage.png"></p>
-<p class="job"><input type="radio" name="ph" value="ast" onchange="on_ph_changed()><img src="Astrologian.png"></p>
+<p class="job"><input type="radio" name="ph" value="whm" onchange="on_ph_changed()" checked><img src="WhiteMage.png"></p>
+<p class="job"><input type="radio" name="ph" value="ast" onchange="on_ph_changed()"><img src="Astrologian.png"></p>
 </form>
 
 <form method="on_bh_changed" style="display:none">
 <p class="job">BH</p>
-<p class="job"><input type="radio" name="bh" value="sch" onchange="on_bh_changed() checked><img src="Scholar.png"></p>
-<p class="job"><input type="radio" name="bh" value="sge" onchange="on_bh_changed()><img src="Sage.png"></p>
+<p class="job"><input type="radio" name="bh" value="sch" onchange="on_bh_changed()" checked><img src="Scholar.png"></p>
+<p class="job"><input type="radio" name="bh" value="sge" onchange="on_bh_changed()"><img src="Sage.png"></p>
 </form>
 
 <form method="on_d1_changed" style="display:none">
 <p class="job">D1</p>
-<p class="job"><input type="radio" name="d1" value="mnk" onchange="on_d1_changed() checked><img src="Monk.png"></p>
-<p class="job"><input type="radio" name="d1" value="sam" onchange="on_d1_changed()><img src="Samurai.png"></p>
-<p class="job"><input type="radio" name="d1" value="drg" onchange="on_d1_changed()><img src="Dragoon.png"></p>
-<p class="job"><input type="radio" name="d1" value="rpr" onchange="on_d1_changed()><img src="Reaper.png"></p>
-<p class="job"><input type="radio" name="d1" value="nin" onchange="on_d1_changed()><img src="Ninja.png"></p>
+<p class="job"><input type="radio" name="d1" value="mnk" onchange="on_d1_changed()" checked><img src="Monk.png"></p>
+<p class="job"><input type="radio" name="d1" value="sam" onchange="on_d1_changed()"><img src="Samurai.png"></p>
+<p class="job"><input type="radio" name="d1" value="drg" onchange="on_d1_changed()"><img src="Dragoon.png"></p>
+<p class="job"><input type="radio" name="d1" value="rpr" onchange="on_d1_changed()"><img src="Reaper.png"></p>
+<p class="job"><input type="radio" name="d1" value="nin" onchange="on_d1_changed()"><img src="Ninja.png"></p>
 </form>
 
 <form method="on_d2_changed" style="display:none">
 <p class="job">D2</p>
-<p class="job"><input type="radio" name="d2" value="mnk" onchange="on_d2_changed()><img src="Monk.png"></p>
-<p class="job"><input type="radio" name="d2" value="sam" onchange="on_d2_changed()><img src="Samurai.png"></p>
-<p class="job"><input type="radio" name="d2" value="drg" onchange="on_d2_changed() checked><img src="Dragoon.png"></p>
-<p class="job"><input type="radio" name="d2" value="rpr" onchange="on_d2_changed()><img src="Reaper.png"></p>
-<p class="job"><input type="radio" name="d2" value="nin" onchange="on_d2_changed()><img src="Ninja.png"></p>
+<p class="job"><input type="radio" name="d2" value="mnk" onchange="on_d2_changed()"><img src="Monk.png"></p>
+<p class="job"><input type="radio" name="d2" value="sam" onchange="on_d2_changed()"><img src="Samurai.png"></p>
+<p class="job"><input type="radio" name="d2" value="drg" onchange="on_d2_changed()" checked><img src="Dragoon.png"></p>
+<p class="job"><input type="radio" name="d2" value="rpr" onchange="on_d2_changed()"><img src="Reaper.png"></p>
+<p class="job"><input type="radio" name="d2" value="nin" onchange="on_d2_changed()"><img src="Ninja.png"></p>
 </form>
 
 <form method="on_d3_changed">
@@ -559,9 +559,9 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 <form method="on_d4_changed" style="display:none">
 <p class="job">D4</p>
-<p class="job"><input type="radio" name="d4" value="blm" onchange="on_d4_changed() checked><img src="BlackMage.png"></p>
-<p class="job"><input type="radio" name="d4" value="smn" onchange="on_d4_changed()><img src="Summoner.png"></p>
-<p class="job"><input type="radio" name="d4" value="rdm" onchange="on_d4_changed()><img src="RedMage.png"></p>
+<p class="job"><input type="radio" name="d4" value="blm" onchange="on_d4_changed()" checked><img src="BlackMage.png"></p>
+<p class="job"><input type="radio" name="d4" value="smn" onchange="on_d4_changed()"><img src="Summoner.png"></p>
+<p class="job"><input type="radio" name="d4" value="rdm" onchange="on_d4_changed()"><img src="RedMage.png"></p>
 </form>
 
 - [スプレッドシート（編集中） Spread Sheet (Work in Progress)](https://docs.google.com/spreadsheets/d/1NKBqjhQ-lWbdx_9-IxAu9eu3KFJX9YRv7Q4xoaqD_lQ/edit?usp=sharing)
