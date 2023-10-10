@@ -496,7 +496,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 |     | BRD | MCH | DNC
 | :-: | :-: | :-: | :-:
-| 90s | <span class="troubadour"></span> | <span class="tactician"></span> | <span class="shield_samba"></span>
+| 90s | <span class="troubadour" role="tooltip" aria-label="トルバドール&#13;&#10;Troubadour"></span> | <span class="tactician" role="tooltip" aria-label="タクティシャン&#13;&#10;Tactician"></span> | <span class="shield_samba" role="tooltip" aria-label="守りのサンバ&#13;&#10;Shield Samba"></span>
 
 </span>
 
