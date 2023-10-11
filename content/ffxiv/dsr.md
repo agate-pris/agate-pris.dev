@@ -66,6 +66,38 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         display: inline;
     }
 
+    .riddle_of_earth {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("riddle_of_earth.png");
+        background-size: contain;
+    }
+    .third_eye {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("third_eye.png");
+        background-size: contain;
+    }
+    .arcane_crest {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("arcane_crest.png");
+        background-size: contain;
+    }
+    .shade_shift {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("shade_shift.png");
+        background-size: contain;
+    }
     .troubadour {
         display: inline flow-root;
         width: 40px;
@@ -130,6 +162,12 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 }
             }
         }
+    }
+    function on_d1_changed() {
+        on_job_changed("input[name=d1]");
+    }
+    function on_d2_changed() {
+        on_job_changed("input[name=d2]");
     }
     function on_d3_changed() {
         on_job_changed("input[name=d3]");
@@ -481,6 +519,8 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 elements[index].appendChild(i);
             }
         });
+        on_d1_changed();
+        on_d2_changed();
         on_d3_changed();
     });
 </script>
@@ -560,22 +600,22 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 <p class="job"><input type="radio" name="bh" value="sge" onchange="on_bh_changed()"><img src="Sage.png"></p>
 </form>
 
-<form method="on_d1_changed" style="display:none">
+<form method="on_d1_changed">
 <p class="job">D1</p>
-<p class="job"><input type="radio" name="d1" value="mnk" onchange="on_d1_changed()" checked><img src="Monk.png"></p>
-<p class="job"><input type="radio" name="d1" value="sam" onchange="on_d1_changed()"><img src="Samurai.png"></p>
-<p class="job"><input type="radio" name="d1" value="drg" onchange="on_d1_changed()"><img src="Dragoon.png"></p>
-<p class="job"><input type="radio" name="d1" value="rpr" onchange="on_d1_changed()"><img src="Reaper.png"></p>
-<p class="job"><input type="radio" name="d1" value="nin" onchange="on_d1_changed()"><img src="Ninja.png"></p>
+<p class="job"><input type="radio" name="d1" value="d1_mnk" onchange="on_d1_changed()" checked><img src="Monk.png"></p>
+<p class="job"><input type="radio" name="d1" value="d1_sam" onchange="on_d1_changed()"><img src="Samurai.png"></p>
+<p class="job"><input type="radio" name="d1" value="d1_drg" onchange="on_d1_changed()"><img src="Dragoon.png"></p>
+<p class="job"><input type="radio" name="d1" value="d1_rpr" onchange="on_d1_changed()"><img src="Reaper.png"></p>
+<p class="job"><input type="radio" name="d1" value="d1_nin" onchange="on_d1_changed()"><img src="Ninja.png"></p>
 </form>
 
-<form method="on_d2_changed" style="display:none">
+<form method="on_d2_changed">
 <p class="job">D2</p>
-<p class="job"><input type="radio" name="d2" value="mnk" onchange="on_d2_changed()"><img src="Monk.png"></p>
-<p class="job"><input type="radio" name="d2" value="sam" onchange="on_d2_changed()"><img src="Samurai.png"></p>
-<p class="job"><input type="radio" name="d2" value="drg" onchange="on_d2_changed()" checked><img src="Dragoon.png"></p>
-<p class="job"><input type="radio" name="d2" value="rpr" onchange="on_d2_changed()"><img src="Reaper.png"></p>
-<p class="job"><input type="radio" name="d2" value="nin" onchange="on_d2_changed()"><img src="Ninja.png"></p>
+<p class="job"><input type="radio" name="d2" value="d2_mnk" onchange="on_d2_changed()"><img src="Monk.png"></p>
+<p class="job"><input type="radio" name="d2" value="d2_sam" onchange="on_d2_changed()"><img src="Samurai.png"></p>
+<p class="job"><input type="radio" name="d2" value="d2_drg" onchange="on_d2_changed()" checked><img src="Dragoon.png"></p>
+<p class="job"><input type="radio" name="d2" value="d2_rpr" onchange="on_d2_changed()"><img src="Reaper.png"></p>
+<p class="job"><input type="radio" name="d2" value="d2_nin" onchange="on_d2_changed()"><img src="Ninja.png"></p>
 </form>
 
 <form method="on_d3_changed">
@@ -645,7 +685,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 15:07 | 苦悶の咆哮<br>Resentment | ![Magic](magic.png) | <span class="dnc improvisation" role="tooltip" aria-label="インプロビゼーション&#13;&#10;Improvisation"></span>
 | 15:24 | 衝撃波<br>Shockwave | ![Magic](magic.png) | <span class="dnc improvised_finish" role="tooltip" aria-label="インプロビゼーション・フィニッシュ&#13;&#10;Improvised Finish"></span>
 | 15:35 | ペイン解除<br>Remove Bleeding | | <span class="brd natures_minne"></span> | <span class="summon_seraph"></span><span class="fey_illumination"></span>
-| 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | <span class="intervention"></span><span class="divine-veil"></span><span class="passage_of_arms"></span><span class="aquaveil"></span><span class="divine-benison"></span><span class="divine-benison"></span> | <span class="the_blackest_night"></span><span class="dark_missionary"></span><span class="protraction"></span><span class="expedient"></span><span class="sacred-soil"></span><span class="mch recitation"></span><span class="succor"></span><span class="consolation"></span>
+| 15:40 | アルティメットエンド・オルタナ<br>Alternative End | ![Magic](magic.png) | <span class="intervention"></span><span class="divine-veil"></span><span class="passage_of_arms"></span><span class="aquaveil"></span><span class="divine-benison"></span><span class="divine-benison"></span><span class="d1_mnk riddle_of_earth" role="tooltip" aria-label="金剛の極意&#13;&#10;Riddle of Earth"></span><span class="d1_sam third_eye" role="tooltip" aria-label="心眼&#13;&#10;Third Eye"></span><span class="d1_rpr arcane_crest" role="tooltip" aria-label="アルケインクレスト&#13;&#10;Arcane Crest"></span><span class="d1_nin shade_shift" role="tooltip" aria-label="残影&#13;&#10;Shade Shift"></span> | <span class="the_blackest_night"></span><span class="dark_missionary"></span><span class="protraction"></span><span class="expedient"></span><span class="sacred-soil"></span><span class="mch recitation"></span><span class="succor"></span><span class="consolation"></span><span class="d2_mnk riddle_of_earth" role="tooltip" aria-label="金剛の極意&#13;&#10;Riddle of Earth"></span><span class="d2_sam third_eye" role="tooltip" aria-label="心眼&#13;&#10;Third Eye"></span><span class="d2_rpr arcane_crest" role="tooltip" aria-label="アルケインクレスト&#13;&#10;Arcane Crest"></span><span class="d2_nin shade_shift" role="tooltip" aria-label="残影&#13;&#10;Shade Shift"></span>
 | 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | <span class="holy_sheltron"></span><span class="reprisal"></span><span class="sentinel"></span><span class="temperance"></span><span class="feint"></span> | <span class="the_blackest_night"></span><span class="shadow_wall"></span><span class="sacred-soil"></span><span class="adloquium"></span><span class="deployment-tactics"></span><span class="addle"></span>
 | 16:48 | 騎竜剣ギガフレア<br>Gigaflare's Edge | ![Magic](magic.png) | <span class="brd troubadour" role="tooltip" aria-label="トルバドール&#13;&#10;Troubadour"></span><span class="mch tactician" role="tooltip" aria-label="タクティシャン&#13;&#10;Tactician"></span><span class="mch dismantle" role="tooltip" aria-label="ウェポンブレイク&#13;&#10;Dismantle"></span><span class="dnc shield_samba" role="tooltip" aria-label="守りのサンバ&#13;&#10;Shield Samba"></span> | <span class="reprisal"></span><span class="sacred-soil"></span><span class="brd recitation"></span><span class="dnc recitation"></span><span class="succor"></span><span class="feint"></span>
 | 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | ![Magic](magic.png) | <span class="holy_sheltron"></span><span class="reprisal"></span><span class="divine-veil"></span><span class="rampart"></span><span class="bulwark"></span><span class="liturgy-of-the-bell"></span><span class="brd natures_minne"></span><span class="dnc improvisation" role="tooltip" aria-label="インプロビゼーション&#13;&#10;Improvisation"></span><span class="dnc improvised_finish" role="tooltip" aria-label="インプロビゼーション・フィニッシュ&#13;&#10;Improvised Finish"></span> | <span class="the_blackest_night"></span><span class="dark_missionary"></span><span class="rampart"></span><span class="dark_mind"></span><span class="sacred-soil"></span><span class="fey_illumination"></span><span class="mch recitation"></span><span class="succor"></span>
