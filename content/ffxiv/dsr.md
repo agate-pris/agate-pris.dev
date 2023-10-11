@@ -118,7 +118,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 <script>
     function on_job_changed(selectors) {
-        const all_input = document.querySelectorAll("input[name=d3]");
+        const all_input = document.querySelectorAll(selectors);
         for (const input of all_input) {
             const elements = document.getElementsByClassName(input.value);
             for (let i = 0; i < elements.length; i++) {
