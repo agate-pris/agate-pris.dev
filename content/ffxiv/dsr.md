@@ -117,19 +117,22 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 </style>
 
 <script>
-    function on_d3_changed() {
-        const x = document.querySelectorAll("input[name=d3]");
-        for (const i of x) {
-            const elements = document.getElementsByClassName(i.value);
-            for (let index = 0; index < elements.length; index++) {
-                if (i.checked) {
-                    elements[index].style.display = "inline flow-root";
+    function on_job_changed(selectors) {
+        const all_input = document.querySelectorAll("input[name=d3]");
+        for (const input of all_input) {
+            const elements = document.getElementsByClassName(input.value);
+            for (let i = 0; i < elements.length; i++) {
+                if (input.checked) {
+                    elements[i].style.display = "inline flow-root";
                 }
                 else {
-                    elements[index].style.display = "none";
+                    elements[i].style.display = "none";
                 }
             }
         }
+    }
+    function on_d3_changed() {
+        on_job_changed("input[name=d3]");
     }
 
     window.addEventListener('DOMContentLoaded', function() {
