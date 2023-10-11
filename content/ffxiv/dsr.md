@@ -219,7 +219,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 name: "divine-veil",
                 src: "divine_veil.png",
                 alt: "ディヴァインヴェール Divine Veil",
-                ariaLabel: "Divine Veil; PLD 90s Barieer",
+                ariaLabel: "Divine Veil; PLD 90s Barrier",
             },
             {
                 name: "intervention",
@@ -365,7 +365,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "展開戦術; リキャストタイム 90秒\n" +
                     "バリア拡散\n" +
                     "Deployment Tactics; Reacast: 90s\n" +
-                    "Extends Barieer",
+                    "Extends Barrier",
             },
             {
                 name: "excogitation",
@@ -401,7 +401,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 alt: "コンソレイション Consolation",
                 ariaLabel:
                     "コンソレイション Consolation\n" +
-                    "SCH Cure + Barieer",
+                    "SCH Cure + Barrier",
             },
             {
                 name: "protraction",
@@ -699,7 +699,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | MT | Short Buff | PH
 | ST | Short Buff | BH
 | PH | Short Buff | D1
-| PH | Barieer | D2, D3
+| PH | Barrier | D2, D3
 | BH | Short Buff | D4
 
 機工士がいる場合、バリアヒーラーは騎竜剣ギガフレア 1 回目と騎竜剣アク・モーン 3 回目の代わりに**アルティメットエンド・オルタナ**と**騎竜剣アク・モーン 2 回目**に 90 秒アビリティを使用する。（機工士が騎竜剣ギガフレア 2 回目と騎竜剣アク・モーン 3 回目にウェポンブレイクを使用する）
