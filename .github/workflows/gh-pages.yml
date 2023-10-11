@@ -31,10 +31,8 @@ jobs:
           cache: 'npm'
           cache-dependency-path: '**/package-lock.json'
 
-      - name: Build
-        run: |
-          npm ci
-          hugo --cleanDestinationDir --gc --minify
+      - run: npm ci
+      - run: hugo --cleanDestinationDir --gc --minify
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
