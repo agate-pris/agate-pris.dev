@@ -98,6 +98,46 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         background-image: url("liturgy_of_the_bell.png");
         background-size: contain;
     }
+    .collective_unconscious {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("collective_unconscious.png");
+        background-size: contain;
+    }
+    .celestial_intersection {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("celestial_intersection.png");
+        background-size: contain;
+    }
+    .neutral_sect {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("neutral_sect.png");
+        background-size: contain;
+    }
+    .exaltation {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("exaltation.png");
+        background-size: contain;
+    }
+    .macrocosmos {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("macrocosmos_01.png");
+        background-size: contain;
+    }
     .riddle_of_earth {
         display: inline flow-root;
         width: 40px;
@@ -211,6 +251,11 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
             temperance: "テンパランス\nTemperance\nWHM 120s\nDuration: 20s",
             aquaveil: "アクアヴェール\nAquaveil\nWHM 60s\nDuration: 8s",
             liturgy_of_the_bell: "リタージー・オブ・ベル\nLiturgy of the Bell\nWHM 180s\nDuration: 20s",
+            collective_unconscious: "運命の輪\nCollective Unconscious\nAST 60s\nDuration: 5s",
+            celestial_intersection: "星天交差\nCelestial Intersection\nAST 30s\nDuration: 30s\nMaximum Charges: 2",
+            neutral_sect: "ニュートラルセクト\nNeutral Sect\nAST 120s\nDuration: 30s",
+            exaltation: "エクザルテーション\nExaltation\nAST 60s\nDuration: 8s",
+            macrocosmos: "マクロコスモス\nMacrocosmos\nAST 180s\nDuration: 15s",
         };
         for (const [key, value] of Object.entries(data)) {
             const elements = document.getElementsByClassName(key);
@@ -433,44 +478,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                     "SCH 120s 10% Mitigation",
             },
             {
-                name: "celestial-intersection",
-                src: "celestial_intersection.png",
-                alt: "星天交差 Celestial Intersection",
-                ariaLabel:
-                    "星天交差; リキャストタイム 30秒\n" +
-                    "バリア\n" +
-                    "Celestial Intersection; Reacast: 30s\n" +
-                    "Barrier",
-            },
-            {
-                name: "neutral-sect",
-                src: "neutral_sect.png",
-                alt: "ニュートラルセクト Neutral Sect",
-                ariaLabel:
-                    "ニュートラルセクト; リキャストタイム：120秒\n" +
-                    "バリア\n" +
-                    "Neutral Sect; Reacast: 120s\n" +
-                    "Barrier",
-            },
-            {
-                name: "exaltation",
-                src: "exaltation.png",
-                alt: "エクザルテーション Exaltation",
-                ariaLabel:
-                    "エクザルテーション; リキャストタイム：60秒\n" +
-                    "10% 軽減\n" +
-                    "Exaltation; Reacast: 60s\n" +
-                    "10% Mitigation",
-            },
-            {
-                name: "macrocosmos",
-                src: "macrocosmos_01.png",
-                alt: "マクロコスモス Macrocosmos",
-                ariaLabel:
-                    "マクロコスモス; リキャストタイム：180秒, カウンターヒール, 効果時間：15秒.\n" +
-                    "Macrocosmos; Reacast: 180s, Counter Heal, Duration:15s.",
-            },
-            {
                 name: "druochole",
                 src: "druochole.png",
                 alt: "ドルオコレ Druochole",
@@ -556,9 +563,9 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 |     | WHM | AST
 | :-: | :-: | :-:
-| 30s | <span class="divine_benison"></span> | <span class="celestial-intersection"></span>
-| 120s | <span class="temperance"></span> | <span class="neutral-sect"></span>
-| 60s | | ![Collective Unconscious](collective_unconscious.png)
+| 60s | | <span class="collective_unconscious"></span>
+| 30s | <span class="divine_benison"></span> | <span class="celestial_intersection"></span>
+| 120s | <span class="temperance"></span> | <span class="neutral_sect"></span>
 | 60s | <span class="aquaveil"></span> | <span class="exaltation"></span>
 | 180s | <span class="liturgy_of_the_bell"></span> | <span class="macrocosmos"></span>
 
