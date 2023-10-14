@@ -1439,12 +1439,12 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 | Time | Action | 属性 | MT (PLD)<br>H1 (WHM)<br>D1<br>D3 (BRD) | ST (DRK)<br>D2<br>D4
 | :--- | :----- | :--: | :------- | :-------
-| 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | <span class="physical"></span> | <span class="mt_short"></span><span class="the_blackest_night"></span><span class="ph_30s"></span><span class="rng_90s"></span> | <span class="reprisal"></span><span class="feint"></span>
+| 00:15 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="mt_war holmgang"></span><span class="mt_pld mt_drk mt_gnb"><span class="mt_short"></span><span class="the_blackest_night"></span><span class="ph_30s"></span><span class="rng_90s"></span></span> | <span class="mt_pld mt_drk mt_gnb"><span class="reprisal"></span><span class="feint"></span></span>
 | 00:57 | 邪竜の魔炎<br>the Dragon's Rage | <span class="magic"></span> | <span class="mt_all"></span>
 | 00:58 | スカイワードリープ<br>Skyward Leap | <span class="magic"></span> | <span class="mt_all"></span>
 | 00:58 | ホーリーシールドバッシュ<br>Holy Shield Bash | <span class="physical"></span> | <span class="rampart"></span><span class="mt_90s"></span><span class="oblation"></span><span class="mt_pld mt_drk mt_short"></span> | <span class="rampart"></span><span class="oblation"></span><span class="the_blackest_night"></span>
 | 01:01 | ホーリーブレードダンス<br>Holy Bladedance | <span class="physical"></span> | <span class="rampart"></span><span class="mt_90s"></span><span class="oblation"></span><span class="mt_pld mt_drk mt_short"></span> | <span class="rampart"></span><span class="oblation"></span><span class="the_blackest_night"></span>
-| 01:09 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span> | <span class="dark_missionary"></span><span class="addle"></span>
+| 01:09 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span> | <span class="dark_missionary"></span><span class="mt_war feint"></span><span class="addle"></span>
 | 01:19 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="mt_short"></span><span class="mt_120s"></span><span class="ph_30s"></span><span class="feint"></span> | <span class="reprisal"></span>
 | 01:23 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="feint"></span> | <span class="the_blackest_night"></span><span class="oblation"></span><span class="reprisal"></span><span class="make_no_sense"><span class="dark_mind"></span></span><span class="shadow_wall"></span></a><span class="ph_30s"></span>
 | 01:51 | セイクリッドカット<br>Sacred Sever | <span class="physical"></span> | <span class="rng_90s"></span>
@@ -1469,9 +1469,9 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 09:21 | スパイラルピアス<br>Spiral Pierce | <span class="magic"></span> | <span class="mt_all"></span>
 | 09:21 | レベレーション・アスカロンメルシー<br>Ascalon's Mercy Revealed | <span class="physical"></span> | <span class="mt_all"></span>
 | 09:21 | ヘブンリキッド<br>Liquid Heaven | <span class="magic"></span>
-| 09:35 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span><span class="ast collective_unconscious"></span><span class="rng_90s"></span>
-| 09:46 | ヘヴンリーヒール<br>Heavenly Heel<sup><a href="#war_holmgang">\[1\]</a></sup> | <span class="physical"></span> | <span class="mt_short"></span><span class="rampart"></span><span class="mt_90s"></span><span class="mt_120s"></span><span class="ph_30s"></span><span class="feint"></span><span class="rng_90s"></span> | <span class="reprisal"></span>
-| 09:50 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | <span class="physical"></span> | <span class="feint"></span> | <span class="the_blackest_night"></span><span class="oblation"></span><span class="reprisal"></span><span class="rampart"></span><span class="ph_30s"></span>
+| 09:35 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span><span class="ast collective_unconscious"></span><span class="mt_war feint"></span><span class="rng_90s"></span>
+| 09:46 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="mt_war holmgang"></span><span class="mt_pld mt_drk mt_gnb"><span class="mt_short"></span><span class="rampart"></span><span class="mt_90s"></span><span class="mt_120s"></span><span class="ph_30s"></span><span class="feint"></span><span class="rng_90s"></span></span> | <span class="mt_pld mt_drk mt_gnb"><span class="reprisal"></span></span>
+| 09:50 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="mt_war holmgang"></span><span class="mt_pld mt_drk mt_gnb"><span class="feint"></span></span> | <span class="mt_pld mt_drk mt_gnb"><span class="the_blackest_night"></span><span class="oblation"></span><span class="reprisal"></span><span class="rampart"></span><span class="ph_30s"></span></span>
 | 10:33 | フェイスアンムーブ<br>Faith Unmoving | <span class="physical"></span>
 | 10:36 | ヘヴンフレイム<br>Heavensflame | <span class="magic"></span>
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="ast collective_unconscious"></span> | <span class="reprisal"></span><span class="addle"></span>
@@ -1510,9 +1510,5 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 If there is MCH, BH should use 90s ability to **Alternative End** and **2nd Akh Morn's Edge** instead of 1st Gigaflare's Edge and 3rd Akh Morn's Edge. (MCH uses Dismantle to 2nd Gigaflare's Edge and 3rd Akh Morn's Edge)
 
 </span>
-
-## 注釈 Note
-
-1. <span id="war_holmgang">戦士がいる場合ホルムギャングで置き換え可能。<br>WAR can replace the mitigations with Holmgang.</span>
 
 (C) SQUARE ENIX CO., LTD. All Rights Reserved.
