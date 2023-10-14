@@ -415,14 +415,22 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 <script>
     function on_job_changed(selectors) {
         const all_input = document.querySelectorAll(selectors);
+        let checked;
+        for (const input of all_input) {
+            if (input.checked) {
+                checked = input.value;
+                break;
+            }
+        }
         for (const input of all_input) {
             const elements = document.getElementsByClassName(input.value);
             for (let i = 0; i < elements.length; i++) {
-                if (input.checked) {
-                    elements[i].style.display = "inline flow-root";
+                const element = elements[i];
+                if (element.classList.contains(checked)) {
+                    element.style.display = "inline flow-root";
                 }
                 else {
-                    elements[i].style.display = "none";
+                    element.style.display = "none";
                 }
             }
         }
