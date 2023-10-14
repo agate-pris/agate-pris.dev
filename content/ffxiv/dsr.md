@@ -63,6 +63,38 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         display: inline;
     }
 
+    .rampart {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("rampart.png");
+        background-size: contain;
+    }
+    .reprisal {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("reprisal.png");
+        background-size: contain;
+    }
+    .feint {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("feint.png");
+        background-size: contain;
+    }
+    .addle {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("addle.png");
+        background-size: contain;
+    }
     .sentinel {
         display: inline flow-root;
         width: 40px;
@@ -480,6 +512,10 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
     function set_aria_labels() {
         const data = {
+            rampart: "ランパート\nRampart\nTank 90s\nDuration: 20s",
+            reprisal: "リプライザル\nReprisal\nTank 60s\nDuration: 10s",
+            feint: "牽制\nFeint\nMelee 90s\nDuration: 10s",
+            addle: "アドル\nAddle\nCaster 90s\nDuration: 10s",
             sentinel: "センチネル\nSentinel\nPLD 120s\nDuration: 15s",
             hallowed_ground: "インビンシブル\nHallowed Ground\nPLD 420s\nDuration: 10s",
             bulwark: "ブルワーク\nBulwark\nPLD 90s\nDuration: 10s",
@@ -527,34 +563,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         add_actions();
         set_aria_labels();
         const data = [
-            {
-                name: "rampart",
-                src: "rampart.png",
-                alt: "ランパート Rampart",
-                ariaLabel: "Rampart; Tank 90s Buff",
-            },
-            {
-                name: "reprisal",
-                src: "reprisal.png",
-                alt: "リプライザル Reprisal",
-                ariaLabel: "Reprisal; Tank 60s Debuff",
-            },
-            {
-                name: "feint",
-                src: "feint.png",
-                alt: "牽制 Feint",
-                ariaLabel:
-                    "牽制 Feint\n" +
-                    "Melee 90s Debuff",
-            },
-            {
-                name: "addle",
-                src: "addle.png",
-                alt: "アドル Addle",
-                ariaLabel:
-                    "アドル Addle\n" +
-                    "Caster 90s Debuff",
-            },
             {
                 name: "whispering-dawn",
                 src: "whispering_dawn.png",
