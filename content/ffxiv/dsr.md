@@ -66,6 +66,62 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         display: inline;
     }
 
+    .sentinel {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("sentinel.png");
+        background-size: contain;
+    }
+    .hallowed_ground {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("hallowed_ground.png");
+        background-size: contain;
+    }
+    .bulwark {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("bulwark.png");
+        background-size: contain;
+    }
+    .divine_veil {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("divine_veil.png");
+        background-size: contain;
+    }
+    .intervention {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("intervention.png");
+        background-size: contain;
+    }
+    .passage_of_arms {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("passage_of_arms.png");
+        background-size: contain;
+    }
+    .holy_sheltron {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("holy_sheltron.png");
+        background-size: contain;
+    }
     .divine_benison {
         display: inline flow-root;
         width: 40px;
@@ -283,6 +339,13 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
     function set_aria_labels() {
         const data = {
+            sentinel: "センチネル\nSentinel\nPLD 120s\nDuration: 15s",
+            hallowed_ground: "インビンシブル\nHallowed Ground\nPLD 420s\nDuration: 10s",
+            bulwark: "ブルワーク\nBulwark\nPLD 90s\nDuration: 10s",
+            divine_veil: "ディヴァインヴェール\nDivine Veil\nPLD 90s\nDuration: 30s",
+            intervention: "インターベンション\nIntervention\nPLD 10s\nDuration: 8s",
+            passage_of_arms: "パッセージ・オブ・アームズ\nPassage of Arms\nPLD 120s\nDuration: 18s",
+            holy_sheltron: "ホーリーシェルトロン\nHoly Sheltron\nPLD 5s\nDuration: 8s",
             divine_benison: "ディヴァインベニゾン\nDivine Benison\nWHM 30s\nDuration: 15s\nMaximum Charges: 2",
             temperance: "テンパランス\nTemperance\nWHM 120s\nDuration: 20s",
             aquaveil: "アクアヴェール\nAquaveil\nWHM 60s\nDuration: 8s",
@@ -333,42 +396,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 ariaLabel:
                     "アドル Addle\n" +
                     "Caster 90s Debuff",
-            },
-            {
-                name: "sentinel",
-                src: "sentinel.png",
-                alt: "センチネル Sentinel",
-                ariaLabel: "Sentinel; PLD 120s Buff",
-            },
-            {
-                name: "bulwark",
-                src: "bulwark.png",
-                alt: "ブルワーク Bulwark",
-                ariaLabel: "Bulwark; PLD 90s Buff",
-            },
-            {
-                name: "divine-veil",
-                src: "divine_veil.png",
-                alt: "ディヴァインヴェール Divine Veil",
-                ariaLabel: "Divine Veil; PLD 90s Barrier",
-            },
-            {
-                name: "intervention",
-                src: "intervention.png",
-                alt: "インターベンション Intervention",
-                ariaLabel: "Intervention; PLD Short Buff",
-            },
-            {
-                name: "passage_of_arms",
-                src: "passage_of_arms.png",
-                alt: "パッセージ・オブ・アームズ Passage of Arms",
-                ariaLabel: "Passage of Arms; PLD 120s Mitigation",
-            },
-            {
-                name: "holy_sheltron",
-                src: "holy_sheltron.png",
-                alt: "ホーリーシェルトロン Holy Sheltron",
-                ariaLabel: "Holy Sheltron; PLD Short Buff",
             },
             {
                 name: "shadow_wall",
@@ -591,13 +618,13 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 |     | PLD | WAR | DRK | GNB
 | :-: | :-: | :-: | :-: | :-:
-| 120s | <span class="sentinel"></span> | ![Vengeance](vengeance.png) | <span class="shadow_wall"></span> | ![Nebula](nebula.png)
 | 90s | <span class="bulwark"></span> | ![Thrill of Battle](thrill_of_battle.png) | <span class="dark_mind"></span> | ![Camouflage](camouflage.png)
-| Invul | ![Hallowed Ground](hallowed_ground.png) | ![Holmgang](holmgang.png) | ![Living Dead](living_dead.png) | ![Superbolide](superbolide.png)
+| 120s | <span class="sentinel"></span> | ![Vengeance](vengeance.png) | <span class="shadow_wall"></span> | ![Nebula](nebula.png)
+| Invul | <span class="hallowed_ground"></span> | ![Holmgang](holmgang.png) | ![Living Dead](living_dead.png) | ![Superbolide](superbolide.png)
+| 90s | <span class="divine_veil"></span> | ![Shake It Off](shake_it_off.png) | <span class="dark_missionary"></span> | ![Heart of Light](heart_of_light.png)
+| 120s | <span class="passage_of_arms"></span>
 | Short 1 | <span class="holy_sheltron"></span> | ![Bloodwhetting](bloodwhetting.png) | <span class="the_blackest_night"></span> | ![Heart of Corundum](heart_of_corundum.png)
 | Short 2 | <span class="intervention"></span> | ![Nascent Flash](nascent_flash.png) | ![Oblation](oblation.png)
-| 90s | <span class="divine-veil"></span> | ![Shake It Off](shake_it_off.png) | <span class="dark_missionary"></span> | ![Heart of Light](heart_of_light.png)
-| 120s | <span class="passage_of_arms"></span>
 
 |     | WHM | AST
 | :-: | :-: | :-:
