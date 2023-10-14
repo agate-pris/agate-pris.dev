@@ -122,6 +122,54 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         background-image: url("holy_sheltron.png");
         background-size: contain;
     }
+    .thrill_of_battle {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("thrill_of_battle.png");
+        background-size: contain;
+    }
+    .vengeance {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("vengeance.png");
+        background-size: contain;
+    }
+    .holmgang {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("holmgang.png");
+        background-size: contain;
+    }
+    .shake_it_off {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("shake_it_off.png");
+        background-size: contain;
+    }
+    .nascent_flash {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("nascent_flash.png");
+        background-size: contain;
+    }
+    .bloodwhetting {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("bloodwhetting.png");
+        background-size: contain;
+    }
     .divine_benison {
         display: inline flow-root;
         width: 40px;
@@ -346,6 +394,12 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
             intervention: "インターベンション\nIntervention\nPLD 10s\nDuration: 8s",
             passage_of_arms: "パッセージ・オブ・アームズ\nPassage of Arms\nPLD 120s\nDuration: 18s",
             holy_sheltron: "ホーリーシェルトロン\nHoly Sheltron\nPLD 5s\nDuration: 8s",
+            thrill_of_battle: "スリル・オブ・バトル\nThrill of Battle\nWAR 90s\nDuration: 10s",
+            vengeance: "ヴェンジェンス\nVengeance\nWAR 120s\nDuration: 15s",
+            holmgang: "ホルムギャング\nHolmgang\nWAR 240s\nDuration: 10s",
+            shake_it_off: "シェイクオフ\nShake it Off\nWAR 90s\nDuration: 30s",
+            nascent_flash: "原初の猛り\nNascent Flash\nWAR 25s\nDuration: 8s",
+            bloodwhetting: "原初の血気\nBloodwhetting\nWAR 25s\nDuration: 8s",
             divine_benison: "ディヴァインベニゾン\nDivine Benison\nWHM 30s\nDuration: 15s\nMaximum Charges: 2",
             temperance: "テンパランス\nTemperance\nWHM 120s\nDuration: 20s",
             aquaveil: "アクアヴェール\nAquaveil\nWHM 60s\nDuration: 8s",
@@ -618,13 +672,13 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 |     | PLD | WAR | DRK | GNB
 | :-: | :-: | :-: | :-: | :-:
-| 90s | <span class="bulwark"></span> | ![Thrill of Battle](thrill_of_battle.png) | <span class="dark_mind"></span> | ![Camouflage](camouflage.png)
-| 120s | <span class="sentinel"></span> | ![Vengeance](vengeance.png) | <span class="shadow_wall"></span> | ![Nebula](nebula.png)
-| Invul | <span class="hallowed_ground"></span> | ![Holmgang](holmgang.png) | ![Living Dead](living_dead.png) | ![Superbolide](superbolide.png)
-| 90s | <span class="divine_veil"></span> | ![Shake It Off](shake_it_off.png) | <span class="dark_missionary"></span> | ![Heart of Light](heart_of_light.png)
+| 90s | <span class="bulwark"></span> | <span class="thrill_of_battle"></span> | <span class="dark_mind"></span> | ![Camouflage](camouflage.png)
+| 120s | <span class="sentinel"></span> | <span class="vengeance"></span> | <span class="shadow_wall"></span> | ![Nebula](nebula.png)
+| Invul | <span class="hallowed_ground"></span> | <span class="holmgang"></span> | ![Living Dead](living_dead.png) | ![Superbolide](superbolide.png)
+| 90s | <span class="divine_veil"></span> | <span class="shake_it_off"></span> | <span class="dark_missionary"></span> | ![Heart of Light](heart_of_light.png)
 | 120s | <span class="passage_of_arms"></span>
-| Short 1 | <span class="holy_sheltron"></span> | ![Bloodwhetting](bloodwhetting.png) | <span class="the_blackest_night"></span> | ![Heart of Corundum](heart_of_corundum.png)
-| Short 2 | <span class="intervention"></span> | ![Nascent Flash](nascent_flash.png) | ![Oblation](oblation.png)
+| Short 1 | <span class="holy_sheltron"></span> | <span class="bloodwhetting"></span> | <span class="the_blackest_night"></span> | ![Heart of Corundum](heart_of_corundum.png)
+| Short 2 | <span class="intervention"></span> | <span class="nascent_flash"></span> | ![Oblation](oblation.png)
 
 |     | WHM | AST
 | :-: | :-: | :-:
