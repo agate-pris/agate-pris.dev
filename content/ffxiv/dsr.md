@@ -1135,6 +1135,14 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
             duration: "20s",
         },
         {
+            name: "troubadour",
+            name_jp: "トルバドゥール",
+            name_en: "Troubadour",
+            acquired: "BRD",
+            recast: "90s",
+            duration: "15s",
+        },
+        {
             name: "natures_minne",
             name_jp: "地神のミンネ",
             name_en: "Nature's Minne",
