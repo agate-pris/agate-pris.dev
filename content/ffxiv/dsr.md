@@ -218,6 +218,46 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         background-image: url("oblation.png");
         background-size: contain;
     }
+    .camouflage {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("camouflage.png");
+        background-size: contain;
+    }
+    .nebula {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("nebula.png");
+        background-size: contain;
+    }
+    .superbolide {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("superbolide.png");
+        background-size: contain;
+    }
+    .heart_of_light {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("heart_of_light.png");
+        background-size: contain;
+    }
+    .heart_of_corundum {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("heart_of_corundum.png");
+        background-size: contain;
+    }
     .divine_benison {
         display: inline flow-root;
         width: 40px;
@@ -454,6 +494,11 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
             the_blackest_night: "ブラックナイト\nThe Blackest Night\nDRK 15s\nDuration: 7s",
             dark_missionary: "ダークミッショナリー\nDark Missionary\nDRK 90s\nDuration: 15s",
             oblation: "オブレーション\nOblation\nDRK 60s\nDuration: 10s\nMaximum Charges: 2",
+            camouflage: "カモフラージュ\nCamouflage\nGNB 90s\nDuration: 20s",
+            nebula: "ネビュラ\nNebula\nGNB 120s\nDuration: 15s",
+            superbolide: "ボーライド\nSuperbolide\nGNB 360s\nDuration: 10s",
+            heart_of_light: "ハート・オブ・ライト\nHeart of Light\nGNB 90s\nDuration: 15s",
+            heart_of_corundum: "ハート・オブ・コランダム\nHeart of Corundum\nGNB 25s\nDuration 8s",
             divine_benison: "ディヴァインベニゾン\nDivine Benison\nWHM 30s\nDuration: 15s\nMaximum Charges: 2",
             temperance: "テンパランス\nTemperance\nWHM 120s\nDuration: 20s",
             aquaveil: "アクアヴェール\nAquaveil\nWHM 60s\nDuration: 8s",
@@ -702,12 +747,12 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 |     | PLD | WAR | DRK | GNB
 | :-: | :-: | :-: | :-: | :-:
-| 90s | <span class="bulwark"></span> | <span class="thrill_of_battle"></span> | <span class="dark_mind"></span> | ![Camouflage](camouflage.png)
-| 120s | <span class="sentinel"></span> | <span class="vengeance"></span> | <span class="shadow_wall"></span> | ![Nebula](nebula.png)
-| Invul | <span class="hallowed_ground"></span> | <span class="holmgang"></span> | <span class="living_dead"></span> | ![Superbolide](superbolide.png)
-| 90s | <span class="divine_veil"></span> | <span class="shake_it_off"></span> | <span class="dark_missionary"></span> | ![Heart of Light](heart_of_light.png)
+| 90s | <span class="bulwark"></span> | <span class="thrill_of_battle"></span> | <span class="dark_mind"></span> | <span class="camouflage"></span>
+| 120s | <span class="sentinel"></span> | <span class="vengeance"></span> | <span class="shadow_wall"></span> | <span class="nebula"></span>
+| Invul | <span class="hallowed_ground"></span> | <span class="holmgang"></span> | <span class="living_dead"></span> | <span class="superbolide"></span>
+| 90s | <span class="divine_veil"></span> | <span class="shake_it_off"></span> | <span class="dark_missionary"></span> | <span class="heart_of_light"></span>
 | 120s | <span class="passage_of_arms"></span>
-| Short 1 | <span class="holy_sheltron"></span> | <span class="bloodwhetting"></span> | <span class="the_blackest_night"></span> | ![Heart of Corundum](heart_of_corundum.png)
+| Short 1 | <span class="holy_sheltron"></span> | <span class="bloodwhetting"></span> | <span class="the_blackest_night"></span> | <span class="heart_of_corundum"></span>
 | Short 2 | <span class="intervention"></span> | <span class="nascent_flash"></span> | <span class="oblation"></span>
 
 |     | WHM | AST
