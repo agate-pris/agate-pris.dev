@@ -1414,7 +1414,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 06:03 | フレアディザスター<br>Flare Nova | <span class="magic"></span> | <span class="divine_veil"></span><span class="brd troubadour"></span><span class="mch tactician"></span><span class="dnc shield_samba"></span> | <span class="dark_missionary"></span>
 | 06:10 | フレアスター<br>Flare Star | <span class="magic"></span> | <span class="divine_veil"></span><span class="brd troubadour"></span><span class="mch tactician"></span><span class="dnc shield_samba"></span> | <span class="dark_missionary"></span>
 | 06:22 | ミラージュダイブ<br>Mirage Dive | <span class="physical"></span>
-| 06:47 | 憤怒の波動<br>Steep in Rage<sup><a href="#steep_in_rage">\[4\]</a></sup> | <span class="magic"></span> | | <span class="reprisal"></span>
+| 06:47 | 憤怒の波動<br>Steep in Rage | <span class="magic"></span> | | <span class="reprisal"></span>
 | 07:35 | 衝撃波<br>Shockwave | <span class="magic"></span> | <span class="limit_break"></span>
 | 07:40 | 光翼閃<br>Brightwing | <span class="magic"></span> | <span class="limit_break"></span> | <span class="addle"></span>
 | 07:45 | 光翼閃<br>Brightwing | <span class="magic"></span> | <span class="reprisal"></span><span class="divine_veil"></span><span class="feint"></span> | <span class="addle"></span>
