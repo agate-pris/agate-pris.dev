@@ -170,6 +170,54 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         background-image: url("bloodwhetting.png");
         background-size: contain;
     }
+    .shadow_wall {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("shadow_wall.png");
+        background-size: contain;
+    }
+    .dark_mind {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("dark_mind.png");
+        background-size: contain;
+    }
+    .living_dead {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("living_dead.png");
+        background-size: contain;
+    }
+    .the_blackest_night {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("the_blackest_night.png");
+        background-size: contain;
+    }
+    .dark_missionary {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("dark_missionary.png");
+        background-size: contain;
+    }
+    .oblation {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("oblation.png");
+        background-size: contain;
+    }
     .divine_benison {
         display: inline flow-root;
         width: 40px;
@@ -400,6 +448,12 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
             shake_it_off: "シェイクオフ\nShake it Off\nWAR 90s\nDuration: 30s",
             nascent_flash: "原初の猛り\nNascent Flash\nWAR 25s\nDuration: 8s",
             bloodwhetting: "原初の血気\nBloodwhetting\nWAR 25s\nDuration: 8s",
+            shadow_wall: "シャドウウォール\nShadow Wall\nDRK 120s\nDuration: 15s",
+            dark_mind: "ダークマインド\nDark Mind\nDRK 60s\nDuration: 10s",
+            living_dead: "リビングデッド\nLiving Dead\nDRK 300s\nDuration: 10s",
+            the_blackest_night: "ブラックナイト\nThe Blackest Night\nDRK 15s\nDuration: 7s",
+            dark_missionary: "ダークミッショナリー\nDark Missionary\nDRK 90s\nDuration: 15s",
+            oblation: "オブレーション\nOblation\nDRK 60s\nDuration: 10s\nMaximum Charges: 2",
             divine_benison: "ディヴァインベニゾン\nDivine Benison\nWHM 30s\nDuration: 15s\nMaximum Charges: 2",
             temperance: "テンパランス\nTemperance\nWHM 120s\nDuration: 20s",
             aquaveil: "アクアヴェール\nAquaveil\nWHM 60s\nDuration: 8s",
@@ -450,30 +504,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 ariaLabel:
                     "アドル Addle\n" +
                     "Caster 90s Debuff",
-            },
-            {
-                name: "shadow_wall",
-                src: "shadow_wall.png",
-                alt: "シャドウウォール Shadow Wall",
-                ariaLabel: "Shadow Wall; DRK 120s Buff",
-            },
-            {
-                name: "dark_mind",
-                src: "dark_mind.png",
-                alt: "ダークマインド Dark Mind",
-                ariaLabel: "Dark Mind; DRK 90s Buff",
-            },
-            {
-                name: "the_blackest_night",
-                src: "the_blackest_night.png",
-                alt: "ブラックナイト The Blackest Night",
-                ariaLabel: "The Blackest Night; DRK 15s Short Buff",
-            },
-            {
-                name: "dark_missionary",
-                src: "dark_missionary.png",
-                alt: "ダークミッショナリー Dark Missionary",
-                ariaLabel: "Dark Missionary; DRK 90s Mitigation",
             },
             {
                 name: "whispering-dawn",
@@ -674,11 +704,11 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | :-: | :-: | :-: | :-: | :-:
 | 90s | <span class="bulwark"></span> | <span class="thrill_of_battle"></span> | <span class="dark_mind"></span> | ![Camouflage](camouflage.png)
 | 120s | <span class="sentinel"></span> | <span class="vengeance"></span> | <span class="shadow_wall"></span> | ![Nebula](nebula.png)
-| Invul | <span class="hallowed_ground"></span> | <span class="holmgang"></span> | ![Living Dead](living_dead.png) | ![Superbolide](superbolide.png)
+| Invul | <span class="hallowed_ground"></span> | <span class="holmgang"></span> | <span class="living_dead"></span> | ![Superbolide](superbolide.png)
 | 90s | <span class="divine_veil"></span> | <span class="shake_it_off"></span> | <span class="dark_missionary"></span> | ![Heart of Light](heart_of_light.png)
 | 120s | <span class="passage_of_arms"></span>
 | Short 1 | <span class="holy_sheltron"></span> | <span class="bloodwhetting"></span> | <span class="the_blackest_night"></span> | ![Heart of Corundum](heart_of_corundum.png)
-| Short 2 | <span class="intervention"></span> | <span class="nascent_flash"></span> | ![Oblation](oblation.png)
+| Short 2 | <span class="intervention"></span> | <span class="nascent_flash"></span> | <span class="oblation"></span>
 
 |     | WHM | AST
 | :-: | :-: | :-:
