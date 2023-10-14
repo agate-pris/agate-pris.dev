@@ -1395,14 +1395,14 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 | Time | Action | 属性 | MT (PLD)<br>H1 (WHM)<br>D1<br>D3 (BRD) | ST (DRK)<br>D2<br>D4
 | :--- | :----- | :--: | :------- | :-------
-| 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | <span class="physical"></span> | <span class="holy_sheltron"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="bulwark"></span><sup><a href="#mt_drk_physical_90s">\[2\]</a></sup><span class="ph_30s"></span><span class="brd troubadour"></span><span class="mch tactician"></span><span class="dnc shield_samba"></span> | <span class="reprisal"></span><span class="feint"></span>
+| 00:15 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | <span class="physical"></span> | <span class="holy_sheltron"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="bulwark"></span><span class="ph_30s"></span><span class="brd troubadour"></span><span class="mch tactician"></span><span class="dnc shield_samba"></span> | <span class="reprisal"></span><span class="feint"></span>
 | 00:57 | 邪竜の魔炎<br>the Dragon's Rage | <span class="magic"></span> | <span class="divine_veil"></span>
 | 00:58 | スカイワードリープ<br>Skyward Leap | <span class="magic"></span> | <span class="divine_veil"></span>
 | 00:58 | ホーリーシールドバッシュ<br>Holy Shield Bash | <span class="physical"></span> | <span class="holy_sheltron"></span><span class="oblation"></span><span class="rampart"></span> | <span class="the_blackest_night"></span><span class="rampart"></span>
 | 01:01 | ホーリーブレードダンス<br>Holy Bladedance | <span class="physical"></span> | <span class="holy_sheltron"></span><span class="oblation"></span><span class="rampart"></span> | <span class="the_blackest_night"></span><span class="rampart"></span>
 | 01:09 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span> | <span class="dark_missionary"></span><span class="addle"></span>
 | 01:19 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="holy_sheltron"></span><span class="sentinel"></span><span class="ph_30s"></span><span class="feint"></span> | <span class="reprisal"></span>
-| 01:23 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="feint"></span> | <span class="the_blackest_night"></span><span class="oblation"></span><span class="reprisal"></span><span class="make_no_sense"><span class="dark_mind"></span></span><sup><a href="#st_drk_physical_90s">\[3\]</sup><span class="shadow_wall"></span></a><span class="ph_30s"></span>
+| 01:23 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="feint"></span> | <span class="the_blackest_night"></span><span class="oblation"></span><span class="reprisal"></span><span class="make_no_sense"><span class="dark_mind"></span></span><span class="shadow_wall"></span></a><span class="ph_30s"></span>
 | 01:51 | セイクリッドカット<br>Sacred Sever | <span class="physical"></span> | <span class="brd troubadour"></span><span class="mch tactician"></span><span class="dnc shield_samba"></span>
 | 02:09 | ハイマルストーム<br>Hiemal Storm | <span class="magic"></span>
 | 02:44 | アルティメットエンド<br>Ultimate End | <span class="magic"></span> |  | <span class="reprisal"></span><span class="feint"></span><span class="addle"></span>
@@ -1426,12 +1426,12 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 09:21 | レベレーション・アスカロンメルシー<br>Ascalon's Mercy Revealed | <span class="physical"></span> | <span class="divine_veil"></span>
 | 09:21 | ヘブンリキッド<br>Liquid Heaven | <span class="magic"></span>
 | 09:35 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span><span class="ast collective_unconscious"></span><span class="brd troubadour"></span><span class="mch tactician"></span><span class="dnc shield_samba"></span>
-| 09:46 | ヘヴンリーヒール<br>Heavenly Heel<sup><a href="#war_holmgang">\[1\]</a></sup> | <span class="physical"></span> | <span class="holy_sheltron"></span><span class="rampart"></span><span class="bulwark"></span><sup><a href="#mt_drk_physical_90s">\[2\]</a></sup><span class="sentinel"></span><span class="ph_30s"></span><span class="feint"></span><span class="brd troubadour"></span><span class="mch tactician"></span><span class="dnc shield_samba"></span> | <span class="reprisal"></span>
+| 09:46 | ヘヴンリーヒール<br>Heavenly Heel<sup><a href="#war_holmgang">\[1\]</a></sup> | <span class="physical"></span> | <span class="holy_sheltron"></span><span class="rampart"></span><span class="bulwark"></span><span class="sentinel"></span><span class="ph_30s"></span><span class="feint"></span><span class="brd troubadour"></span><span class="mch tactician"></span><span class="dnc shield_samba"></span> | <span class="reprisal"></span>
 | 09:50 | アスカロンマイト<br>Ascalon's Might<sup><a href="#war_holmgang">\[1\]</a></sup> | <span class="physical"></span> | <span class="feint"></span> | <span class="intervention"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="reprisal"></span><span class="rampart"></span><span class="ph_30s"></span>
 | 10:33 | フェイスアンムーブ<br>Faith Unmoving | <span class="physical"></span>
 | 10:36 | ヘヴンフレイム<br>Heavensflame | <span class="magic"></span>
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="ast collective_unconscious"></span> | <span class="reprisal"></span><span class="addle"></span>
-| 11:16 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="reprisal"></span> | <span class="intervention"></span><span class="the_blackest_night"></span><span class="make_no_sense"><span class="dark_mind"></span></span><sup><a href="#st_drk_physical_90s">\[3\]</a></sup><span class="shadow_wall"></span><span class="ph_30s"></span><span class="feint"></span>
+| 11:16 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="reprisal"></span> | <span class="intervention"></span><span class="the_blackest_night"></span><span class="make_no_sense"><span class="dark_mind"></span></span><span class="shadow_wall"></span><span class="ph_30s"></span><span class="feint"></span>
 | 11:19 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="holy_sheltron"></span><span class="reprisal"></span><span class="rampart"></span><span class="oblation"></span><span class="ph_30s"></span> | <span class="feint"></span>
 | 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | <span class="magic"></span> | <span class="holy_sheltron"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="sentinel"></span><span class="ph_120s"></span><span class="brd troubadour"></span><span class="mch tactician"></span><span class="dnc shield_samba"></span> | <span class="intervention"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="rampart"></span><span class="adloquium"></span><span class="deployment_tactics"></span>
 | 12:23 | アク・アファー<br>Akh Afah | <span class="magic"></span> | <span class="reprisal"></span> | <span class="sacred_soil"></span><span class="recitation"></span><span class="succor"></span>
@@ -1470,7 +1470,5 @@ If there is MCH, BH should use 90s ability to **Alternative End** and **2nd Akh 
 ## 注釈 Note
 
 1. <span id="war_holmgang">戦士がいる場合ホルムギャングで置き換え可能。<br>WAR can replace the mitigations with Holmgang.</span>
-2. <span id="mt_drk_physical_90s">暗黒 MT の場合、ここでブルワークの代わりにダークマインドを使用しても意味がない。<br>If MT is DRK, it makes no sense to use Dark Mind instead of Bulwark here.</span>
-3. <span id="st_drk_physical_90s">暗黒 ST の場合、ここでダークマインドを使用しても実際には意味がない。暗黒以外が ST の場合、ここで 90 秒アビを使用する。<br>If DRK is ST, using Dark Mind here does not make actual sense. If the ST is other than DRK, use the 90s ability here.</span>
 
 (C) SQUARE ENIX CO., LTD. All Rights Reserved.
