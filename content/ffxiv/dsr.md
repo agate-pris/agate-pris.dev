@@ -81,9 +81,9 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
     }
     .limit_break {
         display: inline flow-root;
-        width: 24px;
-        height: 24px;
-        padding-left: 24px;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
         background-image: url("limit_break.png");
         background-size: contain;
     }
