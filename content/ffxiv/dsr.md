@@ -34,9 +34,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         opacity: calc(2/3);
     }
 
-    .mitigation-chart span {
-        display: inline flow-root;
-    }
     .mitigation-chart td:nth-child(3) {
         width: 60px;
     }
