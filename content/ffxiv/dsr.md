@@ -1212,6 +1212,9 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
     function on_mt_changed() {
         on_job_changed("input[name=mt]");
     }
+    function on_st_changed() {
+        on_job_changed("input[name=st]");
+    }
     function on_ph_changed() {
         on_job_changed("input[name=ph]");
     }
@@ -1261,6 +1264,41 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
                 ["mt_war", "nascent_flash"],
                 ["mt_drk", "the_blackest_night"],
                 ["mt_gnb", "heart_of_corundum"],
+            ],
+            st_90s: [
+                ["st_pld", "bulwark"],
+                ["st_war", "thrill_of_battle"],
+                ["st_gnb", "camouflage"],
+            ],
+            st_120s: [
+                ["st_pld", "sentinel"],
+                ["st_war", "vengeance"],
+                ["st_drk", "shadow_wall"],
+                ["st_gnb", "nebula"],
+            ],
+            st_short: [
+                ["st_pld", "holy_sheltron"],
+                ["st_war", "bloodwhetting"],
+                ["st_drk", "the_blackest_night"],
+                ["st_gnb", "heart_of_corundum"],
+            ],
+            st_all: [
+                ["st_pld", "divine_veil"],
+                ["st_war", "shake_it_off"],
+                ["st_drk", "dark_missionary"],
+                ["st_gnb", "heart_of_light"],
+            ],
+            st_invul: [
+                ["st_pld", "hallowed_ground"],
+                ["st_war", "holmgang"],
+                ["st_drk", "living_dead"],
+                ["st_gnb", "superbolide"],
+            ],
+            st_support: [
+                ["st_pld", "intervention"],
+                ["st_war", "nascent_flash"],
+                ["st_drk", "the_blackest_night"],
+                ["st_gnb", "heart_of_corundum"],
             ],
             ph_30s: [
                 ["whm", "divine_benison"],
@@ -1317,6 +1355,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
             }
         });
         on_mt_changed();
+        on_st_changed();
         on_ph_changed();
         on_d1_changed();
         on_d2_changed();
@@ -1379,12 +1418,12 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 <p class="job"><input type="radio" name="mt" value="mt_gnb" onchange="on_mt_changed()"><img src="Gunbreaker.png"></p>
 </form>
 
-<form method="on_st_changed" style="display:none">
+<form method="on_st_changed">
 <p class="job">ST</p>
-<p class="job"><input type="radio" name="st" value="pld" onchange="on_st_changed()"><img src="Paladin.png"></p>
-<p class="job"><input type="radio" name="st" value="war" onchange="on_st_changed()"><img src="Warrior.png"></p>
-<p class="job"><input type="radio" name="st" value="drk" onchange="on_st_changed()" checked><img src="DarkKnight.png"></p>
-<p class="job"><input type="radio" name="st" value="gnb" onchange="on_st_changed()"><img src="Gunbreaker.png"></p>
+<p class="job"><input type="radio" name="st" value="st_pld" onchange="on_st_changed()"><img src="Paladin.png"></p>
+<p class="job"><input type="radio" name="st" value="st_war" onchange="on_st_changed()"><img src="Warrior.png"></p>
+<p class="job"><input type="radio" name="st" value="st_drk" onchange="on_st_changed()" checked><img src="DarkKnight.png"></p>
+<p class="job"><input type="radio" name="st" value="st_gnb" onchange="on_st_changed()"><img src="Gunbreaker.png"></p>
 </form>
 
 <form method="on_ph_changed">
@@ -1435,61 +1474,61 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
 | Time | Action | 属性 | MT (PLD)<br>H1 (WHM)<br>D1<br>D3 (BRD) | ST (DRK)<br>D2<br>D4
 | :--- | :----- | :--: | :------- | :-------
-| 00:15 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="mt_war holmgang"></span><span class="mt_pld mt_drk mt_gnb"><span class="mt_short"></span><span class="the_blackest_night"></span><span class="ph_30s"></span><span class="rng_90s"></span></span> | <span class="mt_pld mt_drk mt_gnb"><span class="reprisal"></span><span class="feint"></span></span>
+| 00:15 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="mt_war holmgang"></span><span class="mt_pld mt_drk mt_gnb"><span class="mt_short"></span><span class="st_support"></span><span class="ph_30s"></span><span class="rng_90s"></span></span> | <span class="mt_pld mt_drk mt_gnb"><span class="reprisal"></span><span class="feint"></span></span>
 | 00:57 | 邪竜の魔炎<br>the Dragon's Rage | <span class="magic"></span> | <span class="mt_all"></span>
 | 00:58 | スカイワードリープ<br>Skyward Leap | <span class="magic"></span> | <span class="mt_all"></span>
-| 00:58 | ホーリーシールドバッシュ<br>Holy Shield Bash | <span class="physical"></span> | <span class="rampart"></span><span class="mt_90s"></span><span class="oblation"></span><span class="mt_pld mt_drk mt_short"></span> | <span class="rampart"></span><span class="oblation"></span><span class="the_blackest_night"></span>
-| 01:01 | ホーリーブレードダンス<br>Holy Bladedance | <span class="physical"></span> | <span class="rampart"></span><span class="mt_90s"></span><span class="oblation"></span><span class="mt_pld mt_drk mt_short"></span> | <span class="rampart"></span><span class="oblation"></span><span class="the_blackest_night"></span>
-| 01:09 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span> | <span class="dark_missionary"></span><span class="mt_war feint"></span><span class="addle"></span>
+| 00:58 | ホーリーシールドバッシュ<br>Holy Shield Bash | <span class="physical"></span> | <span class="rampart"></span><span class="mt_90s"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="mt_pld mt_drk mt_short"></span> | <span class="rampart"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="st_90s"></span><span class="st_pld st_drk st_short"></span>
+| 01:01 | ホーリーブレードダンス<br>Holy Bladedance | <span class="physical"></span> | <span class="rampart"></span><span class="mt_90s"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="mt_pld mt_drk mt_short"></span> | <span class="rampart"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="st_90s"></span><span class="st_pld st_drk st_short"></span>
+| 01:09 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span> | <span class="st_all"></span><span class="mt_war feint"></span><span class="addle"></span>
 | 01:19 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="mt_short"></span><span class="mt_120s"></span><span class="ph_30s"></span><span class="feint"></span> | <span class="reprisal"></span>
-| 01:23 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="feint"></span> | <span class="the_blackest_night"></span><span class="reprisal"></span><span class="shadow_wall"></span></a><span class="ph_30s"></span>
+| 01:23 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="feint"></span> | <span class="st_short"></span><span class="reprisal"></span><span class="st_120s"></span></a><span class="ph_30s"></span>
 | 01:51 | セイクリッドカット<br>Sacred Sever | <span class="physical"></span> | <span class="rng_90s"></span>
 | 02:09 | ハイマルストーム<br>Hiemal Storm | <span class="magic"></span>
 | 02:44 | アルティメットエンド<br>Ultimate End | <span class="magic"></span> |  | <span class="reprisal"></span><span class="feint"></span><span class="addle"></span>
-| 03:18 | 終焉の竜詩<br>Final Chorus | <span class="magic"></span> | <span class="mt_all"></span><span class="mt_pld passage_of_arms"></span> | <span class="dark_missionary"></span>
+| 03:18 | 終焉の竜詩<br>Final Chorus | <span class="magic"></span> | <span class="mt_all"></span><span class="mt_pld passage_of_arms"></span> | <span class="st_all"></span><span class="st_pld passage_of_arms"></span>
 | 03:47 | アイ・オブ・タイラント<br>Eye of the Tyrant | <span class="magic"></span> | <span class="reprisal"></span><span class="feint"></span><span class="rng_90s"></span>
 | 04:08 | アイ・オブ・タイラント<br>Eye of the Tyrant | <span class="magic"></span> | | <span class="reprisal"></span><span class="feint"></span><span class="addle"></span>
-| 04:40 | ソウルテザー<br>Soul Tether | <span class="magic"></span> | <span class="mt_invul"></span> | <span class="living_dead"></span>
+| 04:40 | ソウルテザー<br>Soul Tether | <span class="magic"></span> | <span class="mt_invul"></span> | <span class="st_invul"></span>
 | 05:46 | 苦悶の咆哮<br>Resentment | <span class="magic"></span> |
-| 06:03 | フレアディザスター<br>Flare Nova | <span class="magic"></span> | <span class="mt_all"></span><span class="rng_90s"></span> | <span class="dark_missionary"></span>
-| 06:10 | フレアスター<br>Flare Star | <span class="magic"></span> | <span class="mt_all"></span><span class="rng_90s"></span> | <span class="dark_missionary"></span>
+| 06:03 | フレアディザスター<br>Flare Nova | <span class="magic"></span> | <span class="mt_all"></span><span class="rng_90s"></span> | <span class="st_all"></span>
+| 06:10 | フレアスター<br>Flare Star | <span class="magic"></span> | <span class="mt_all"></span><span class="rng_90s"></span> | <span class="st_all"></span>
 | 06:22 | ミラージュダイブ<br>Mirage Dive | <span class="physical"></span>
 | 06:47 | 憤怒の波動<br>Steep in Rage | <span class="magic"></span> | | <span class="reprisal"></span>
 | 07:35 | 衝撃波<br>Shockwave | <span class="magic"></span> | <span class="limit_break"></span>
 | 07:40 | 光翼閃<br>Brightwing | <span class="magic"></span> | <span class="limit_break"></span> | <span class="addle"></span>
 | 07:45 | 光翼閃<br>Brightwing | <span class="magic"></span> | <span class="reprisal"></span><span class="mt_all"></span><span class="feint"></span> | <span class="addle"></span>
 | 07:50 | 光翼閃<br>Brightwing | <span class="magic"></span> | <span class="reprisal"></span><span class="mt_all"></span><span class="feint"></span><span class="rng_90s"></span>
-| 07:55 | 光翼閃<br>Brightwing | <span class="magic"></span> | <span class="rng_90s"></span> | <span class="reprisal"></span><span class="dark_missionary"></span><span class="feint"></span>
-| 08:00 | ピュア・オブ・ハート<br>Pure of Heart | <span class="magic"></span> | <span class="ast collective_unconscious"></span><span class="rng_90s"></span> | <span class="reprisal"></span><span class="dark_missionary"></span><span class="feint"></span>
+| 07:55 | 光翼閃<br>Brightwing | <span class="magic"></span> | <span class="rng_90s"></span> | <span class="reprisal"></span><span class="st_all"></span><span class="feint"></span>
+| 08:00 | ピュア・オブ・ハート<br>Pure of Heart | <span class="magic"></span> | <span class="ast collective_unconscious"></span><span class="rng_90s"></span> | <span class="reprisal"></span><span class="st_all"></span><span class="feint"></span>
 | 09:15 | スカイワードリープ<br>Skyward Leap | <span class="magic"></span> | <span class="mt_all"></span>
 | 09:21 | スパイラルピアス<br>Spiral Pierce | <span class="magic"></span> | <span class="mt_all"></span>
 | 09:21 | レベレーション・アスカロンメルシー<br>Ascalon's Mercy Revealed | <span class="physical"></span> | <span class="mt_all"></span>
 | 09:21 | ヘブンリキッド<br>Liquid Heaven | <span class="magic"></span>
 | 09:35 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span><span class="ast collective_unconscious"></span><span class="mt_war feint"></span><span class="rng_90s"></span>
 | 09:46 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="mt_war holmgang"></span><span class="mt_pld mt_drk mt_gnb"><span class="mt_short"></span><span class="rampart"></span><span class="mt_90s"></span><span class="mt_120s"></span><span class="ph_30s"></span><span class="feint"></span><span class="rng_90s"></span></span> | <span class="mt_pld mt_drk mt_gnb"><span class="reprisal"></span></span>
-| 09:50 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="mt_war holmgang"></span><span class="mt_pld mt_drk mt_gnb"><span class="feint"></span></span> | <span class="mt_pld mt_drk mt_gnb"><span class="the_blackest_night"></span><span class="oblation"></span><span class="reprisal"></span><span class="rampart"></span><span class="ph_30s"></span></span>
+| 09:50 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="mt_war holmgang"></span><span class="mt_pld mt_drk mt_gnb"><span class="feint"></span></span> | <span class="mt_pld mt_drk mt_gnb"><span class="st_short"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="reprisal"></span><span class="rampart"></span><span class="st_90s"></span><span class="ph_30s"></span></span>
 | 10:33 | フェイスアンムーブ<br>Faith Unmoving | <span class="physical"></span>
 | 10:36 | ヘヴンフレイム<br>Heavensflame | <span class="magic"></span>
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="ast collective_unconscious"></span> | <span class="reprisal"></span><span class="addle"></span>
-| 11:16 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="reprisal"></span> | <span class="the_blackest_night"></span><span class="shadow_wall"></span><span class="ph_30s"></span><span class="feint"></span>
-| 11:19 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="mt_short"></span><span class="reprisal"></span><span class="rampart"></span><span class="oblation"></span><span class="ph_30s"></span> | <span class="feint"></span>
-| 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | <span class="magic"></span> | <span class="mt_short"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="mt_120s"></span><span class="ph_120s"></span><span class="rng_90s"></span> | <span class="mt_support"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="rampart"></span><span class="adloquium"></span><span class="deployment_tactics"></span>
+| 11:16 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="reprisal"></span> | <span class="st_short"></span><span class="st_120s"></span><span class="ph_30s"></span><span class="feint"></span>
+| 11:19 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="mt_short"></span><span class="reprisal"></span><span class="rampart"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="ph_30s"></span> | <span class="feint"></span>
+| 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | <span class="magic"></span> | <span class="mt_short"></span><span class="st_support"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="mt_120s"></span><span class="ph_120s"></span><span class="rng_90s"></span> | <span class="mt_support"></span><span class="st_short"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="rampart"></span><span class="adloquium"></span><span class="deployment_tactics"></span>
 | 12:23 | アク・アファー<br>Akh Afah | <span class="magic"></span> | <span class="reprisal"></span> | <span class="sacred_soil"></span><span class="recitation"></span><span class="succor"></span>
-| 12:36 | ホーリーフェザー<br>Hallowed Plume | <span class="magic"></span> | <span class="mt_short"></span><span class="mt_90s"></span><span class="mt_drk dark_mind"></span><span class="ph_30s"></span><span class="ph_60s"></span><span class="adloquium"></span><span class="feint"></span> | <span class="the_blackest_night"></span><span class="reprisal"></span><span class="dark_mind"></span><span class="ph_30s"></span><span class="protraction"></span><span class="adloquium"></span>
-| 13:02 | アク・モーン<br>Akh Morn | <span class="magic"></span> | <span class="mt_all"></span><span class="ph_180s"></span><span class="ast collective_unconscious"></span> | <span class="dark_missionary"></span><span class="expedient"></span><span class="summon_seraph"></span><span class="consolation"></span><span class="sacred_soil"></span><span class="succor"></span><span class="addle"></span>
+| 12:36 | ホーリーフェザー<br>Hallowed Plume | <span class="magic"></span> | <span class="mt_short"></span><span class="mt_90s"></span><span class="mt_drk dark_mind"></span><span class="ph_30s"></span><span class="ph_60s"></span><span class="adloquium"></span><span class="feint"></span> | <span class="st_short"></span><span class="reprisal"></span><span class="st_90s"></span><span class="st_drk dark_mind"></span><span class="ph_30s"></span><span class="protraction"></span><span class="adloquium"></span>
+| 13:02 | アク・モーン<br>Akh Morn | <span class="magic"></span> | <span class="mt_all"></span><span class="ph_180s"></span><span class="ast collective_unconscious"></span> | <span class="st_all"></span><span class="expedient"></span><span class="summon_seraph"></span><span class="consolation"></span><span class="sacred_soil"></span><span class="succor"></span><span class="addle"></span>
 | 13:32 | アク・アファー<br>Akh Afah | <span class="magic"></span> | <span class="reprisal"></span><span class="rng_90s"></span> | <span class="sacred_soil"></span><span class="succor"></span>
-| 13:45 | ホーリーフェザー<br>Hallowed Plume | <span class="magic"></span> | <span class="mt_short"></span><span class="rampart"></span><span class="mt_drk dark_mind"></span><span class="ph_30s"></span><span class="ph_60s"></span><span class="adloquium"></span> | <span class="the_blackest_night"></span><span class="reprisal"></span><span class="shadow_wall"></span><span class="ph_30s"></span><span class="protraction"></span><span class="adloquium"></span><span class="feint"></span>
-| 14:04 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | <span class="magic"></span> | <span class="mt_short"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="mt_120s"></span><span class="ph_120s"></span> | <span class="mt_support"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="rampart"></span><span class="dark_mind"></span><span class="recitation"></span><span class="adloquium"></span><span class="deployment_tactics"></span>
-| 14:17 | カータライズ<br>Cauterize | <span class="magic"></span> | <span class="mt_invul"></span><span class="ast collective_unconscious"></span> | <span class="living_dead"></span><span class="sacred_soil"></span><span class="succor"></span>
+| 13:45 | ホーリーフェザー<br>Hallowed Plume | <span class="magic"></span> | <span class="mt_short"></span><span class="rampart"></span><span class="mt_drk dark_mind"></span><span class="ph_30s"></span><span class="ph_60s"></span><span class="adloquium"></span> | <span class="st_short"></span><span class="reprisal"></span><span class="st_120s"></span><span class="ph_30s"></span><span class="protraction"></span><span class="adloquium"></span><span class="feint"></span>
+| 14:04 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | <span class="magic"></span> | <span class="mt_short"></span><span class="st_support"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="mt_120s"></span><span class="ph_120s"></span> | <span class="mt_support"></span><span class="st_short"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="rampart"></span><span class="st_drk dark_mind"></span><span class="recitation"></span><span class="adloquium"></span><span class="deployment_tactics"></span>
+| 14:17 | カータライズ<br>Cauterize | <span class="magic"></span> | <span class="mt_invul"></span><span class="ast collective_unconscious"></span> | <span class="st_invul"></span><span class="sacred_soil"></span><span class="succor"></span>
 | 15:07 | 苦悶の咆哮<br>Resentment | <span class="magic"></span> | <span class="dnc improvisation"></span>
 | 15:24 | 衝撃波<br>Shockwave | <span class="magic"></span> | <span class="dnc improvised_finish"></span>
 | 15:35 | ペイン解除<br>Remove Bleeding | | <span class="brd natures_minne"></span> | <span class="summon_seraph"></span><span class="fey_illumination"></span>
-| 15:40 | アルティメットエンド・オルタナ<br>Alternative End | <span class="magic"></span> | <span class="mt_support"></span><span class="mt_all"></span><span class="mt_pld passage_of_arms"></span><span class="ph_30s"></span><span class="ph_30s"></span><span class="ph_60s"></span><span class="ast collective_unconscious"></span><span class="d1_mnk riddle_of_earth"></span><span class="d1_sam third_eye"></span><span class="d1_rpr arcane_crest"></span><span class="d1_nin shade_shift"></span> | <span class="the_blackest_night"></span><span class="dark_missionary"></span><span class="protraction"></span><span class="expedient"></span><span class="sacred_soil"></span><span class="mch recitation"></span><span class="succor"></span><span class="consolation"></span><span class="d2_mnk riddle_of_earth"></span><span class="d2_sam third_eye"></span><span class="d2_rpr arcane_crest"></span><span class="d2_nin shade_shift"></span>
-| 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | <span class="magic"></span> | <span class="mt_short"></span><span class="reprisal"></span><span class="mt_120s"></span><span class="mt_drk dark_mind"></span><span class="oblation"></span><span class="ph_120s"></span><span class="feint"></span> | <span class="the_blackest_night"></span><span class="shadow_wall"></span><span class="dark_mind"></span><span class="sacred_soil"></span><span class="adloquium"></span><span class="deployment_tactics"></span><span class="addle"></span>
+| 15:40 | アルティメットエンド・オルタナ<br>Alternative End | <span class="magic"></span> | <span class="mt_support"></span><span class="mt_all"></span><span class="mt_pld passage_of_arms"></span><span class="ph_30s"></span><span class="ph_30s"></span><span class="ph_60s"></span><span class="ast collective_unconscious"></span><span class="d1_mnk riddle_of_earth"></span><span class="d1_sam third_eye"></span><span class="d1_rpr arcane_crest"></span><span class="d1_nin shade_shift"></span> | <span class="st_support"></span><span class="st_all"></span><span class="st_pld passage_of_arms"></span><span class="protraction"></span><span class="expedient"></span><span class="sacred_soil"></span><span class="mch recitation"></span><span class="succor"></span><span class="consolation"></span><span class="d2_mnk riddle_of_earth"></span><span class="d2_sam third_eye"></span><span class="d2_rpr arcane_crest"></span><span class="d2_nin shade_shift"></span>
+| 16:21 | 騎竜剣アク・モーン<br>Akh Morn's Edge | <span class="magic"></span> | <span class="mt_short"></span><span class="reprisal"></span><span class="mt_120s"></span><span class="mt_drk dark_mind"></span><span class="st_drk oblation"></span><span class="ph_120s"></span><span class="feint"></span> | <span class="st_short"></span><span class="st_120s"></span><span class="st_drk dark_mind"></span><span class="mt_drk oblation"></span><span class="sacred_soil"></span><span class="adloquium"></span><span class="deployment_tactics"></span><span class="addle"></span>
 | 16:48 | 騎竜剣ギガフレア<br>Gigaflare's Edge | <span class="magic"></span> | <span class="brd troubadour"></span><span class="mch tactician"></span><span class="mch dismantle"></span><span class="dnc shield_samba"></span> | <span class="reprisal"></span><span class="sacred_soil"></span><span class="brd recitation"></span><span class="dnc recitation"></span><span class="succor"></span><span class="feint"></span>
-| 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | <span class="magic"></span> | <span class="mt_short"></span><span class="reprisal"></span><span class="mt_all"></span><span class="rampart"></span><span class="mt_90s"></span><span class="mt_drk dark_mind"></span><span class="oblation"></span><span class="ph_180s"></span><span class="ast collective_unconscious"></span><span class="brd natures_minne"></span><span class="dnc improvisation"></span><span class="dnc improvised_finish"></span> | <span class="the_blackest_night"></span><span class="dark_missionary"></span><span class="rampart"></span><span class="dark_mind"></span><span class="sacred_soil"></span><span class="fey_illumination"></span><span class="mch recitation"></span><span class="succor"></span>
+| 17:40 | 騎竜剣アク・モーン<br>Akh Morn's Edge | <span class="magic"></span> | <span class="mt_short"></span><span class="reprisal"></span><span class="mt_all"></span><span class="rampart"></span><span class="mt_90s"></span><span class="mt_drk dark_mind"></span><span class="st_drk oblation"></span><span class="ph_180s"></span><span class="ast collective_unconscious"></span><span class="brd natures_minne"></span><span class="dnc improvisation"></span><span class="dnc improvised_finish"></span> | <span class="st_short"></span><span class="st_all"></span><span class="rampart"></span><span class="st_90s"></span><span class="st_drk dark_mind"></span><span class="mt_drk oblation"></span><span class="sacred_soil"></span><span class="fey_illumination"></span><span class="mch recitation"></span><span class="succor"></span>
 | 18:08 | 騎竜剣ギガフレア<br>Gigaflare's Edge | <span class="magic"></span> | <span class="feint"></span> | <span class="reprisal"></span><span class="summon_seraph"></span><span class="sacred_soil"></span><span class="adloquium"></span><span class="deployment_tactics"></span><span class="consolation"></span><span class="addle"></span>
-| 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | <span class="magic"></span> | <span class="mt_short"></span><span class="reprisal"></span><span class="mt_120s"></span><span class="mt_drk dark_mind"></span><span class="oblation"></span><span class="ph_120s"></span><span class="ast collective_unconscious"></span><span class="brd troubadour"></span><span class="mch tactician"></span><span class="mch dismantle"></span><span class="dnc shield_samba"></span> | <span class="the_blackest_night"></span><span class="shadow_wall"></span><span class="dark_mind"></span><span class="expedient"></span><span class="sacred_soil"></span><span class="brd recitation"></span><span class="dnc recitation"></span><span class="succor"></span><span class="feint"></span>
+| 19:00 | 騎竜剣アク・モーン<br>Akh Morn's Edge | <span class="magic"></span> | <span class="mt_short"></span><span class="reprisal"></span><span class="mt_120s"></span><span class="mt_drk dark_mind"></span><span class="st_drk oblation"></span><span class="ph_120s"></span><span class="ast collective_unconscious"></span><span class="brd troubadour"></span><span class="mch tactician"></span><span class="mch dismantle"></span><span class="dnc shield_samba"></span> | <span class="st_short"></span><span class="st_120s"></span><span class="st_drk dark_mind"></span><span class="mt_drk oblation"></span><span class="expedient"></span><span class="sacred_soil"></span><span class="brd recitation"></span><span class="dnc recitation"></span><span class="succor"></span><span class="feint"></span>
 
 ## アルティメットエンド・オルタナ Alternative End
 
