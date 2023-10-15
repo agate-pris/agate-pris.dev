@@ -1497,8 +1497,8 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | :-- | :--------- | :-----
 | MT | Short Buff | PH
 | ST | Short Buff | BH
-| PH | Short Buff | D1
-| PH | Barrier | D2, D3
+| PH | Barrier | D1, D2
+| PH | Short Buff | D3
 | BH | Short Buff | D4
 
 機工士がいる場合、バリアヒーラーは騎竜剣ギガフレア 1 回目と騎竜剣アク・モーン 3 回目の代わりに**アルティメットエンド・オルタナ**と**騎竜剣アク・モーン 2 回目**に 90 秒アビリティを使用する。（機工士が騎竜剣ギガフレア 2 回目と騎竜剣アク・モーン 3 回目にウェポンブレイクを使用する）
