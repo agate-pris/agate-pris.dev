@@ -30,10 +30,6 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         width: 40px;
     }
 
-    .make_no_sense img {
-        opacity: calc(2/3);
-    }
-
     .mitigation-chart td:nth-child(3) {
         width: 60px;
     }
@@ -1446,7 +1442,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 01:01 | ホーリーブレードダンス<br>Holy Bladedance | <span class="physical"></span> | <span class="rampart"></span><span class="mt_90s"></span><span class="oblation"></span><span class="mt_pld mt_drk mt_short"></span> | <span class="rampart"></span><span class="oblation"></span><span class="the_blackest_night"></span>
 | 01:09 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span> | <span class="dark_missionary"></span><span class="mt_war feint"></span><span class="addle"></span>
 | 01:19 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="mt_short"></span><span class="mt_120s"></span><span class="ph_30s"></span><span class="feint"></span> | <span class="reprisal"></span>
-| 01:23 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="feint"></span> | <span class="the_blackest_night"></span><span class="oblation"></span><span class="reprisal"></span><span class="make_no_sense"><span class="dark_mind"></span></span><span class="shadow_wall"></span></a><span class="ph_30s"></span>
+| 01:23 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="feint"></span> | <span class="the_blackest_night"></span><span class="oblation"></span><span class="reprisal"></span><span class="shadow_wall"></span></a><span class="ph_30s"></span>
 | 01:51 | セイクリッドカット<br>Sacred Sever | <span class="physical"></span> | <span class="rng_90s"></span>
 | 02:09 | ハイマルストーム<br>Hiemal Storm | <span class="magic"></span>
 | 02:44 | アルティメットエンド<br>Ultimate End | <span class="magic"></span> |  | <span class="reprisal"></span><span class="feint"></span><span class="addle"></span>
@@ -1475,7 +1471,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 10:33 | フェイスアンムーブ<br>Faith Unmoving | <span class="physical"></span>
 | 10:36 | ヘヴンフレイム<br>Heavensflame | <span class="magic"></span>
 | 11:07 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="ast collective_unconscious"></span> | <span class="reprisal"></span><span class="addle"></span>
-| 11:16 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="reprisal"></span> | <span class="the_blackest_night"></span><span class="make_no_sense"><span class="dark_mind"></span></span><span class="shadow_wall"></span><span class="ph_30s"></span><span class="feint"></span>
+| 11:16 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="reprisal"></span> | <span class="the_blackest_night"></span><span class="shadow_wall"></span><span class="ph_30s"></span><span class="feint"></span>
 | 11:19 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="mt_short"></span><span class="reprisal"></span><span class="rampart"></span><span class="oblation"></span><span class="ph_30s"></span> | <span class="feint"></span>
 | 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | <span class="magic"></span> | <span class="mt_short"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="mt_120s"></span><span class="ph_120s"></span><span class="rng_90s"></span> | <span class="mt_support"></span><span class="the_blackest_night"></span><span class="oblation"></span><span class="rampart"></span><span class="adloquium"></span><span class="deployment_tactics"></span>
 | 12:23 | アク・アファー<br>Akh Afah | <span class="magic"></span> | <span class="reprisal"></span> | <span class="sacred_soil"></span><span class="recitation"></span><span class="succor"></span>
