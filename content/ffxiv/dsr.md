@@ -1548,4 +1548,6 @@ If there is MCH, BH should use 90s ability to **Alternative End** and **2nd Akh 
 
 </span>
 
+---
+
 (C) SQUARE ENIX CO., LTD. All Rights Reserved.
