@@ -1481,7 +1481,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 01:01 | ホーリーブレードダンス<br>Holy Bladedance | <span class="physical"></span> | <span class="rampart"></span><span class="mt_90s"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="mt_pld mt_drk mt_short"></span> | <span class="rampart"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="st_90s"></span><span class="st_pld st_drk st_short"></span>
 | 01:09 | エンシェントクエイガ<br>Ancient Quaga | <span class="magic"></span> | <span class="reprisal"></span> | <span class="st_all"></span><span class="mt_war feint"></span><span class="addle"></span>
 | 01:19 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="mt_short"></span><span class="mt_120s"></span><span class="ph_30s"></span><span class="feint"></span> | <span class="reprisal"></span>
-| 01:23 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="feint"></span> | <span class="st_short"></span><span class="reprisal"></span><span class="st_120s"></span></a><span class="ph_30s"></span>
+| 01:23 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="feint"></span> | <span class="st_short"></span><span class="reprisal"></span><span class="st_120s"></span><span class="ph_30s"></span>
 | 01:51 | セイクリッドカット<br>Sacred Sever | <span class="physical"></span> | <span class="rng_90s"></span>
 | 02:09 | ハイマルストーム<br>Hiemal Storm | <span class="magic"></span>
 | 02:44 | アルティメットエンド<br>Ultimate End | <span class="magic"></span> |  | <span class="reprisal"></span><span class="feint"></span><span class="addle"></span>
