@@ -1540,6 +1540,8 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | PH | Short Buff | D3
 | BH | Short Buff | D4
 
+## 注釈 Note
+
 機工士がいる場合、バリアヒーラーは騎竜剣ギガフレア 1 回目と騎竜剣アク・モーン 3 回目の代わりに**アルティメットエンド・オルタナ**と**騎竜剣アク・モーン 2 回目**に 90 秒アビリティを使用する。（機工士が騎竜剣ギガフレア 1 回目と騎竜剣アク・モーン 3 回目にウェポンブレイクを使用する）
 
 If there is MCH, BH should use 90s ability to **Alternative End** and **2nd Akh Morn's Edge** instead of 1st Gigaflare's Edge and 3rd Akh Morn's Edge. (MCH uses Dismantle to 1st Gigaflare's Edge and 3rd Akh Morn's Edge)
