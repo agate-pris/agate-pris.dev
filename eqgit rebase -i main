@@ -1,0 +1,798 @@
+* [33m07abd94[m[33m ([m[1;36mHEAD -> [m[1;32mtmp[m[33m)[m バフの順序を修正
+* [33m30c40d9[m バフの順序を変更
+* [33maed8a12[m レンジの軽減を rng_90s で置き換え
+* [33m36dac56[m[33m ([m[1;32mmain[m[33m)[m ラインを追加
+* [33ma9578e9[m ヘッダを追加
+* [33m8840e8d[m 機工士に関する注釈を修正
+* [33ma2d1945[m 不要な a タグを削除
+* [33m251190b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m ST 切り替え機能を追加
+* [33m49c231d[m アルティメットエンド・オルタナ ピュアヒーラーのアクションの順序を変更
+* [33m8c1120a[m アルティメットエンド・オルタナ 対象変更
+* [33ma644d96[m オブレーション 移動
+* [33m8249700[m オブレーション 追加
+* [33m40538bd[m オブレーション 削除
+* [33mf984c89[m ダークマインド 追加
+* [33mbe69971[m ダークマインド 削除
+* [33me0dd979[m ホルムギャング対応
+* [33m20a8ed2[m オブレーション 移動
+* [33md96a859[m レンジ 90 秒が表示されない不具合を修正
+* [33m7a95666[m レンジ 90 秒 置き換え
+* [33mcee6b21[m MT 変更機能を実装
+* [33m9474a15[m ブルワークを移動
+* [33ma5dc85e[m 暗黒に関する注釈を削除
+* [33m40d8beb[m 不要な注釈へのリンクを削除
+* [33mad56b63[m トルバドゥールを追加
+* [33m28abd76[m リミットブレイクのサイズを修正
+* [33m5e594f6[m インターベンションを削減
+* [33meeffb50[m span の閉じ忘れを修正
+* [33mb9c1875[m アクションを整理
+* [33m32c6865[m タンク ロールアクション
+* [33m9a51cef[m span の設定を削除
+* [33m36354d8[m P1 牽制を移動
+* [33m31e4979[m 表示・非表示制御を変更
+* [33m7d38f99[m ガンブレイカー アクション 整理
+* [33m318a385[m 暗黒 アクション 整理
+* [33mf82c353[m 戦士 アクション 整理
+* [33mb8d0def[m ディヴァインヴェール修正
+* [33m46c575c[m ナイト アクション 整理
+* [33m473204b[m 運命の輪を追加
+* [33m10ce9c3[m 最終フェーズ 運命の輪 追加
+* [33mbb6ae1f[m ピュアヒーラー変更処理を追加
+* [33meedfada[m 占星術師 アクション 整理
+* [33m1f569ff[m 白魔道士のアクションを整理
+* [33m87ae1c0[m タイポ修正
+* [33mb3c7de4[m アルティメットエンド・オルタナに近接の軽減を追加
+* [33mf009471[m on_job_changed のバグを修正
+* [33ma478d68[m リファクタリング
+* [33m91c7f8a[m publish_dir を追加
+* [33m8805320[m デプロイの条件式を簡略化
+* [33mda47d2e[m actions/upload-artifact を更新
+* [33mc69a16c[m ビルド工程を分割
+* [33mebbbdbb[m Node のバージョンを更新
+* [33md19105b[m actions/setup-node を更新
+* [33me7c921c[m actions/checkout を更新
+* [33m0d350f3[m コンカレンシーを追加
+* [33m1ec1ef8[m アクションの実行条件を追加
+* [33m720aeb5[m インプロビゼーションを最終フェーズに追加
+* [33m9e03039[m ウェポンブレイクに対応して最終フェーズで秘策を使用する箇所を変更
+* [33m58294c6[m アルティメットエンド・オルタナに関する注釈を追加
+* [33m566fe47[m 早見表に地神のミンネ、ウェポンブレイク、インプロビゼーションを追加
+* [33maf96abc[m ツールチップを追加
+* [33m95286c1[m フォームのミスを修正
+* [33m655d2d5[m D3 切り替えボタンを実装
+* [33m589b7f9[m 軽減表の span をインラインブロックに変更
+* [33m3a74441[m フォーム（非表示）を追加
+* [33m47e0135[m ヘッダを追加
+* [33m46a4c6f[m ジョブアイコンを追加
+* [33m4e12f92[m コンソレイション 並び順を修正
+* [33mc55d676[m サモン・セラフィムとコンソレイションをアク・モーンからギガフレアに移動
+* [33m2438d58[m テーブルを整理
+* [33mdfc124a[m 学者のアビの順番を変更
+* [33mc6a49bc[m 士気 追加
+* [33m5d8365b[m 最終フェーズ ブルワーク ダークマインド 追加
+* [33maab1c0a[m ダークマインド ツールチップ 追加
+* [33md5dd5eb[m ブルワーク ツールチップ 追加
+* [33m4f79c13[m 最終フェーズ 軽減追加
+* [33mde8d5a0[m 生命回生法 位置を修正
+* [33m683ee63[m 地神のミンネを追加
+* [33me53abba[m 最終フェーズ 色々追加
+* [33m23194b6[m ホーリーシェルトロン、インターベンション、ブラックナイトを最終フェーズに追加
+* [33mc0cda8f[m ブラックナイト ツールチップ 追加
+* [33m8b11be4[m ホーリーシェルトロン ツールチップ 追加
+* [33me58ec11[m インターベンション ツールチップ 追加
+* [33m1d6c147[m 最終フェーズ フェイイルミネーション 追加
+* [33m7bd1f68[m フェイイルミネーション ツールチップ 追加
+* [33m780e593[m サモン・セラフィムをペイン解除のタイミングに移動
+* [33meebcd40[m 最終フェーズ センチネル・シャドウウォール 追加
+* [33mfc55617[m シャドウウォール ツールチップ 追加
+* [33m9bab0e7[m センチネル ツールチップ 追加
+* [33m06340de[m 最終フェーズ ランパート 追加
+* [33mc7aa712[m ランパート ツールチップ追加
+* [33m50cd366[m データの並び順を変更
+* [33m2d375d5[m アドル ツールチップ 追加
+* [33m0ef434d[m 牽制 ツールチップ 追加
+* [33mbb438a2[m リプライザル ツールチップ追加
+* [33m2ab6c7b[m コンソレイション ツールチップ 追加
+* [33m99ad0f5[m サモン・セラフィム ツールチップ追加
+* [33mcbfdafa[m 疾風怒濤の計 リキャストタイム追加
+* [33m287408b[m ツールチップを追加
+* [33m9091b70[m ツールチップを追加
+* [33m36b833c[m title を削除
+* [33m469517d[m パッセージ・オブ・アームズ ツールチップ 追加
+* [33mc9698aa[m ツールチップを追加・修正
+* [33m288f9f4[m ツールチップを追加
+* [33mec3ad02[m スプレッドシートへのリンクを追加
+* [33mce39315[m P2 アスカロンマイトにオブレーションを追加
+* [33m1a03752[m 偽典トールダン オブレーションをアスカロンマイトに移動
+* [33m28ac830[m 不要な注釈を削除
+* [33md14cd47[m 憤怒の波動 MT リプライザル 削除
+* [33m3d7a896[m 牽制をアク・モーンからホーリーフェザーに移動
+* [33mfd1ec48[m 二天竜 秘策、トルバドールを調整
+* [33m1a15035[m 二天竜の軽減を更新
+* [33mcd3469d[m 生命回生法・クラーシスを追加
+* [33me14d93a[m 二天竜に野戦治療の陣を追加
+* [33m5a171cf[m ツールチップを追加
+* [33m5779f55[m ホーリーフェザーにアクアヴェールを追加
+* [33mdfa6595[m ツールチップを追加
+* [33meacd2d5[m ツールチップを追加
+* [33m2e9d52d[m ニュートラルセクト、マクロコスモスのミスを修正
+* [33m4039344[m 聖竜・邪竜の息吹にテンパランスを追加
+* [33md9354ff[m ツールチップを追加
+* [33m9e211c8[m 幾つかのバリアヒーラーのアクションを追加
+* [33m8c63f25[m ツールチップなどを修正
+* [33m4699b1e[m ツールチップの位置を上に変更
+* [33ma46e9f8[m ツールチップを改行可能に修正
+* [33mbcba130[m マクロコスモスのツールチップを追加
+* [33mcac8e40[m リタージー・オブ・ベルのツールチップを Microtip で置き換え
+* [33m151e436[m hugo-coder を更新
+* [33mb2901c5[m リタージー・オブ・ベルを二天竜アク・モーンに追加
+* [33m775b921[m 早見表にリキャストタイムを追加
+* [33m8ad6c84[m 改行を追加
+* [33m4808a57[m テーブルをインライン要素に変更
+* [33m1e964aa[m タイトル・ヘッダ・クラス名を修正
+* [33m04adc29[m リタージー・オブ・ベルにツールチップを追加
+* [33m5aaf0a0[m バリアヒーラーのアビリティを最終フェーズに追加
+* [33m60bb4c6[m 早見表に野戦治療の陣とケーラコレを追加
+* [33m677b425[m ピュアヒーラーのアクションを騎竜剣アク・モーンに追加
+* [33ma46cd98[m ピュアヒーラーのアクション早見表を更新
+* [33md35939d[m アルティメットエンド・オルタナに疾風怒濤の計とコンソレイションを追加
+* [33mb11d137[m 早見表にハイマを追加
+* [33m490f9a8[m 偽典トールダン オブレーションを調整
+* [33m2aeb99c[m 教皇庁 2 回目 バフを追加
+* [33m80f7f01[m ST ダークマインドを追加
+* [33ma689dfc[m MT 暗黒の場合にダークマインドを使っても無意味な箇所について注釈を追加
+* [33m3d484e0[m 注釈を角括弧で括った
+* [33m2f11936[m バリアヒーラーの 120 秒アビを早見表に追加
+* [33m9d3e227[m テーブルの上下にマージンを追加
+* [33me8fbae4[m ディヴァインベニゾンを追加
+* [33m4f229db[m 牽制をアク・モーンからホーリーフェザーに移動
+* [33mdf940e9[m 偽典アスカロンマイトにブルワークの代わりにランパートを使用
+* [33mda71f6c[m 偽典トールダン リプライザルを追加・修正
+* [33m1bdccbc[m 光翼閃のリプライザルを修正
+* [33m31ed1fb[m 憤怒の波動 リプライザルを両方の眼に使用
+* [33me4018cc[m P1 リプライザル修正
+* [33mff47d47[m 終焉の竜詩とアイ・オブ・タイラントの軽減を簡略化
+* [33m8fa78e9[m リミットブレイクの画像を追加
+* [33m22edabc[m テーブルの幅とアラインメントを修正
+* [33mea87269[m リミットブレイクを追加
+* [33ma2af9d5[m 物理・魔法をアイコンで置き換え
+* [33m23e2012[m ナイトがいる場合についての注釈を追加
+* [33m72113c9[m 戦士無敵受けについての注釈を追加
+* [33me1f6078[m フレアディザスターとフレアスターにトルバを追加
+* [33m0cc4eb1[m 牽制、トルバ、アドルを追加
+* [33m27b6eec[m 竜詩のタイトルを修正
+* [33mfa9dc2a[m アク・モーンにディヴァインヴェールを使用
+* [33m7cd7a7b[m リプライザルのタイミングを修正
+* [33m07fe77e[m 竜詩のタンク用軽減表を追加
+* [33m04d4bb6[m タンクのアビリティの早見表を追加
+* [33m24012ab[m ホーリーシェルトロン 画像の代替テキストを修正
+* [33m30840b7[m ブルワークのアイコンを追加
+* [33m8b541fc[m package-lock.json を更新
+* [33m4c5ddef[m タンクについてのページを追加
+*   [33mec3db78[m Merge pull request #63 from agate-pris/himupero
+[32m|[m[33m\[m  
+[32m|[m * [33m1937f4b[m modified:   content/avatar.md
+[32m|[m * [33m1bbb354[m deleted:    static/images/8687_FTIN2Ms0.png
+[32m|[m * [33m24b5af5[m modified:   config.toml
+[32m|[m * [33mf942779[m new file:   static/images/agate_pris.png
+[32m|[m[32m/[m  
+*   [33ma1ff8d6[m Merge branch 'update'
+[34m|[m[35m\[m  
+[34m|[m * [33m60d3af4[m Empty Commit
+[34m|[m[34m/[m  
+*   [33m76b50ac[m Merge pull request #58 from agate-pris/notion
+[36m|[m[1;31m\[m  
+[36m|[m * [33md7c97b4[m Add notion
+[36m|[m * [33m2f2782a[m modified: assets/css/fontcustom.css
+[36m|[m * [33m62f349a[m modified: static/fonts/fontcustom.woff2
+[36m|[m * [33m5d21b8b[m new file: fontcustom/notion.svg
+[36m|[m[36m/[m  
+*   [33m67054d3[m Merge pull request #60 from agate-pris/npm-update
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33ma6691ef[m Update npm packages
+[1;32m|[m[1;32m/[m  
+*   [33me3f0d66[m Merge pull request #61 from agate-pris/fix-blogger
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m631b5da[m Fix config.toml
+[1;34m|[m[1;34m/[m  
+*   [33m946fd09[m Merge pull request #57 from agate-pris/update-works
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m5d0f1e0[m DGZ Vectorへのリンクを移動
+[1;36m|[m * [33m22a008d[m Project Repliser Boothへのリンクとツイートを追加
+[1;36m|[m * [33m3cf4ad0[m Project Repliser リンクを移動
+[1;36m|[m[1;36m/[m  
+*   [33mb22ca4d[m Merge pull request #56 from agate-pris/add-moments
+[32m|[m[33m\[m  
+[32m|[m * [33mc9f7752[m Add moments
+[32m|[m * [33m999fd00[m Update custom font
+[32m|[m * [33m309589f[m new file: twitter-moments.svg
+[32m|[m * [33m61f42f5[m new file: twitter-moments-o.svg
+[32m|[m * [33ma5ec8ac[m Update fontcustom/build.sh
+[32m|[m[32m/[m  
+*   [33m104d922[m Merge pull request #55 from agate-pris/ignore-hugo-build-lock
+[34m|[m[35m\[m  
+[34m|[m * [33m27f7608[m Ignore .hugo_build.lock
+[34m|[m[34m/[m  
+*   [33m500da8f[m Merge pull request #54 from agate-pris/update-themes-hugo-coder
+[36m|[m[1;31m\[m  
+[36m|[m * [33mfedea55[m Fix social icon sizes
+[36m|[m * [33m4d832f6[m Update themes/hugo-coder
+[36m|[m * [33me5919aa[m Move static/css/ into assets/
+[36m|[m[36m/[m  
+*   [33mbee4f42[m Merge pull request #53 from agate-pris/hide-color-scheme-toggle
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m817560a[m Hide color scheme toggle
+[1;32m|[m[1;32m/[m  
+*   [33m319f612[m Merge branch 'fix-utterances'
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m88a44b8[m Fix params.utterances.repo
+[1;34m|[m[1;34m/[m  
+*   [33m72705a0[m Merge branch 'utterances'
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m0e00dad[m Setup utterances
+[1;36m|[m[1;36m/[m  
+*   [33m6e4f3c9[m Merge pull request #52 from agate-pris/pinterest
+[32m|[m[33m\[m  
+[32m|[m * [33m605a12a[m Shorten pinterest url
+[32m|[m[32m/[m  
+*   [33mcb5adbc[m Merge pull request #51 from agate-pris/update-pinterest-url
+[34m|[m[35m\[m  
+[34m|[m * [33m6952422[m Update Pinterest URL
+[34m|[m[34m/[m  
+*   [33mb5acfa9[m Merge pull request #48 from agate-pris/setup-node-check-latest
+[36m|[m[1;31m\[m  
+[36m|[m * [33mb350f0d[m Set check-latest flag true on Setup Node
+[36m|[m[36m/[m  
+*   [33m25cda2c[m Merge pull request #49 from agate-pris/node-version-16
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m8b1bd66[m Set node-version 16
+[1;32m|[m[1;32m/[m  
+*   [33mc968b7e[m Merge pull request #47 from agate-pris/cache-dependency-with-setup-node
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33mc8e4231[m Cache dependency with actions/setup-node@v2
+[1;34m|[m[1;34m/[m  
+*   [33maa225a2[m Merge pull request #46 from agate-pris/hugo-version-latest
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m186536d[m Set hugo's version latest
+[1;36m|[m[1;36m/[m  
+*   [33m2192b2e[m Merge pull request #45 from agate-pris/hugo-v0.89.3
+[32m|[m[33m\[m  
+[32m|[m * [33m7972259[m Update hugo's version from 0.89.2 to 0.89.3
+[32m|[m[32m/[m  
+*   [33maa25374[m Merge pull request #44 from agate-pris/hugo-v0.89.2
+[34m|[m[35m\[m  
+[34m|[m * [33m456cf9a[m Change hugo-version to 0.89.2
+[34m|[m[34m/[m  
+*   [33m7acbd39[m Merge pull request #43 from agate-pris/update-base-url
+[36m|[m[1;31m\[m  
+[36m|[m * [33m85837b0[m Fix base URL
+[36m|[m[36m/[m  
+*   [33m6f48b06[m Merge pull request #42 from agate-pris/change-date-font-family
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m1fa3e4f[m Change date font family
+[1;32m|[m[1;32m/[m  
+*   [33m1f2e663[m Merge pull request #41 from agate-pris/change-font-family
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33me2ae62e[m Add _variables.scss
+[1;34m|[m * [33m9affbee[m Add *.scss to .gitattributes
+[1;34m|[m[1;34m/[m  
+*   [33m2295b18[m Merge pull request #39 from agate-pris/static
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m8c552f2[m Move fontcustom.css into static
+[1;36m|[m * [33me5fcde3[m Move fonts into static
+[1;36m|[m * [33mc5ee004[m Move VRoid thumbnail into static
+[1;36m|[m * [33m260e0fe[m Move avatar icon
+[1;36m|[m[1;36m/[m  
+*   [33m7cdfabe[m Merge pull request #38 from agate-pris/format-config-toml
+[32m|[m[33m\[m  
+[32m|[m * [33m0fc0635[m Format config.toml
+[32m|[m * [33mebccc99[m Depends on prettier-plugin-toml
+[32m|[m[32m/[m  
+*   [33m0f6f694[m Merge pull request #37 from agate-pris/since
+[34m|[m[35m\[m  
+[34m|[m * [33m873ff7b[m Set params.since
+[34m|[m[34m/[m  
+*   [33m6067729[m Merge pull request #36 from agate-pris/fix-deploy
+[36m|[m[1;31m\[m  
+[36m|[m * [33m6d51ae8[m Deploy if ref is head of main
+[36m|[m[36m/[m  
+*   [33mefc72cf[m Merge pull request #35 from agate-pris/fix-date-format
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m5f96853[m Fix date format
+[1;32m|[m[1;32m/[m  
+*   [33m24e17ac[m Merge pull request #34 from agate-pris/merge-gh-pages-workflow
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33mc4a7f9f[m Delete the workflow only for test
+[1;34m|[m * [33m47cca21[m Trigger workflow on push
+[1;34m|[m * [33m8ce77a5[m Add a job to upload artifact
+[1;34m|[m * [33me7d67d7[m Add a condition for deploy
+[1;34m|[m[1;34m/[m  
+*   [33mdae9e2f[m Merge pull request #33 from agate-pris/update-readme
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33mf388a62[m Update readme
+[1;36m|[m[1;36m/[m  
+*   [33m0de9473[m Merge pull request #32 from agate-pris/node-version-17
+[32m|[m[33m\[m  
+[32m|[m * [33m45b27af[m Use node 17
+[32m|[m[32m/[m  
+*   [33m22e25d5[m Merge pull request #31 from agate-pris/submodules-recursive
+[34m|[m[35m\[m  
+[34m|[m * [33mbd6fd33[m Checkout submodules recursively
+* [35m|[m   [33m1579b35[m Merge pull request #30 from agate-pris/fix-blogger-url
+[35m|[m[1;31m\[m [35m\[m  
+[35m|[m [1;31m|[m[35m/[m  
+[35m|[m[35m/[m[1;31m|[m   
+[35m|[m * [33m2b32028[m Fix Blogger URL
+[35m|[m[35m/[m  
+*   [33m4310dd2[m Merge pull request #28 from agate-pris/runs-on-ubuntu-latest
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m8800f18[m Runs on latest Ubuntu
+[1;32m|[m[1;32m/[m  
+*   [33mf7d67e2[m Merge pull request #27 from agate-pris/ncu
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33mdddca82[m Update package-lock.json
+[1;34m|[m * [33m947cd5d[m Update dependencies
+[1;34m|[m[1;34m/[m  
+*   [33m850eab7[m Merge pull request #26 from agate-pris/apply-fontcustom
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m03e34b2[m Move some social links
+[1;36m|[m * [33mee2689e[m Add css
+[1;36m|[m * [33md052d9d[m Add fonts
+[1;36m|[m * [33mb6623ef[m Add fontcustom
+[1;36m|[m[1;36m/[m  
+*   [33mbc8363e[m Merge pull request #25 from agate-pris/set-color-scheme-auto
+[32m|[m[33m\[m  
+[32m|[m * [33m7f0e074[m Set color scheme auto
+[32m|[m[32m/[m  
+*   [33m3fbf2a2[m Merge pull request #24 from agate-pris/update-gitattributes
+[34m|[m[35m\[m  
+[34m|[m * [33m4af67b6[m Update .gitattributes
+[34m|[m[34m/[m  
+*   [33m28561c4[m Merge pull request #23 from agate-pris/delete-assets
+[36m|[m[1;31m\[m  
+[36m|[m * [33m98938e3[m Delete assets
+[36m|[m[36m/[m  
+*   [33mbdcb5a0[m Merge pull request #22 from agate-pris/profile
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33mc6adbf5[m 好きなゲームを更新
+[1;32m|[m[1;32m/[m  
+*   [33m5ae5f61[m Merge pull request #21 from agate-pris/works
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33mabf61ee[m Move works
+[1;34m|[m[1;34m/[m  
+*   [33md23c9f3[m Merge pull request #19 from agate-pris/texture
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33mf83aaaf[m Update avatar.md
+[1;36m|[m[1;36m/[m  
+*   [33me73cf9a[m Merge pull request #18 from agate-pris/rm-hugo-theme-sam
+[32m|[m[33m\[m  
+[32m|[m * [33m07bfd91[m Remove hugo-theme-sam
+[32m|[m[32m/[m  
+*   [33mbe8f969[m Merge pull request #17 from agate-pris/hugo-coder
+[34m|[m[35m\[m  
+[34m|[m * [33mbea51b5[m Update profile
+[34m|[m * [33mdf4d719[m Add some blogs
+[34m|[m * [33mfb05bf9[m Add about my avatar
+[34m|[m * [33maca8aa5[m Update top page
+[34m|[m * [33m5af039c[m Change the theme to hugo-coder
+[34m|[m * [33mc39cc64[m Add hugo-coder
+[34m|[m[34m/[m  
+*   [33mce54779[m Merge pull request #16 from agate-pris/node
+[36m|[m[1;31m\[m  
+[36m|[m * [33m0fde130[m Update node from 15 to 16
+[36m|[m[36m/[m  
+*   [33md456df3[m Merge pull request #15 from agate-pris/update-hugo
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m18a0e69[m Update hugo version from 0.79.1 to 0.88.1
+[1;32m|[m[1;32m/[m  
+*   [33md972772[m Merge pull request #14 from agate-pris/dependabot/npm_and_yarn/postcss-8.2.10
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33maa9e169[m Fix audit
+[1;34m|[m * [33m9f98399[m Bump postcss from 8.2.2 to 8.2.10
+[1;34m|[m[1;34m/[m  
+*   [33m3693077[m Merge branch 'new-strap'
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m4db1041[m new file: new-strap.md
+[1;36m|[m[1;36m/[m  
+*   [33mf48775f[m Merge branch 'fix-koty-2020'
+[32m|[m[33m\[m  
+[32m|[m * [33mdf99999[m Fix the link of RHST02BK
+[32m|[m[32m/[m  
+*   [33me7ad013[m Merge branch 'update-koty-2020'
+[34m|[m[35m\[m  
+[34m|[m * [33m6753ba4[m Add about Anker PowerConf
+[34m|[m * [33m67574f4[m Add the link about strap
+[34m|[m * [33m89989d7[m Calibrate koty-2020.md
+[34m|[m * [33m674c74d[m Fix typo
+[34m|[m[34m/[m  
+*   [33mbb536b2[m Merge branch 'update-hugo'
+[36m|[m[1;31m\[m  
+[36m|[m * [33mf4400dd[m Update Hugo to version 0.79.1
+[36m|[m[36m/[m  
+*   [33m6444616[m Merge branch 'update-call-me-sam'
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m8ca7739[m Update Call me Sam to version 4.0.2
+[1;32m|[m[1;32m/[m  
+*   [33m6bb0458[m Merge branch 'depends-on-postcss'
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33maabcfad[m Add the step to cache or restore dependencies
+[1;34m|[m * [33m563fae1[m Run npm ci on build
+[1;34m|[m * [33m1a52c94[m Add the step to setup Node
+[1;34m|[m * [33m9f4b016[m new file: package-lock.json
+[1;34m|[m * [33m8ce1b14[m new file: package.json
+[1;34m|[m * [33ma05792b[m Ignore the Node modules'es path
+[1;34m|[m * [33mdddfcab[m modified: README.md
+[1;34m|[m[1;34m/[m  
+*   [33m5cb160e[m Merge branch 'fix-deployment-test'
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m6e24b76[m Fix deplyment test to use actions-gh-pages@v3
+[1;36m|[m[1;36m/[m  
+*   [33mded3243[m Merge branch 'use-github-token'
+[32m|[m[33m\[m  
+[32m|[m * [33me00c262[m Use github_token instead of deploy_key
+[32m|[m[32m/[m  
+*   [33m0632553[m Merge branch 'remove-redundant-options'
+[34m|[m[35m\[m  
+[34m|[m * [33m83edd96[m Remove publish_dir
+[34m|[m * [33m81c0a93[m Remove publish_branch
+[34m|[m[34m/[m  
+*   [33mc909c56[m Merge branch 'make-cname-as-option'
+[36m|[m[1;31m\[m  
+[36m|[m * [33m957cbd5[m Delete CNAME
+[36m|[m * [33m654d7ac[m Make CNAME as actions-gh-pages'es option
+[36m|[m[36m/[m  
+*   [33m01d7482[m Merge branch 'peaceiris-actions-gh-pages-v3'
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m45c15ff[m Use peaceiris/actions-gh-pages@v3
+[1;32m|[m[1;32m/[m  
+*   [33m49f29cd[m Merge branch 'remove-cname-copy-process-in-tests'
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m337bdda[m Remove CNAME copy process in tests
+[1;34m|[m[1;34m/[m  
+*   [33md96c9bf[m Merge branch 'test-deployment'
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m8a5ee17[m Add deployment test
+[1;36m|[m[1;36m/[m  
+*   [33mb541174[m Merge branch 'rename-test-action'
+[32m|[m[33m\[m  
+[32m|[m * [33m9d24425[m Rename the test action
+[32m|[m[32m/[m  
+*   [33m660d832[m Merge branch 'actions-checkout-v2'
+[34m|[m[35m\[m  
+[34m|[m * [33mbe3bdc2[m Use actions/checkout@v2
+[34m|[m[34m/[m  
+*   [33mfe80ca9[m Merge branch 'add-readme'
+[36m|[m[1;31m\[m  
+[36m|[m * [33me97660c[m new file: README.md
+[36m|[m[36m/[m  
+*   [33mf4cfad5[m Merge branch 'fix-typo'
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m73a9b55[m Fix typo
+[1;32m|[m * [33m8cba2c0[m Fix typo
+[1;32m|[m[1;32m/[m  
+*   [33maadbb80[m Merge branch 'koty-2020'
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33mbb5b9ae[m Add the new post koty-2020.md
+[1;34m|[m[1;34m/[m  
+*   [33m15f5177[m Merge branch 'replace-master-with-main'
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m760267c[m Change the branch to be deployed to main
+[1;36m|[m * [33me43a3d1[m Format gh-pages.yml
+[1;36m|[m * [33me6b4915[m Change the branch to be ignored in the tests to main
+[1;36m|[m[1;36m/[m  
+*   [33m44d0856[m Merge branch 'add-test'
+[32m|[m[33m\[m  
+[32m|[m * [33m44f4cf0[m new file: .github/workflows/gh-pages-test.yml
+[32m|[m[32m/[m  
+* [33mbd87927[m Fix esprade-psi-all.md
+* [33m2b5aa46[m new file:   content/posts/esprade-psi-all.md
+*   [33m5e0aa9e[m Merge branch 'feature/move-caddi-pr' into develop
+[34m|[m[35m\[m  
+[34m|[m * [33m9d0ed84[m Revert "Merge branch 'feature/add-pr-caddi-recruit' into develop"
+[34m|[m * [33m78bd8aa[m Add CADDi PR at the ends of content.
+[34m|[m[34m/[m  
+*   [33m489ef6c[m Merge branch 'feature/add-pr-caddi-recruit' into develop
+[36m|[m[1;31m\[m  
+[36m|[m * [33m613b4bc[m Add CADDi PR
+[36m|[m * [33m07a0b78[m Add style for PR
+[36m|[m * [33madce07c[m Copy _elements.sass
+[36m|[m[36m/[m  
+* [33mc830418[m Update fonts
+* [33m523209d[m Revert "deleted:    layouts/_default/baseof.html"
+*   [33m1ac2caa[m Merge branch 'feature/font' into develop
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m96bbc00[m new file:   assets/sass/_vars.sass
+[1;32m|[m * [33m5f375f3[m new file:   assets/sass/font_faces.scss
+[1;32m|[m * [33md3d46bb[m deleted:    assets/sass/style.sass
+[1;32m|[m * [33m07cace7[m deleted:    layouts/_default/baseof.html
+[1;32m|[m[1;32m/[m  
+* [33mbe16494[m Update fonts
+* [33m7c990ad[m Fix Profile
+* [33mbaff1d1[m Update Favorite Games
+* [33m52aaf4e[m Add Ecco: The Tides of Time to Favorite Games
+* [33m7554d05[m Add Favorite Games to Profile
+* [33mbe70745[m new file:   content/posts/koty-2019.md
+* [33maac83bc[m new file:   content/posts/buy-esprade-psi.md
+* [33m3489bd6[m Fix
+*   [33m8438e95[m Merge branch 'develop'
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m560739e[m Change main menu to lowercase
+* [1;35m|[m [33m4108dd8[m Merge branch 'develop'
+[1;36m|[m[1;35m\[m[1;35m|[m 
+[1;36m|[m * [33m5015282[m Add precautions-against-blocking-twitter-account.md
+[1;36m|[m *   [33m5a1b994[m Merge branch 'feature/first-post' into develop
+[1;36m|[m [32m|[m[33m\[m  
+[1;36m|[m [32m|[m * [33m921259a[m Add get-domain-with-google-and-build-website-with-hugo.md
+[1;36m|[m [32m|[m * [33mcd2032b[m Add Posts to menu
+[1;36m|[m [32m|[m[32m/[m  
+[1;36m|[m *   [33mf2ace34[m Merge branch 'feature/update-hugo-command' into develop
+[1;36m|[m [34m|[m[35m\[m  
+[1;36m|[m [34m|[m * [33mc7c40f3[m Add gc option
+[1;36m|[m [34m|[m * [33m6833ced[m Add cleanDestinationDir option
+[1;36m|[m [34m|[m * [33m6c6057b[m Divide commands into multiple lines
+[1;36m|[m [34m|[m[34m/[m  
+* [34m|[m [33m1669f2f[m Merge branch 'develop'
+[36m|[m[34m\[m[34m|[m 
+[36m|[m *   [33m6aea9d4[m Merge branch 'feature/merge-works-to-profile' into develop
+[36m|[m [1;32m|[m[1;33m\[m  
+[36m|[m [1;32m|[m * [33m72f0657[m Delete Works page
+[36m|[m [1;32m|[m * [33m78866b9[m Remove Works from main menu
+[36m|[m [1;32m|[m * [33me6a5552[m Copy content of works to profile
+[36m|[m [1;32m|[m * [33m4a89aa6[m Add a heading to profile
+[36m|[m [1;32m|[m[1;32m/[m  
+[36m|[m * [33m43241d1[m Remove GitHub from main menu
+[36m|[m * [33m6a0b848[m Set md text and eol=lf
+[36m|[m * [33m2fc56a3[m Change from CRLF to LF in profile.md
+[36m|[m[36m/[m  
+* [33m3280ff9[m Update works
+*   [33m09be1ce[m Merge branch 'works'
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m5bf395c[m Add a link to works to main menu
+[1;34m|[m * [33m6689750[m Set renderer unsafe true
+[1;34m|[m * [33mcf85f13[m new file:   content/works.md
+[1;34m|[m[1;34m/[m  
+* [33m82b0059[m Remove a link to agate-pris.bitbucket.io
+* [33m3c076b9[m Update CNAME
+* [33m5c9558b[m Add profile
+* [33m02890e7[m Ignore resources
+*   [33me1fed63[m Merge branch 'hugo'
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m1456a66[m Create gh-pages.yml
+[1;36m|[m * [33m48e42ee[m Add a link to github
+[1;36m|[m * [33m9b4071d[m Add a link to twitter
+[1;36m|[m * [33mff9ed82[m Set dateform
+[1;36m|[m * [33m6ea58e5[m Set theme hugo-theme-sam
+[1;36m|[m * [33mdc6740f[m Add hugo-theme-sam
+[1;36m|[m * [33m477b999[m Initialize with hugo
+[1;36m|[m * [33m10c4560[m Delete jekyll files
+[1;36m|[m[1;36m/[m  
+[1;36m|[m * [33m9821475[m[33m ([m[1;31morigin/gh-pages[m[33m)[m deploy: 251190b5fbc7dee071287cd8c5665d5c88367142
+[1;36m|[m * [33mffa884c[m deploy: 49c231da8b3132cb13db2e93490a9d85d609b890
+[1;36m|[m * [33md334431[m deploy: 8c1120ab1825f0f4975e4ead119fc100c039db76
+[1;36m|[m * [33m20a0561[m deploy: a644d960b082a6b73758c2ab66def5d854e63c67
+[1;36m|[m * [33m3bbc452[m deploy: 8249700c39b7e3867253ddfd4ce968a7e37f2588
+[1;36m|[m * [33ma37c25d[m deploy: f984c8960c2d0829d05121ac1d7408a31772a8ee
+[1;36m|[m * [33mfc1a3e1[m deploy: 5e594f6be527c750d905ea63f7c3b69518b3abad
+[1;36m|[m * [33mf72c8a2[m deploy: b9c18754dd3e2dcb148c11a5c9274ea1aebfde0b
+[1;36m|[m * [33mdc636fa[m deploy: 36354d8a6030a83f29e7d3b66a013984742bab03
+[1;36m|[m * [33mcd8b3dc[m deploy: 31e4979c1ad8a8d06c4121ebfab54d050ca4a506
+[1;36m|[m * [33m8f27489[m deploy: b8d0def96b345ae4e294840a6aa87a74e1647117
+[1;36m|[m * [33me9ce9cb[m deploy: 46c575c6deefd1459df660c83157a4dfeb6e171e
+[1;36m|[m * [33m9f0686f[m deploy: 473204b10746f2d6ee36ad702beb383b21282682
+[1;36m|[m * [33m02d19a8[m deploy: bb6ae1f5326a7096d58b6089c9b03fac6931b296
+[1;36m|[m * [33m36d4fee[m deploy: a478d6870a53b2fea358eb2d3b4b83c62d04c77f
+[1;36m|[m * [33medc1650[m[33m ([m[1;32mgh-pages[m[33m)[m deploy: 720aeb5735a91e339766fc2174fe587dd6dd74f0
+[1;36m|[m * [33m7ea596f[m deploy: 566fe476abceb80f9ca215491dc6a1db18638e2f
+[1;36m|[m * [33m23da326[m deploy: af96abc09b63d0555d6b413a714573a853d4921b
+[1;36m|[m * [33m4357749[m deploy: 95286c1540493cb6880ca767279b01470acea912
+[1;36m|[m * [33m69da300[m deploy: 47e01356cc2da9369474762b70145034acd440e7
+[1;36m|[m * [33m91702c8[m deploy: 46a4c6f8fa941da753eaa79a671bdd0f18028b3f
+[1;36m|[m * [33mf0c6745[m deploy: 4e12f92e083e220b3f4bfe3521400f7776cb7fe4
+[1;36m|[m * [33mfd0773b[m deploy: 2438d589f286f1983c9efd0fd706b7a05f4a419b
+[1;36m|[m * [33mba71520[m deploy: dfc124a900886e19c36b97723c8153e38358c717
+[1;36m|[m * [33m1a8efe8[m deploy: 5d8365b6e390495fbc6414efec17e0b712ebe6e2
+[1;36m|[m * [33m1f3f601[m deploy: d5dd5eb42f100c8baa7af823d5aa57206bc1ef9a
+[1;36m|[m * [33m1b69db2[m deploy: 4f79c13bac5cc7d01ad8fe282140c038b2cb31e9
+[1;36m|[m * [33mbde6815[m deploy: de8d5a012f0a09aade4880db906c94c78223f7c3
+[1;36m|[m * [33m58a919f[m deploy: 683ee6388d88f04f2d3356a9ae06db4e64106402
+[1;36m|[m * [33m44ccfbe[m deploy: e53abbaed15a02b5d8d709b8d05de263d9af11c0
+[1;36m|[m * [33m78be398[m deploy: 23194b68fbd30f5f8fc27e3febe8bd73a251be6c
+[1;36m|[m * [33m1baf6c7[m deploy: 8b11be404b6ecc944e56b75e5d73170635dde0b0
+[1;36m|[m * [33md06650a[m deploy: e58ec11964bc7338116361d994adfaec83de1ea0
+[1;36m|[m * [33ma7efb95[m deploy: 1d6c147a517c34c020e3c9ec7b6ead23e60b6597
+[1;36m|[m * [33mccac69f[m deploy: 780e593322f374a1693700706d4b17ac7d70cefe
+[1;36m|[m * [33m23d2ec6[m deploy: eebcd4083eb3f57864e95c21a621cd31db510f47
+[1;36m|[m * [33mb828bbe[m deploy: fc5561730bd0a12aa87afed3f48382b7dcc318fd
+[1;36m|[m * [33m2e876fe[m deploy: 06340de7adbef9eea013dc7ca963682256af854d
+[1;36m|[m * [33m0203e30[m deploy: 50cd3664c98a73eeaad237bd0805e557846ac4d2
+[1;36m|[m * [33m398172d[m deploy: 2d375d52bd46dde31d87d95b783c49de187644d5
+[1;36m|[m * [33ma9c73d2[m deploy: 0ef434d6286e860cf3217a1379c6a5d8f30dd02b
+[1;36m|[m * [33mf01306e[m deploy: bb438a23e3086f0e80fcb4fb3a25ed09b5618db5
+[1;36m|[m * [33m46f21e7[m deploy: 2ab6c7b42b627f7b66dab74cc5fe2502c539dab0
+[1;36m|[m * [33m5d6ec63[m deploy: 99ad0f5aaf6ca895bfcf1b78bb94969a9ee3a3b8
+[1;36m|[m * [33m3e6918a[m deploy: 36b833c03a68fc5ff7630ebabb1ed22a6a563ec1
+[1;36m|[m * [33m48230c1[m deploy: 469517de80ee1d897dd2f1d0fa37ff869d292ad0
+[1;36m|[m * [33m43941a8[m deploy: c9698aae06064d828cbcbc5e7ac7eddbebc92022
+[1;36m|[m * [33m30fb57b[m deploy: 288f9f42d29b3fd5d91a78357ee6fcf4a905ba21
+[1;36m|[m * [33m4132a1c[m deploy: ec3ad029e1982291b2ede3b644fc5360fad11785
+[1;36m|[m * [33mdf4be4a[m deploy: ce3931593d9b637769d313d3fd4ad5c0c6575d4c
+[1;36m|[m * [33m06386c3[m deploy: 1a03752feb61aeed5a17f518952861b36100e04a
+[1;36m|[m * [33m06b2a55[m deploy: d14cd47d005e3373e869bd43f091765596f67e36
+[1;36m|[m * [33md65daf6[m deploy: 3d7a896e3e9445334ea2c8664548a8a3298335c9
+[1;36m|[m * [33m8e8b4b0[m deploy: e14d93a9d0a5f57ecd5db004b1e2325d88050f32
+[1;36m|[m * [33ma008f88[m deploy: 5779f556a928d3e16dd1dc512af6a0e84add522a
+[1;36m|[m * [33ma9e166a[m deploy: dfa6595da7d33926be915f2e6b95de69e8986f17
+[1;36m|[m * [33m0f19493[m deploy: eacd2d50467f16f60dfaf6534a0908a1b4584fc5
+[1;36m|[m * [33ma3e8c17[m deploy: 2e9d52d4a1b62feb7ac474a89790f76d48f0a3c5
+[1;36m|[m * [33m4616f9b[m deploy: d9354ff0a8f954556fd7abad9340593383c9affd
+[1;36m|[m * [33mb5249c8[m deploy: 9e211c852569cf30191d5a8f262880e701eb22e2
+[1;36m|[m * [33m24531e8[m deploy: 8c63f254e5d82ba3f2d6478e0d3181a217b822e2
+[1;36m|[m * [33mad59000[m deploy: bb78b92db081fd192a0161d87bd51d09d2754f21
+[1;36m|[m * [33mda0a39c[m deploy: 151e436af517a3a41d735ee4515491a99bc5b358
+[1;36m|[m * [33mfbff52d[m deploy: b2901c59173e2c200de2773adda56add99d73170
+[1;36m|[m * [33mba2f4f8[m deploy: 775b92128afbf90919b63e80b2bb566beb4a85e4
+[1;36m|[m * [33meab9a4d[m deploy: 8ad6c84c061e26e12ece78cc54e5ae051c23c1e4
+[1;36m|[m * [33mfb78564[m deploy: 4808a5719328c361773e17e80efd2ea074b35899
+[1;36m|[m * [33mf9b780f[m deploy: 1e964aa2cb573200ae27a2f655df6eb508214aab
+[1;36m|[m * [33m7fc5f0e[m deploy: 04adc2958c0592fb351ceb18ef49f64a9769f857
+[1;36m|[m * [33m8fd292b[m deploy: 5aaf0a051340ca6fcdd5ecde0a7e3cbc02e8fa7a
+[1;36m|[m * [33mbaba3b8[m deploy: 677b425a21f0ee3ced3217b987ff5766b5167a21
+[1;36m|[m * [33m693f1d8[m deploy: a46cd9804d0b9f81d7c6c20f0a5e46ecdb6bbf98
+[1;36m|[m * [33mbb81f01[m deploy: d35939d2ffd7ccae889717c5c96ee0d8fe02363a
+[1;36m|[m * [33m67d9fce[m deploy: b11d137a675c11715796a59c3543f3b2b8c73a3b
+[1;36m|[m * [33m0c7949a[m deploy: 490f9a8f7ef6a9ba347b4d0de71762eb07e04d63
+[1;36m|[m * [33mec30402[m deploy: 2aeb99c6bf6c3ca02e0ad44196beba7646b2d187
+[1;36m|[m * [33m7874746[m deploy: 80f7f0160684451b44aaed5b6edcd6a5d3ce9179
+[1;36m|[m * [33mf1a9939[m deploy: a689dfc74f1fa001f9bfc78bfca2e9715130d9a5
+[1;36m|[m * [33m12ac405[m deploy: 3d484e0835962899833977129124f82581fc4ba2
+[1;36m|[m * [33m597c36a[m deploy: 2f11936a115de97786a13088710264c1c2f2915c
+[1;36m|[m * [33mcc506bd[m deploy: 9d3e22706080d0f0b0072eb9d4269b4513cc04cd
+[1;36m|[m * [33m10f818c[m deploy: e8fbae4e2358f8eb2337c18533cb9f1296f8ac1b
+[1;36m|[m * [33ma1bb5e9[m deploy: 4f229db2e25772cb72b301b791a6bf536a3b0a1e
+[1;36m|[m * [33m4ca5430[m deploy: df940e9f7fbe217f97a5e51d2759c21d8495794b
+[1;36m|[m * [33mfc08d7b[m deploy: da71f6ca8b9e49cf6d4be3b82923034b5c4960c6
+[1;36m|[m * [33m7e51363[m deploy: ff47d4747eb031e14bfb595a04de2e6133251b40
+[1;36m|[m * [33m1fdcf39[m deploy: 8fa78e9036d920543d4b09942acc540166e2a677
+[1;36m|[m * [33m7f417f9[m deploy: 22edabc10a2f674371689a8725f9d7acd1c96111
+[1;36m|[m * [33m6681fd8[m deploy: ea872690c2ab50786ce16f0a94f07409ee3423ec
+[1;36m|[m * [33md0058c3[m deploy: a2af9d5fa02379f3c3ef1e9fc30b79760b7ac66c
+[1;36m|[m * [33m23cdfee[m deploy: 23e201260067332c98f2de61dffc700e1ab10903
+[1;36m|[m * [33m223f1ca[m deploy: 0cc4eb1cb8df3e1be285abfff01e84da854ba06b
+[1;36m|[m * [33m6d2d3ba[m deploy: fa9dc2a4c1102d2c9058dbdabe9094695a00c932
+[1;36m|[m * [33maceeb55[m deploy: 07fe77e25472dcb6ef5288857e02efc9a80c9a89
+[1;36m|[m * [33mbe8f3be[m deploy: 4c5ddef433c6856a4fff4ad277dd085f04ddb660
+[1;36m|[m * [33m2b60650[m deploy: ec3db784fb9f58a268a40b90f024fa184c68d401
+[1;36m|[m * [33m5a88baa[m deploy: a1ff8d622cc30c617e484171f9b2e6ed549c83f0
+[1;36m|[m * [33m5e1b70b[m deploy: 76b50ac7221ed9c61615a5ec09109f3b92ccfa90
+[1;36m|[m * [33m94e84e2[m deploy: e3f0d6672937860d1d16289ee657d0da3c6d5b4e
+[1;36m|[m * [33m648af63[m deploy: 946fd09e8a3688fba79caa6258e9617f7af10064
+[1;36m|[m * [33md886ae5[m deploy: b22ca4d317a913e3e1c1a8a5b187fb4dfcee2e5e
+[1;36m|[m * [33md0de706[m deploy: 104d922a9e93c21b4118a16de24295f5b41a1764
+[1;36m|[m * [33m68e1b05[m deploy: 500da8f2a6497e28382d969f260381a2c6c5acf6
+[1;36m|[m * [33m31796bc[m deploy: 500da8f2a6497e28382d969f260381a2c6c5acf6
+[1;36m|[m * [33m1ecb5c6[m deploy: bee4f421cd853fe9397d89f06d5d17cfa06b39a1
+[1;36m|[m * [33m60ab4d1[m deploy: 319f6120a1415383079dd4a134bd401b43906546
+[1;36m|[m * [33mca66b46[m deploy: 72705a09bfd9b6897d853fa02e6eedc9c6c4ca1c
+[1;36m|[m * [33m54a1efa[m deploy: 6e4f3c95c2c071b41cc448ea5128ea0f6a1c2fea
+[1;36m|[m * [33mdcce8ea[m deploy: cb5adbc99d40ff44274574aa7511dc2e0ef8151a
+[1;36m|[m * [33ma68f258[m deploy: cb5adbc99d40ff44274574aa7511dc2e0ef8151a
+[1;36m|[m * [33mbf8f40d[m deploy: cb5adbc99d40ff44274574aa7511dc2e0ef8151a
+[1;36m|[m * [33m20a9fc1[m deploy: aa225a23c36c12530d71307b368ae7dcd8599547
+[1;36m|[m * [33me291817[m deploy: 2192b2e6e403b8a069c2afe55e45ee78cba8952d
+[1;36m|[m * [33m18ab26e[m deploy: aa25374a0dc229ad02987ddfc5d2d7ec15adf23c
+[1;36m|[m * [33m8e3f2e7[m deploy: 7acbd399ada944a020d20e3b10a3fbdaf04faec7
+[1;36m|[m * [33mbd411d4[m deploy: 6f48b06f51b93ef1a7443e647ea70748508be6d1
+[1;36m|[m * [33ma639e54[m deploy: 1f2e663ac32c47208825a3422d85aa0dd7190d27
+[1;36m|[m * [33m1b4cdce[m deploy: 2295b18286eab7680ee35ad98e17ef98761b39c4
+[1;36m|[m * [33m2bdff7f[m deploy: 3d57f95f63fb38408fa71bf625c9a260b6d86cc4
+[1;36m|[m * [33m93306ef[m deploy: 2295b18286eab7680ee35ad98e17ef98761b39c4
+[1;36m|[m * [33m33b6fbc[m deploy: 0f6f694b4d260c549014923f6ff70242725f0dad
+[1;36m|[m * [33m7fa738f[m deploy: 6067729e07e2d43d6f8c513d1b4c36f683803d89
+[1;36m|[m * [33m8b5666b[m deploy: 1579b354235c9a00429eda97740505e40f31592f
+[1;36m|[m * [33me3080f6[m deploy: 850eab797328e5733e13d6f0915a6c6466be8c88
+[1;36m|[m * [33mf27dd93[m deploy: bc8363e88a071ae0208f77c6e73ba7d2ea672080
+[1;36m|[m * [33mc00b724[m deploy: bdcb5a01ce114488a147fb41794d4831e49d9632
+[1;36m|[m * [33mb5d4fc3[m deploy: 5ae5f61b9dd28ba4e472d0760d9eb5417b63305d
+[1;36m|[m * [33m88d8916[m deploy: d23c9f3a3a1348c8388d3218eee16fa4afebd466
+[1;36m|[m * [33m55417fb[m deploy: 08acf80f75803721739d0a1619202229dfb30b64
+[1;36m|[m * [33m2d30548[m deploy: d23c9f3a3a1348c8388d3218eee16fa4afebd466
+[1;36m|[m * [33m7b246e1[m deploy: be8f9698f0e4ff755c904e291ec19574c9e94bf1
+[1;36m|[m * [33m5b79450[m deploy: d456df3083b1763f3f7f49856d0717505eee6173
+[1;36m|[m * [33m04a7a70[m deploy: 3693077e0b08a8715f5d1c717ef0800afd0ef2af
+[1;36m|[m * [33m4eb3960[m deploy: f48775f61cd5630049d8a679673c802aeb0c15dc
+[1;36m|[m * [33m2cf10f0[m deploy: e7ad01341cacdd97be279029fb18c306149a6563
+[1;36m|[m * [33m96197b0[m deploy: bb536b2a6a179b4d7bdfc05dbf67002bbde56dbd
+[1;36m|[m * [33mf4df7c0[m deploy: 64446161f801f51711e19cdeabecfe1860ec87af
+[1;36m|[m * [33m7509aa9[m deploy: 6bb0458928609848f357edd153e00624979ee2a3
+[1;36m|[m * [33m8119333[m deploy: 5cb160e10de845c3cb242899ef7faeb3f0b4cc72
+[1;36m|[m * [33m9786705[m deploy: e36dbbb126d10d4abaa791fd252f926f96b4a8db
+[1;36m|[m * [33m6024654[m deploy: c909c5698e4eb938fa78adb9e4d030d990ba01d5
+[1;36m|[m * [33mdf92011[m deploy: 01d7482ef8627bbd4455e9012c8f72991dc5f01d
+[1;36m|[m * [33me842c79[m Automated deployment: Thu Dec 31 15:10:47 UTC 2020 49f29cd29d693a7d0d11288ea702943e8ebe3e57
+[1;36m|[m * [33m3942623[m Automated deployment: Thu Dec 31 14:59:46 UTC 2020 d96c9bf09363c48e2821b53613f375c823935ae1
+[1;36m|[m * [33m4d5a131[m Automated deployment: Thu Dec 31 14:03:17 UTC 2020 b541174f30a3c3e5dfe3c68d750e1d5b9c5f8c0e
+[1;36m|[m * [33m354b8f3[m Automated deployment: Thu Dec 31 13:40:13 UTC 2020 660d832e2534e6b44a4d9fc3644f0af39731eeac
+[1;36m|[m * [33m6ec2e2e[m Automated deployment: Thu Dec 31 13:35:59 UTC 2020 fe80ca945fcf07a8292ab55998a209a104a43970
+[1;36m|[m * [33mf869011[m Automated deployment: Thu Dec 31 13:11:04 UTC 2020 f4cfad51a7b8f28a29f72020e19475c5bae36f53
+[1;36m|[m * [33m47b7707[m Automated deployment: Thu Dec 31 13:01:10 UTC 2020 aadbb809e69f9287f18f82d5378986fdef48b1f0
+[1;36m|[m * [33m89f3ecb[m Automated deployment: Thu Dec 31 12:58:35 UTC 2020 15f5177f73f2d7321024516b6dc8f33eb03f1ee5
+[1;36m|[m * [33m214da27[m Automated deployment: Thu Dec 31 12:47:00 UTC 2020 44d085604eac8fb9d6de93f50e8da4b54d1b1a96
+[1;36m|[m * [33m0b738da[m Automated deployment: Sun Feb  9 15:05:07 UTC 2020 bd8792725f25924e5d043590d64dbf2bdf85d2a5
+[1;36m|[m * [33m885482c[m Automated deployment: Sun Feb  9 14:26:44 UTC 2020 2b5aa46471d65d7bf296d6f10b324c60eac024c0
+[1;36m|[m * [33mc4b8ead[m Automated deployment: Fri Jan 24 10:59:47 UTC 2020 489ef6c7964518c5f4381543930d4a10dfd9b1aa
+[1;36m|[m * [33m88964bb[m Automated deployment: Fri Dec 27 18:25:38 UTC 2019 c83041812acec08dd2a66e1f079696257e2ab7c4
+[1;36m|[m * [33m3a1a93a[m Automated deployment: Thu Dec 26 18:22:14 UTC 2019 523209daf760fa443026cda54cdf280c3aceec9a
+[1;36m|[m * [33mdb7cbf5[m Automated deployment: Thu Dec 26 17:56:28 UTC 2019 1ac2caad27c107dae8c47b90fb818aa92fadccd6
+[1;36m|[m * [33mcbacdec[m Automated deployment: Mon Dec 23 18:45:28 UTC 2019 be1649416b50525f48f3faabedcfe307bf4bf838
+[1;36m|[m * [33m427bf14[m Automated deployment: Mon Dec 23 18:32:56 UTC 2019 6b32309d611fbbdde72184c1189982684e8ae947
+[1;36m|[m * [33mf78c671[m Automated deployment: Mon Dec 23 18:25:27 UTC 2019 aa14a2e5cec7812301253df2c90fab980b2cc78e
+[1;36m|[m * [33m373098d[m Automated deployment: Mon Dec 23 18:13:02 UTC 2019 5dc59d9f71390c1921bcf8aee7ba08a2a9dd915c
+[1;36m|[m * [33m259e7b0[m Automated deployment: Mon Dec 23 17:33:32 UTC 2019 e11fa0142402ee47cbda9f65775e92fd8318ac4c
+[1;36m|[m * [33m8da1e77[m Automated deployment: Mon Dec 23 17:27:48 UTC 2019 3a7168ad5a30eb40fc1dbcf2b05db0d6a80f6474
+[1;36m|[m * [33mfe6c2b2[m Automated deployment: Sun Dec 22 18:20:24 UTC 2019 baff1d1ecfb9d2272595a8fad12ee3c2f3f233bc
+[1;36m|[m * [33m9e2a3c3[m Automated deployment: Sun Dec 22 16:45:22 UTC 2019 52aaf4e6e6beb26f52328c49dbdb7512b2e1fc88
+[1;36m|[m * [33m6bb427f[m Automated deployment: Sun Dec 22 16:35:43 UTC 2019 7554d055b3fb082a17fbcd9b67c4501b1599c5cc
+[1;36m|[m * [33m1b377c2[m Automated deployment: Sat Dec 21 16:14:53 UTC 2019 be70745c4df6dbe0954c5053f7a56e54c4cf5b31
+[1;36m|[m * [33mac85727[m Automated deployment: Sat Dec 21 16:10:13 UTC 2019 b66b5c141452be01f37be589ecc5d9872eb85982
+[1;36m|[m * [33m82f4dfb[m Automated deployment: Sat Dec 21 16:07:07 UTC 2019 fad1791be0d23e9c43c0aed90b7a75434a461577
+[1;36m|[m * [33ma946a6c[m Automated deployment: Sat Dec 21 16:01:29 UTC 2019 70bc126a6fe56dbbbb2123ca6b7bd9d3a5026a4f
+[1;36m|[m * [33mc5c4d7e[m Automated deployment: Sat Dec 21 15:57:59 UTC 2019 aac83bc6ffe6f16dc3270f6e12d68dc1777d2f47
+[1;36m|[m * [33m9034fa9[m Automated deployment: Fri Dec 20 18:53:01 UTC 2019 3489bd648ea58419a14af9b7321a0b5cd2a73a10
+[1;36m|[m * [33m6496f1c[m Automated deployment: Fri Dec 20 18:32:59 UTC 2019 8438e956839efe28a17820b81c8a12fc574f8f59
+[1;36m|[m * [33m1f2d862[m Automated deployment: Fri Dec 20 18:24:43 UTC 2019 4108dd8d78313ce8a72e7a8e48e5175a0171e828
+[1;36m|[m * [33md270128[m Automated deployment: Thu Dec 19 22:38:34 UTC 2019 1669f2f74e1f37bffe3990c71ffe67477b2cae06
+[1;36m|[m * [33me5b575a[m Automated deployment: Mon Dec 16 17:40:49 UTC 2019 3280ff94c2110c43b69f80f6bec813c5b3a6758d
+[1;36m|[m * [33m993ef70[m Automated deployment: Mon Dec 16 17:05:54 UTC 2019 09be1cea29ab49bdb4aa6a19b87b4f61b13afb19
+[1;36m|[m * [33mf842a79[m Automated deployment: Mon Dec 16 17:05:20 UTC 2019 82b0059a143d3446001e20639e03fc87f5543ed6
+[1;36m|[m * [33m92b8075[m Automated deployment: Mon Dec 16 16:21:49 UTC 2019 3c076b9756b6ef73d06b67943e8bf43b1a2680ac
+[1;36m|[m * [33m85fc63b[m Automated deployment: Mon Dec 16 01:57:06 UTC 2019 5014f27dbdb833b4a278c5e48cca3faaf65548ad
+[1;36m|[m * [33md03ef49[m Automated deployment: Sun Dec 15 17:21:12 UTC 2019 5c9558b766aa31b78dad90ad950f2d089a4bc7b3
+[1;36m|[m * [33m98037da[m Automated deployment: Sun Dec 15 16:05:06 UTC 2019 e1fed63662d54f80502677ffae8ab0593154e570
+[1;36m|[m[1;36m/[m  
+* [33m0caa40f[m Create CNAME
+* [33md4fa528[m Bump jekyll from 3.8.3 to 3.8.4
+* [33m9780397[m Add section ssh for post git
+* [33m629b16c[m Add section filter-branch for post git
+*   [33m89e0d2b[m Merge branch 'feature/chocolatey' into develop
+[33m|[m[34m\[m  
+[33m|[m * [33m420af6c[m Add usage section
+[33m|[m * [33m2215389[m Add setup section
+[33m|[m * [33m9a39553[m Add install section
+[33m|[m * [33m2c1face[m Add chocolatey post
+[33m|[m[33m/[m  
+*   [33mb7e2d1d[m Merge branch 'feature/ssh' into develop
+[35m|[m[36m\[m  
+[35m|[m * [33m7de4384[m Add paragraphs about ssh-keygen
+[35m|[m * [33m7e8579c[m Add front matter block
+[35m|[m * [33me8238d2[m Add file
+[35m|[m[35m/[m  
+*   [33mb415272[m Merge branch 'feature/git' into develop
+[1;31m|[m[1;32m\[m  
+[1;31m|[m * [33m25fa214[m Add section config
+[1;31m|[m * [33ma45d29e[m Add section help
+[1;31m|[m * [33mbdf74fa[m Add section setup and sub section git
+[1;31m|[m * [33ma006ffc[m Add sub section git-flow to section install
+[1;31m|[m * [33m9f9c9cd[m Add section install and sub section git
+[1;31m|[m * [33madce561[m Set layout post
+[1;31m|[m * [33m7875acc[m Add file
+[1;31m|[m[1;31m/[m  
+* [33m59492cb[m Ignore /vendor/bundle/
+* [33md8c2c53[m Set permalink title
+*   [33m8032860[m Merge pull request #5 from agate-pris/develop
+[1;33m|[m[1;34m\[m  
+[1;33m|[m * [33m33ce14b[m Merge branch 'feature/jekyll' into develop
+[1;33m|[m[1;33m/[m[1;36m|[m 
+[1;33m|[m * [33m6beea04[m Unpublished about
+[1;33m|[m * [33ma2a8a0f[m Change github_username
+[1;33m|[m * [33md50fdc2[m Change twitter_username
+[1;33m|[m * [33m67a3cb3[m Change description
+[1;33m|[m * [33ma7cf76a[m Delete email
+[1;33m|[m * [33m13dbe7d[m Change title
+[1;33m|[m * [33mdc70554[m Unpublished welcome post
+[1;33m|[m * [33mbb52b32[m Add Jekyll default files
+[1;33m|[m * [33m4937143[m Delete existing files
+[1;33m|[m[1;33m/[m  
+* [33mb1fbf38[m[33m ([m[1;33mtag: 0.1[m[33m)[m Update index.html
+* [33mf98b2c2[m Fix title of index.adoc
+* [33m09f21c4[m Add index.html
+* [33m824f7b2[m Add index.adoc
