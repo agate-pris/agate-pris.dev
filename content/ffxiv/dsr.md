@@ -1,5 +1,6 @@
 ---
 title: "絶竜詩戦争 Dragonsong's Reprise"
+description: "絶竜詩戦争 Dragonsong's Reprise"
 ---
 
 <style>
