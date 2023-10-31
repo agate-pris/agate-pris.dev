@@ -1463,7 +1463,7 @@ description: "絶竜詩戦争 Dragonsong's Reprise"
 
 |     | PLD | WAR | DRK | GNB
 | :-: | :-: | :-: | :-: | :-:
-| 90s | <span class="bulwark"></span> | <span class="thrill_of_battle"></span> | <span class="dark_mind"></span> | <span class="camouflage"></span>
+| | <span class="bulwark"></span> | <span class="thrill_of_battle"></span> | <span class="dark_mind"></span> | <span class="camouflage"></span>
 | 120s | <span class="sentinel"></span> | <span class="vengeance"></span> | <span class="shadow_wall"></span> | <span class="nebula"></span>
 | Invul | <span class="hallowed_ground"></span> | <span class="holmgang"></span> | <span class="living_dead"></span> | <span class="superbolide"></span>
 | 90s | <span class="divine_veil"></span> | <span class="shake_it_off"></span> | <span class="dark_missionary"></span> | <span class="heart_of_light"></span>
