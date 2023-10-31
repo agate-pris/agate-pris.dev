@@ -1228,7 +1228,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         on_job_changed("input[name=d3]");
     }
 
-    function add_actions() {
+    function add_spans() {
         const data = {
             mt_90s: [
                 ["mt_pld", "bulwark"],
@@ -1337,7 +1337,7 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
     }
 
     window.addEventListener('DOMContentLoaded', function() {
-        add_actions();
+        add_spans();
         action_data.forEach(d => {
             const elements = document.getElementsByClassName(d.name);
             let label
