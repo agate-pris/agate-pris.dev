@@ -75,6 +75,78 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
         background-image: url("magic.png");
         background-size: contain;
     }
+    .dps_role {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("DPSRole.png");
+        background-size: contain;
+    }
+    .melee_dps {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("MeleeDPS.png");
+        background-size: contain;
+    }
+    .paladin {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("Paladin.png");
+        background-size: contain;
+    }
+    .warrior {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("Warrior.png");
+        background-size: contain;
+    }
+    .dark_knight {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("DarkKnight.png");
+        background-size: contain;
+    }
+    .gunbreaker {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("Gunbreaker.png");
+        background-size: contain;
+    }
+    .bard {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("Bard.png");
+        background-size: contain;
+    }
+    .machinist {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("Machinist.png");
+        background-size: contain;
+    }
+    .dancer {
+        display: inline flow-root;
+        width: 40px;
+        height: 40px;
+        padding-left: 40px;
+        background-image: url("Dancer.png");
+        background-size: contain;
+    }
     .limit_break {
         display: inline flow-root;
         width: 40px;
@@ -1230,6 +1302,23 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 
     function add_spans() {
         const data = {
+            mt_icon: [
+                ["mt_pld", "paladin"],
+                ["mt_war", "warrior"],
+                ["mt_drk", "dark_knight"],
+                ["mt_gnb", "gunbreaker"],
+            ],
+            st_icon: [
+                ["st_pld", "paladin"],
+                ["st_war", "warrior"],
+                ["st_drk", "dark_knight"],
+                ["st_gnb", "gunbreaker"],
+            ],
+            d3_icon: [
+                ["brd", "bard"],
+                ["mch", "machinist"],
+                ["dnc", "dancer"],
+            ],
             mt_90s: [
                 ["mt_pld", "bulwark"],
                 ["mt_war", "thrill_of_battle"],
@@ -1513,14 +1602,19 @@ title: "絶竜詩戦争 Dragonsong's Reprise"
 | 11:16 | ヘヴンリーヒール<br>Heavenly Heel | <span class="physical"></span> | <span class="reprisal"></span> | <span class="st_120s"></span><span class="st_short"></span><span class="ph_30s"></span><span class="feint"></span>
 | 11:19 | アスカロンマイト<br>Ascalon's Might | <span class="physical"></span> | <span class="reprisal"></span><span class="rampart"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="mt_short"></span><span class="ph_30s"></span> | <span class="feint"></span>
 | 12:03 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | <span class="magic"></span> | <span class="mt_120s"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="mt_short"></span><span class="st_support"></span><span class="ph_120s"></span><span class="rng_90s"></span> | <span class="rampart"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="st_short"></span><span class="mt_support"></span><span class="adloquium"></span><span class="deployment_tactics"></span>
+| 12:11 | <span class="dps_role"></span><br>滅殺の誓い<br>Mortal Vow (DPS) | <span class="magic"></span>
 | 12:23 | アク・アファー<br>Akh Afah | <span class="magic"></span> | <span class="reprisal"></span> | <span class="sacred_soil"></span><span class="recitation"></span><span class="succor"></span>
 | 12:36 | ホーリーフェザー<br>Hallowed Plume | <span class="magic"></span> | <span class="mt_90s"></span><span class="mt_drk dark_mind"></span><span class="mt_short"></span><span class="ph_30s"></span><span class="ph_60s"></span><span class="adloquium"></span><span class="feint"></span> | <span class="st_90s"></span><span class="reprisal"></span><span class="st_drk dark_mind"></span><span class="st_short"></span><span class="ph_30s"></span><span class="protraction"></span><span class="adloquium"></span>
+| 12:45 | <span class="dps_role"></span> &rarr; <span class="mt_icon"></span><br>滅殺の誓い<br>Mortal Vow<br>(DPS &rarr; MT) | <span class="magic"></span>
 | 13:02 | アク・モーン<br>Akh Morn | <span class="magic"></span> | <span class="mt_all"></span><span class="ph_180s"></span><span class="ast collective_unconscious"></span> | <span class="st_all"></span><span class="expedient"></span><span class="summon_seraph"></span><span class="consolation"></span><span class="sacred_soil"></span><span class="succor"></span><span class="addle"></span>
+| 13:19 | <span class="mt_icon"></span> &rarr; <span class="st_icon"></span><br>滅殺の誓い<br>Mortal Vow<br>(MT &rarr; ST) | <span class="magic"></span>
 | 13:32 | アク・アファー<br>Akh Afah | <span class="magic"></span> | <span class="reprisal"></span><span class="rng_90s"></span> | <span class="sacred_soil"></span><span class="succor"></span>
 | 13:45 | ホーリーフェザー<br>Hallowed Plume | <span class="magic"></span> | <span class="rampart"></span><span class="mt_drk dark_mind"></span><span class="mt_short"></span><span class="ph_30s"></span><span class="ph_60s"></span><span class="adloquium"></span> | <span class="st_120s"></span><span class="reprisal"></span><span class="st_short"></span><span class="ph_30s"></span><span class="protraction"></span><span class="adloquium"></span><span class="feint"></span>
+| 13:53 | <span class="st_icon"></span> &rarr; <span class="melee_dps"></span><br>滅殺の誓い<br>Mortal Vow<br>(ST &rarr; Melee) | <span class="magic"></span>
 | 14:04 | 聖竜/邪竜の息吹<br>Great/Dread Wyrmsbreath | <span class="magic"></span> | <span class="mt_120s"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="mt_short"></span><span class="st_support"></span><span class="ph_120s"></span> | <span class="rampart"></span><span class="st_drk dark_mind"></span><span class="mt_drk oblation"></span><span class="st_drk oblation"></span><span class="st_short"></span><span class="mt_support"></span><span class="recitation"></span><span class="adloquium"></span><span class="deployment_tactics"></span>
 | 14:17 | カータライズ<br>Cauterize | <span class="magic"></span> | <span class="mt_invul"></span><span class="ast collective_unconscious"></span> | <span class="st_invul"></span><span class="sacred_soil"></span><span class="succor"></span>
 | 14:24 | タッチダウン<br>Touchdown | <span class="physical"></span> | | <span class="sacred_soil"></span><span class="succor"></span>
+| 14:27 | <span class="melee_dps"></span> &rarr; <span class="d3_icon"></span><br>滅殺の誓い<br>Mortal Vow<br>(Melee &rarr; Range) | <span class="magic"></span>
 | 15:07 | 苦悶の咆哮<br>Resentment | <span class="magic"></span> | <span class="dnc improvisation"></span>
 | 15:24 | 衝撃波<br>Shockwave | <span class="magic"></span> | <span class="dnc improvised_finish"></span>
 | 15:35 | ペイン解除<br>Remove Bleeding | | <span class="brd natures_minne"></span> | <span class="summon_seraph"></span><span class="fey_illumination"></span>
