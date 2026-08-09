@@ -23,15 +23,6 @@ jobs:
           hugo-version: '0.164.0'
           extended: true
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-          check-latest: true
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
-
-      - run: npm ci
       - run: hugo --cleanDestinationDir --gc --minify
 
       - name: Upload Artifact
