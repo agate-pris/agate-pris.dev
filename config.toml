@@ -25,10 +25,12 @@ name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 url = "https://twitter.com/agate_pris"
 
-[[params.social]]
-name = "Moments / Twitter"
-icon = "fa fa-2x icon-twitter-moments"
-url = "https://twitter.com/agate_pris/moments"
+# Twitter Moments はサービス終了したため無効化。
+# 記念碑として削除せずコメントで残す。
+# [[params.social]]
+# name = "Moments / Twitter"
+# icon = "fa fa-2x icon-twitter-moments"
+# url = "https://twitter.com/agate_pris/moments"
 
 [[params.social]]
 name = "Twitch"
