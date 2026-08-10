@@ -1,15 +1,3 @@
-// hugo-coder の変数カスタマイズ
-//
-// このファイルはテーマの assets/scss/_variables.scss をシャドウイングする
-// (Hugo の asset 解決はプロジェクト優先)。テーマ更新時は必ず差分を確認し、
-// テーマが追加・変更した変数を反映すること。
-// 参考: https://github.com/luizdepra/hugo-coder/blob/main/assets/scss/_variables.scss
-//
-// テーマと異なる値 (カスタマイズ):
-// - $font-family / $code-font-family: 2021-10-24 からのフォント設定
-// - $fa-font-path: "../fonts": FA 移行 (2024-10) でテーマに追加された行。
-//   これが無いと FA デフォルトの ../webfonts が有効になりアイコンが 404 になる。
-
 // Fonts
 $font-family: -apple-system,
 BlinkMacSystemFont,
@@ -19,9 +7,6 @@ Consolas,
 Liberation Mono,
 Menlo,
 monospace;
-
-// Path to FontAwesome TTF/WOFF files.
-$fa-font-path: "../fonts" !default;
 
 // Colors
 $bg-color: #fafafa !default;
@@ -61,3 +46,6 @@ $bg-color-notice-warning-content: #ffca281a !default;
 $fg-color-notice-error-icon: #e53935 !default;
 $bg-color-notice-error-title: #f443361a !default;
 $bg-color-notice-error-content: #ef53501a !default;
+
+// Path to FontAwesome TTF/WOFF files.
+$fa-font-path: "../fonts" !default;
