@@ -1,0 +1,33 @@
+---
+title: WezTerm
+---
+
+import { LinkPreview } from '@astro-community/astro-embed-link-preview';
+
+<LinkPreview id="https://wezterm.org/" />
+
+## 設定
+
+```lua
+local wezterm = require 'wezterm'
+local act = wezterm.action
+local config = wezterm.config_builder()
+config.default_prog = { 'pwsh' }
+config.enable_scroll_bar = true
+config.font = wezterm.font 'Bizin Gothic NF'
+config.font_size = 15
+config.keys = {
+  { key = 'UpArrow', mods = 'SHIFT', action = act.ScrollByLine(-3) },
+  { key = 'DownArrow', mods = 'SHIFT', action = act.ScrollByLine(3) },
+}
+return config
+```
+
+<LinkPreview id="https://wezterm.org/config/files.html" />
+
+> :::tip
+> The recommendation is to place your configuration file at `$HOME/.wezterm.lua` (`%USERPROFILE%/.wezterm.lua` on Windows) to get started.
+> :::
+
+<LinkPreview id="https://wezterm.org/config/fonts.html" />
+<LinkPreview id="https://wezterm.org/config/lua/wezterm/action.html" />

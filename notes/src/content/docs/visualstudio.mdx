@@ -1,0 +1,18 @@
+---
+title: Visual Studio
+---
+
+import { LinkCard } from '@astrojs/starlight/components';
+import { LinkPreview } from '@astro-community/astro-embed-link-preview';
+
+<LinkPreview id="https://visualstudio.microsoft.com/ja/vs/community/" />
+<LinkPreview id="https://learn.microsoft.com/ja-jp/visualstudio/install/workload-component-id-vs-community?view=visualstudio" />
+<LinkPreview id="https://learn.microsoft.com/ja-jp/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=visualstudio" />
+
+```powershell
+sudo --inline winget install Microsoft.VisualStudio.Community --override (@(
+  '--add Microsoft.VisualStudio.Workload.NativeDesktop'
+  '--add Microsoft.VisualStudio.Workload.ManagedGame'
+  '--includeRecommended --norestart'
+) -join ' ')
+```
