@@ -1,0 +1,40 @@
+---
+title: Windows
+---
+
+import { LinkCard } from '@astrojs/starlight/components';
+import { LinkPreview } from '@astro-community/astro-embed-link-preview';
+
+<LinkPreview id="https://learn.microsoft.com/ja-jp/windows/" />
+
+## Windows 開発者ツール
+
+<LinkPreview id="https://learn.microsoft.com/ja-jp/windows/dev-environment/" />
+
+- [Coreutils](https://learn.microsoft.com/ja-jp/windows/core-utils/overview) / [curl](https://learn.microsoft.com/ja-jp/windows/curl/) / [edit](https://learn.microsoft.com/ja-jp/windows/edit/) / [tar](https://learn.microsoft.com/ja-jp/windows/tar/) / [PowerToys](https://learn.microsoft.com/ja-jp/windows/powertoys/)
+
+### Sudo
+
+<LinkPreview id="https://learn.microsoft.com/ja-jp/windows/advanced-settings/sudo/" />
+
+<LinkCard title="セキュリティに関する考慮事項" href="https://learn.microsoft.com/ja-jp/windows/advanced-settings/sudo/#security-considerations" />
+
+> **入力を閉じるオプション** (`disableInput`) や**インライン オプション** (`normal`) の構成での sudo の実行には、リスクがあります。 昇格されていない sudo.exe プロセスと昇格された sudo.exe プロセスが確立した接続を利用し、悪意のあるプロセスが昇格されたプロセスを操作しようとする可能性があります。
+>
+> `disableInput` 構成オプションでは、入力ハンドルを閉じることでリスクが軽減されます。 現在のコンソール ウィンドウから入力ハンドルを切断すると、昇格されていないプロセスは昇格されたプロセスに入力を送信できません。
+>
+> `inline` 構成オプションでは、昇格されたプロセスが現在のウィンドウで実行され、プロセスが現在のコンソール セッションから入力を受け取ることができます。 未選択のプロセスは、同じコンソール ウィンドウ内の昇格されたプロセスに入力を送信したり、この構成の現在のウィンドウの出力から情報を取得したりできます。
+
+### WinGet
+
+<LinkPreview id="https://learn.microsoft.com/ja-jp/windows/package-manager/" />
+
+```powershell
+sudo --inline winget install `
+  Mozilla.Firefox.ja Git.Git `
+  BurntSushi.ripgrep.MSVC sharkdp.fd `
+  ajeetdsouza.zoxide Microsoft.VisualStudioCode `
+  wez.wezterm Microsoft.PowerShell `
+  Starship.Starship Gyan.FFmpeg Schniz.fnm `
+  astral-sh.uv Rustlang.Rustup Hugo.Hugo.Extended
+```
