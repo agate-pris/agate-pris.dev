@@ -12,6 +12,7 @@ export default defineConfig({
 		starlight({
 			title: 'Notes',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/agate-pris' }],
+			customCss: ['./src/styles/link-preview.css'],
 			// sidebar を省略するとディレクトリ構造から自動生成される
 			// (ドキュメントに未記載の動作)
 		}),
