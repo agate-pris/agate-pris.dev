@@ -31,8 +31,12 @@ jobs:
 
       - run: hugo --cleanDestinationDir --gc --minify
 
-      - name: Setup Node (Volta)
-        uses: volta-cli/action@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: notes/.nvmrc
+          cache: npm
+          cache-dependency-path: notes/package-lock.json
 
       - name: Build Starlight
         working-directory: notes
