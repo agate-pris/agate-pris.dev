@@ -1,0 +1,31 @@
+---
+title: Zed
+---
+
+import { LinkPreview } from '@astro-community/astro-embed-link-preview';
+
+<LinkPreview id="https://zed.dev/" />
+
+## Zed をメインのエディタにできない理由
+
+### Git が弱い
+
+<LinkPreview id="https://github.com/zed-industries/zed/discussions/60144" />
+
+Git Graph でコミットを選んで diff を開いた時、Git Graph を開いているペインとは別のペインで diff を開いてほしいが、現時点ではその機能は無い。
+
+<LinkPreview id="https://github.com/zed-industries/zed/discussions/33985" />
+
+キーボードショートカットでペインを移動することで妥協するしかない。
+
+### マルチカーソルがずれる
+
+<LinkPreview id="https://github.com/zed-industries/zed/issues/58203" />
+<LinkPreview id="https://github.com/zed-industries/zed/issues/45814" />
+<LinkPreview id="https://github.com/zed-industries/zed/issues/13892" />
+<LinkPreview id="https://github.com/zed-industries/zed/issues/5836" />
+
+## その他
+
+- 折り返しの切り替えはデフォルトで `ctrl-k` `ctrl-z` / `ctrl-k` `z` に割り当てられている。これは AMD Software: Adrenalin Edition とコンフリクトしないため Visual Studio Code の `alt-z` よりも、むしろ都合が良い。
+- タブをダブルクリックしてペインを最大化することは、現時点ではできない。この機能は Zed では `workspace::ToggleZoom` と呼ばれ、デフォルトでは `shift-escape` に割り当てられている。
